@@ -1,0 +1,16 @@
+{
+  "extends": ["@iteam/eslint-config-react"],
+
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["@", "./src"]
+        ],
+        "extensions": [".js",".jsx"]
+      }
+    }
+  },
+  
+}
+
