@@ -1,12 +1,14 @@
 import { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
-import { OrbitControls } from '@react-three/drei';
-import './App.css';
-import Scene from '@/Scene';
+import { OrbitControls, Stars } from '@react-three/drei';
+
+// import Scene from '@/Scene';
+import Model from '@/Model';
 
 function App() {
   return (
     <Suspense fallback={<h1>Loading profile...</h1>}>
+      <div className="bg-black text-red-500"> asdf</div>
       <div
         style={{
           width: '100vw',
@@ -16,9 +18,7 @@ function App() {
           alignItems: 'center',
         }}
       >
-        <Canvas>
-          {/* <PerspectiveCamera makeDefault /> */}
-          <OrbitControls />
+        <Canvas style={{ background: 'black ' }}>
           <ambientLight intensity={0.6} color="white" />
           <spotLight
             intensity={0.6}
@@ -27,8 +27,17 @@ function App() {
             position={[10, 15, 10]}
             castShadow
           />
+          <Stars
+            radius={100}
+            depth={50}
+            count={5000}
+            factor={4}
+            saturation={0}
+            fade
+          />
 
-          <Scene />
+          <OrbitControls />
+          <Model />
         </Canvas>
       </div>
     </Suspense>
