@@ -1,7 +1,12 @@
 module.exports = {
   content: ['./src/**/*.{html,jsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        mexicoOrange: '#FF632C',
+        mexicoBlue: '#016499',
+      },
+    },
   },
   plugins: [],
 };
