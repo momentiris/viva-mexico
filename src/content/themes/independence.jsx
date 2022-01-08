@@ -120,87 +120,95 @@ const independenceDayCelebrations = {
 export const independence = {
   name: 'independence',
   label: 'Independence',
-  introduction: {
-    heading: <h1>¡VIVA MÉXICO! – TOWARD INDEPENDENCE</h1>,
-    body: [
-      <p key="0">
-        In the early 1800s, ideas about equality and freedom were spreading
-        throughout the world. Many countries in North, Central and South America
-        wanted to free themselves from colonial rule, and the fact that Europe
-        had the power. Large parts of America became more or less independent.
-      </p>,
-      <p key="1">
-        The Mexican War of Independence was started in 1810 by the priest Miguel
-        Hidalgo y Costilla. And after many years of fighting, Mexico finally won
-        its independence in 1821, 300 years after Spanish conquest. But the War
-        of Independence meant great losses. Many people died and the country was
-        weakened. It was perhaps because of these defeats that indigenous
-        cultures and traditions became so important for Mexico during this
-        period. People had lived here after all for thousands of years, in large
-        societies and cultures, before the Spanish came. This cultural heritage
-        played a major role in Mexico’s new, independent identity.
-      </p>,
-    ],
-  },
-  inDepthTexts: [
+  content: [
     {
-      name: 'An instable century',
-      heading: <h1>An instable century</h1>,
-      body: [
-        <p key="0">
-          After independence in 1821, Mexico went through a difficult, long and
-          bloody process. A state with its own institutions, principles and laws
-          had to be designed. Mexico also needed to strengthen its territorial
-          borders, which were threatened by two foreign powers, the US (1846–48)
-          and the French (1863–1867). During this process, the country also
-          experienced internal bloody conflicts and civil war between proponents
-          of conservative versus liberal principles and values. In these
-          conflicts, the Catholic Church took the conservative side. The Church
-          got involved in projects to establish a Mexican empire led by a prince
-          from Austria, under the protection of Napoleon III of France. Even
-          before the liberals’ victory over the conservatives and their imperial
-          project, the Catholic Church had already seen its material assets
-          shrink due to the nationalization of the Church’s land by the liberal
-          government. The nationalization also affected the collective
-          landholdings of the indigenous peoples. The victory against the French
-          intervention in 1867 secured the secular state of Mexico. The Catholic
-          Church was no longer allowed to interfere in politics or other
-          government activities. These experiences distinguish Mexico from the
-          rest of Latin America, where the Catholic Church maintained some of
-          its political power throughout the 20th century.
-        </p>,
+      introduction: {
+        heading: <h1>¡VIVA MÉXICO! – TOWARD INDEPENDENCE</h1>,
+        body: [
+          <p key="0">
+            In the early 1800s, ideas about equality and freedom were spreading
+            throughout the world. Many countries in North, Central and South
+            America wanted to free themselves from colonial rule, and the fact
+            that Europe had the power. Large parts of America became more or
+            less independent.
+          </p>,
+          <p key="1">
+            The Mexican War of Independence was started in 1810 by the priest
+            Miguel Hidalgo y Costilla. And after many years of fighting, Mexico
+            finally won its independence in 1821, 300 years after Spanish
+            conquest. But the War of Independence meant great losses. Many
+            people died and the country was weakened. It was perhaps because of
+            these defeats that indigenous cultures and traditions became so
+            important for Mexico during this period. People had lived here after
+            all for thousands of years, in large societies and cultures, before
+            the Spanish came. This cultural heritage played a major role in
+            Mexico’s new, independent identity.
+          </p>,
+        ],
+      },
+      inDepthTexts: [
+        {
+          name: 'An instable century',
+          heading: <h1>An instable century</h1>,
+          body: [
+            <p key="0">
+              After independence in 1821, Mexico went through a difficult, long
+              and bloody process. A state with its own institutions, principles
+              and laws had to be designed. Mexico also needed to strengthen its
+              territorial borders, which were threatened by two foreign powers,
+              the US (1846–48) and the French (1863–1867). During this process,
+              the country also experienced internal bloody conflicts and civil
+              war between proponents of conservative versus liberal principles
+              and values. In these conflicts, the Catholic Church took the
+              conservative side. The Church got involved in projects to
+              establish a Mexican empire led by a prince from Austria, under the
+              protection of Napoleon III of France. Even before the liberals’
+              victory over the conservatives and their imperial project, the
+              Catholic Church had already seen its material assets shrink due to
+              the nationalization of the Church’s land by the liberal
+              government. The nationalization also affected the collective
+              landholdings of the indigenous peoples. The victory against the
+              French intervention in 1867 secured the secular state of Mexico.
+              The Catholic Church was no longer allowed to interfere in politics
+              or other government activities. These experiences distinguish
+              Mexico from the rest of Latin America, where the Catholic Church
+              maintained some of its political power throughout the 20th
+              century.
+            </p>,
+          ],
+        },
+        {
+          name: 'Zapatista movement in Chiapas ',
+          heading: <h1>Zapatista movement in Chiapas</h1>,
+          body: [
+            <p key="0">
+              In January 1994, the Zapatistas led an uprising in the state of
+              Chiapas in southern Mexico. It was an armed conflict that lasted
+              two weeks, with demands for equality, justice and democracy for
+              all of Mexico. The Zapatistas’ revolutionary movement began in the
+              countryside, by people who belonged to the Mayan indigenous
+              people. The 1994 uprising was not the first in Chiapas but, with
+              the help of the Internet, the event received a lot of
+              international attention. The Zapatistas have created their own
+              society, with their own schools, cooperatives, hospitals, courts,
+              etc. The Zapatista dolls document this historical event. The first
+              dolls appeared in 1995 and were popular souvenirs for many years.
+            </p>,
+            <p key="1">
+              The Zapatistas’ struggle for indigenous peoples’ rights continues.
+              In 2021, a group of Zapatistas traveled from Mexico to Europe to
+              make a reverse journey in the tracks of colonization. The project
+              is called “Journey for Life – Europe Chapter.”
+            </p>,
+          ],
+        },
       ],
-    },
-    {
-      name: 'Zapatista movement in Chiapas ',
-      heading: <h1>Zapatista movement in Chiapas</h1>,
-      body: [
-        <p key="0">
-          In January 1994, the Zapatistas led an uprising in the state of
-          Chiapas in southern Mexico. It was an armed conflict that lasted two
-          weeks, with demands for equality, justice and democracy for all of
-          Mexico. The Zapatistas’ revolutionary movement began in the
-          countryside, by people who belonged to the Mayan indigenous people.
-          The 1994 uprising was not the first in Chiapas but, with the help of
-          the Internet, the event received a lot of international attention. The
-          Zapatistas have created their own society, with their own schools,
-          cooperatives, hospitals, courts, etc. The Zapatista dolls document
-          this historical event. The first dolls appeared in 1995 and were
-          popular souvenirs for many years.
-        </p>,
-        <p key="1">
-          The Zapatistas’ struggle for indigenous peoples’ rights continues. In
-          2021, a group of Zapatistas traveled from Mexico to Europe to make a
-          reverse journey in the tracks of colonization. The project is called
-          “Journey for Life – Europe Chapter.”
-        </p>,
+      timeline: [
+        independenceDayCelebrations,
+        tehuanaWomensParadesAndFestivals,
+        theRevolutionAndTheSearchForCulturalGoods,
       ],
+      labels: [],
     },
   ],
-  timeline: [
-    independenceDayCelebrations,
-    tehuanaWomensParadesAndFestivals,
-    theRevolutionAndTheSearchForCulturalGoods,
-  ],
-  labels: [],
 };

@@ -163,121 +163,125 @@ const rebirthAndSacrifice = {
 export const myths = {
   name: 'myths',
   label: 'Myths',
-  level1: {
-    introduction: {
-      heading: <h1>DEATH – A PREREQUISITE FOR LIFE</h1>,
-      body: [
-        <p key="0">
-          Aztec art often depicted faces with one half of the face living and
-          the other half a skull. This shows that life and death are connected
-          and neither of them can exist without the other. The notion of duality
-          existed throughout Mesoamerica and was a cornerstone of religious
-          thought. Other important opposites were day and night, and heat and
-          cold.
-        </p>,
-        <p key="1">
-          Skulls and skeletons are important symbols. For the Aztecs, they
-          represented important and beloved ancestors. Although the Aztecs
-          respected death, they were not afraid of the dead. Dead relatives
-          continued to play an important role in the lives of the living. The
-          Aztecs had many myths about what happened after death and there were
-          different realms of the dead.
-        </p>,
-      ],
-    },
-    inDepthTexts: [],
-    timeline: [rebirthAndSacrifice, theMictlanRealm],
-    labels: [
-      'A miniature of the sacrificial stone Piedra de Tizoc, which was found in Templo Mayor in Tenochtitlán. The heart of the victim was placed on this stone. The victim was usually a warrior from another ethnic group. A furrow runs from the center to the edge, where the blood of the victim’s heart would run out. The original stone is from the 15th century. Object number: 1936.06.0002',
-      'Aztec sacrificial knife. Copy of object from the British Museum in London. The copy was purchased sometime around the turn of the last century. Object number: 1944.02.0034',
-      'Reproduction of Aztec chest probably used to store the sacrificial victim’s heart. On the top is the feathered serpent Quetzalcoatl and the sign for “the soul of the dead warrior.” On the bottom is the earth goddess Tlaltecuhtli.',
-      'Illustration depicting the earth goddess Tlaltecuhtli. The motif is on the bottom of the Aztec stone vessel shown in reproduction here. The original is at the Museum fur Völkerkunde in Hamburg. All of the dead must pass through the body of the earth goddess to get to the realm of death. Her name means “the one who gives and devours life."',
-      'Plaster cast from the original in the Museum fur Völkerkunde in Hamburg. Object number: 1939.32.0001',
-      'Shard with two skulls. From the state of Veracruz. Belongs to the Museum of Ethnography. Object number: 1923.08.0684',
-      'Aztec incense burner with skulls, 18 cm (7.1 in). Mexico City. Time period: 1256–1521 Object number: 1923.06.431',
-      'Mictlantecuhtli and Quetzalcoatl – the god of death and the god of wind. Illustration from Codex Borgia, a 16th- century Mesoamerican manuscript.',
-      'Xolo dog from the Tumbas de Tiro culture. Time period: 200–900 CE Object number: 1923.06.0545',
-      'Xolo dog from Colima. Time period: 200–900 CE Object number: 1962.73.19',
-    ],
-  },
-  level2: {
-    name: 'myths level 2',
-    label: 'MYTHS BETWEEN LIFE AND DEATH',
-    introduction: {
-      heading: <h1>HOW WAS THE WORLD CREATED?</h1>,
-      body: [
-        <p key="0">
-          The Aztecs had a number of myths about how the world was created. They
-          were inspired by creation myths from other Mesoamerican cultures. The
-          Aztecs thought that the world had been created and destroyed in
-          several cycles. According to one of their myths, the world was in its
-          fifth cycle when the Spaniards came and conquered Mesoamerica in the
-          16th century. Each world was controlled by different gods using the
-          four elements: earth, water, wind or fire. The gods had the ability to
-          both destroy and create a new world. Each world was called a sun, and
-          for a new sun to be formed, at least one god must sacrifice him- or
-          herself. The belief that something must be sacrificed for something
-          new to be born is a cornerstone of Aztec faith.
-        </p>,
-      ],
-    },
-    inDepthTexts: [
-      {
-        name: 'An instable century',
-        heading: <h1>An instable century</h1>,
+  content: [
+    {
+      label: 'MYTHS BETWEEN LIFE AND DEATH',
+      introduction: {
+        heading: <h1>DEATH – A PREREQUISITE FOR LIFE</h1>,
         body: [
           <p key="0">
-            After independence in 1821, Mexico went through a difficult, long
-            and bloody process. A state with its own institutions, principles
-            and laws had to be designed. Mexico also needed to strengthen its
-            territorial borders, which were threatened by two foreign powers,
-            the US (1846–48) and the French (1863–1867). During this process,
-            the country also experienced internal bloody conflicts and civil war
-            between proponents of conservative versus liberal principles and
-            values. In these conflicts, the Catholic Church took the
-            conservative side. The Church got involved in projects to establish
-            a Mexican empire led by a prince from Austria, under the protection
-            of Napoleon III of France. Even before the liberals’ victory over
-            the conservatives and their imperial project, the Catholic Church
-            had already seen its material assets shrink due to the
-            nationalization of the Church’s land by the liberal government. The
-            nationalization also affected the collective landholdings of the
-            indigenous peoples. The victory against the French intervention in
-            1867 secured the secular state of Mexico. The Catholic Church was no
-            longer allowed to interfere in politics or other government
-            activities. These experiences distinguish Mexico from the rest of
-            Latin America, where the Catholic Church maintained some of its
-            political power throughout the 20th century.
-          </p>,
-        ],
-      },
-      {
-        name: 'Zapatista movement in Chiapas ',
-        heading: <h1>Zapatista movement in Chiapas</h1>,
-        body: [
-          <p key="0">
-            In January 1994, the Zapatistas led an uprising in the state of
-            Chiapas in southern Mexico. It was an armed conflict that lasted two
-            weeks, with demands for equality, justice and democracy for all of
-            Mexico. The Zapatistas’ revolutionary movement began in the
-            countryside, by people who belonged to the Mayan indigenous people.
-            The 1994 uprising was not the first in Chiapas but, with the help of
-            the Internet, the event received a lot of international attention.
-            The Zapatistas have created their own society, with their own
-            schools, cooperatives, hospitals, courts, etc. The Zapatista dolls
-            document this historical event. The first dolls appeared in 1995 and
-            were popular souvenirs for many years.
+            Aztec art often depicted faces with one half of the face living and
+            the other half a skull. This shows that life and death are connected
+            and neither of them can exist without the other. The notion of
+            duality existed throughout Mesoamerica and was a cornerstone of
+            religious thought. Other important opposites were day and night, and
+            heat and cold.
           </p>,
           <p key="1">
-            The Zapatistas’ struggle for indigenous peoples’ rights continues.
-            In 2021, a group of Zapatistas traveled from Mexico to Europe to
-            make a reverse journey in the tracks of colonization. The project is
-            called “Journey for Life – Europe Chapter.”
+            Skulls and skeletons are important symbols. For the Aztecs, they
+            represented important and beloved ancestors. Although the Aztecs
+            respected death, they were not afraid of the dead. Dead relatives
+            continued to play an important role in the lives of the living. The
+            Aztecs had many myths about what happened after death and there were
+            different realms of the dead.
           </p>,
         ],
       },
-    ],
-    timeline: [theSunStone, theNewFireCeremony],
-    labels: [],
-  },
+      inDepthTexts: [],
+      timeline: [rebirthAndSacrifice, theMictlanRealm],
+      labels: [
+        'A miniature of the sacrificial stone Piedra de Tizoc, which was found in Templo Mayor in Tenochtitlán. The heart of the victim was placed on this stone. The victim was usually a warrior from another ethnic group. A furrow runs from the center to the edge, where the blood of the victim’s heart would run out. The original stone is from the 15th century. Object number: 1936.06.0002',
+        'Aztec sacrificial knife. Copy of object from the British Museum in London. The copy was purchased sometime around the turn of the last century. Object number: 1944.02.0034',
+        'Reproduction of Aztec chest probably used to store the sacrificial victim’s heart. On the top is the feathered serpent Quetzalcoatl and the sign for “the soul of the dead warrior.” On the bottom is the earth goddess Tlaltecuhtli.',
+        'Illustration depicting the earth goddess Tlaltecuhtli. The motif is on the bottom of the Aztec stone vessel shown in reproduction here. The original is at the Museum fur Völkerkunde in Hamburg. All of the dead must pass through the body of the earth goddess to get to the realm of death. Her name means “the one who gives and devours life."',
+        'Plaster cast from the original in the Museum fur Völkerkunde in Hamburg. Object number: 1939.32.0001',
+        'Shard with two skulls. From the state of Veracruz. Belongs to the Museum of Ethnography. Object number: 1923.08.0684',
+        'Aztec incense burner with skulls, 18 cm (7.1 in). Mexico City. Time period: 1256–1521 Object number: 1923.06.431',
+        'Mictlantecuhtli and Quetzalcoatl – the god of death and the god of wind. Illustration from Codex Borgia, a 16th- century Mesoamerican manuscript.',
+        'Xolo dog from the Tumbas de Tiro culture. Time period: 200–900 CE Object number: 1923.06.0545',
+        'Xolo dog from Colima. Time period: 200–900 CE Object number: 1962.73.19',
+      ],
+    },
+    {
+      label: 'MYTHS BETWEEN LIFE AND DEATH',
+      introduction: {
+        heading: <h1>HOW WAS THE WORLD CREATED?</h1>,
+        body: [
+          <p key="0">
+            The Aztecs had a number of myths about how the world was created.
+            They were inspired by creation myths from other Mesoamerican
+            cultures. The Aztecs thought that the world had been created and
+            destroyed in several cycles. According to one of their myths, the
+            world was in its fifth cycle when the Spaniards came and conquered
+            Mesoamerica in the 16th century. Each world was controlled by
+            different gods using the four elements: earth, water, wind or fire.
+            The gods had the ability to both destroy and create a new world.
+            Each world was called a sun, and for a new sun to be formed, at
+            least one god must sacrifice him- or herself. The belief that
+            something must be sacrificed for something new to be born is a
+            cornerstone of Aztec faith.
+          </p>,
+        ],
+      },
+      inDepthTexts: [
+        {
+          name: 'An instable century',
+          heading: <h1>An instable century</h1>,
+          body: [
+            <p key="0">
+              After independence in 1821, Mexico went through a difficult, long
+              and bloody process. A state with its own institutions, principles
+              and laws had to be designed. Mexico also needed to strengthen its
+              territorial borders, which were threatened by two foreign powers,
+              the US (1846–48) and the French (1863–1867). During this process,
+              the country also experienced internal bloody conflicts and civil
+              war between proponents of conservative versus liberal principles
+              and values. In these conflicts, the Catholic Church took the
+              conservative side. The Church got involved in projects to
+              establish a Mexican empire led by a prince from Austria, under the
+              protection of Napoleon III of France. Even before the liberals’
+              victory over the conservatives and their imperial project, the
+              Catholic Church had already seen its material assets shrink due to
+              the nationalization of the Church’s land by the liberal
+              government. The nationalization also affected the collective
+              landholdings of the indigenous peoples. The victory against the
+              French intervention in 1867 secured the secular state of Mexico.
+              The Catholic Church was no longer allowed to interfere in politics
+              or other government activities. These experiences distinguish
+              Mexico from the rest of Latin America, where the Catholic Church
+              maintained some of its political power throughout the 20th
+              century.
+            </p>,
+          ],
+        },
+        {
+          name: 'Zapatista movement in Chiapas ',
+          heading: <h1>Zapatista movement in Chiapas</h1>,
+          body: [
+            <p key="0">
+              In January 1994, the Zapatistas led an uprising in the state of
+              Chiapas in southern Mexico. It was an armed conflict that lasted
+              two weeks, with demands for equality, justice and democracy for
+              all of Mexico. The Zapatistas’ revolutionary movement began in the
+              countryside, by people who belonged to the Mayan indigenous
+              people. The 1994 uprising was not the first in Chiapas but, with
+              the help of the Internet, the event received a lot of
+              international attention. The Zapatistas have created their own
+              society, with their own schools, cooperatives, hospitals, courts,
+              etc. The Zapatista dolls document this historical event. The first
+              dolls appeared in 1995 and were popular souvenirs for many years.
+            </p>,
+            <p key="1">
+              The Zapatistas’ struggle for indigenous peoples’ rights continues.
+              In 2021, a group of Zapatistas traveled from Mexico to Europe to
+              make a reverse journey in the tracks of colonization. The project
+              is called “Journey for Life – Europe Chapter.”
+            </p>,
+          ],
+        },
+      ],
+      timeline: [theSunStone, theNewFireCeremony],
+      labels: [],
+    },
+  ],
 };

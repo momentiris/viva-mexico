@@ -108,36 +108,41 @@ const theAztecEmpire = {
 export const origin = {
   name: 'origin',
   label: 'Origin',
-  introduction: {
-    heading: <h1>What existed before Mexico?</h1>,
-    body: [
-      <p key="0">
-        Mesoamerica is the name of the large area that covered Mexico and large
-        portions of Central America before the current countries existed. Many
-        powerful cultures flourished here. The first people arrived here 17,000
-        years ago. About 4,000 years ago, they began farming and gradually built
-        larger communities and cities. Our names for the biggest and most
-        important civilizations that existed here are the Olmec, Maya, Zapotec,
-        Toltec and Aztec. The cultures had a lot in common. Among other things,
-        they had advanced forms of agriculture, irrigation, architecture and
-        calendars. In their world views and religions were similar ideas about
-        gods, myths, and over- and underworlds.
-      </p>,
-    ],
-  },
-  timeline: [olmec, zapotec, maya, teotihuacan, toltec, theAztecEmpire],
-  labels: [
-    'Mask with skulls from Teotihuacá. Time period: 200–650 CE Object number: 1935.08.2774',
-    'Mask, probably Olmec. Veracruz. Time period: 1500–400 BCE Object number: 1996.29.0021',
-    'Olmec seated figure from Veracruz. Time period: 1200–600 BCE Object number: 1974.18.0001',
-    'Mayan figure of woman. (Jaina, Campeche). Time period: 600–800 CE Object number: 1956.36.0001',
-    'Mayan figure of woman. Time period: 600–900 CE Object number: 1923.06.0589',
-    'Warrior with rabbit head from Veracruz area. Warriors often wore headdresses with animal motifs. Object number: 1923.06.0496',
-    'Toltec ceramic fragment with face and bird. A typical Toltec motif. Object number: 1962.69.0010',
-    'Zapotec funerary urn from Oaxaca. Time period ca. 600–900 CE Object number: 1923.06.0301',
-    'Zapotec urn from Oaxaca. The jaguar has an important role in Mesoamerican myths. Time period ca. 600–900 CE Object number: 1923.06.0306',
-    'Pumpkin-shaped vessel with bird legs from Colima. Belonged to the Purépecha people. Time period: ca. 300 BCE–200 CE Object number: 1923.06.0557',
-    'Aztec idol of the corn goddess Chicomecóatl. Mexico City. Corn is important in Mesoamerican history. Time period: 1350–1521 CE Object number: 1928.19.0134',
-    'Aztec three-legged vessel. Probably a type of spice mortar (molcajete). Time period: 1250–1521 CE Object number: 1962.69.0002',
+  content: [
+    {
+      introduction: {
+        heading: <h1>What existed before Mexico?</h1>,
+        body: [
+          <p key="0">
+            Mesoamerica is the name of the large area that covered Mexico and
+            large portions of Central America before the current countries
+            existed. Many powerful cultures flourished here. The first people
+            arrived here 17,000 years ago. About 4,000 years ago, they began
+            farming and gradually built larger communities and cities. Our names
+            for the biggest and most important civilizations that existed here
+            are the Olmec, Maya, Zapotec, Toltec and Aztec. The cultures had a
+            lot in common. Among other things, they had advanced forms of
+            agriculture, irrigation, architecture and calendars. In their world
+            views and religions were similar ideas about gods, myths, and over-
+            and underworlds.
+          </p>,
+        ],
+      },
+      timeline: [olmec, zapotec, maya, teotihuacan, toltec, theAztecEmpire],
+      labels: [
+        'Mask with skulls from Teotihuacá. Time period: 200–650 CE Object number: 1935.08.2774',
+        'Mask, probably Olmec. Veracruz. Time period: 1500–400 BCE Object number: 1996.29.0021',
+        'Olmec seated figure from Veracruz. Time period: 1200–600 BCE Object number: 1974.18.0001',
+        'Mayan figure of woman. (Jaina, Campeche). Time period: 600–800 CE Object number: 1956.36.0001',
+        'Mayan figure of woman. Time period: 600–900 CE Object number: 1923.06.0589',
+        'Warrior with rabbit head from Veracruz area. Warriors often wore headdresses with animal motifs. Object number: 1923.06.0496',
+        'Toltec ceramic fragment with face and bird. A typical Toltec motif. Object number: 1962.69.0010',
+        'Zapotec funerary urn from Oaxaca. Time period ca. 600–900 CE Object number: 1923.06.0301',
+        'Zapotec urn from Oaxaca. The jaguar has an important role in Mesoamerican myths. Time period ca. 600–900 CE Object number: 1923.06.0306',
+        'Pumpkin-shaped vessel with bird legs from Colima. Belonged to the Purépecha people. Time period: ca. 300 BCE–200 CE Object number: 1923.06.0557',
+        'Aztec idol of the corn goddess Chicomecóatl. Mexico City. Corn is important in Mesoamerican history. Time period: 1350–1521 CE Object number: 1928.19.0134',
+        'Aztec three-legged vessel. Probably a type of spice mortar (molcajete). Time period: 1250–1521 CE Object number: 1962.69.0002',
+      ],
+    },
   ],
 };
