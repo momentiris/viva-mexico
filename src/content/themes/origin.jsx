@@ -1,9 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 
 const olmec = {
-  heading: <h1>Olmec (about 2000 to 500 years BCE)</h1>,
+  slug: 'olmec',
+  heading: <span>Olmec (about 2000 to 500 years BCE)</span>,
   body: [
-    <p key="0">
+    <span key="0">
       The Olmec culture was one of the first to emerge in Mesoamerica. We don’t
       know much about the Olmecs because very little has been documented from
       this time. The name <i>Olmec</i> was coined by 20th century
@@ -13,14 +14,15 @@ const olmec = {
       culture. In 2006, researchers discovered an Olmec script suggesting that
       the Olmec may have been the first civilization in the Western Hemisphere
       to develop a writing system.
-    </p>,
+    </span>,
   ],
 };
 
 const zapotec = {
-  heading: <h1>Zapotec (ca. 2000 before common era (BCE) to today)</h1>,
+  slug: 'zapotec',
+  heading: <span>Zapotec (ca. 2000 before common era (BCE) to today)</span>,
   body: [
-    <p key="0">
+    <span key="0">
       Many years ago, the Zapotec civilization developed advanced building
       technology, a written language, and a calendar system. The most important
       city was the religious center Mitla, in the modern-day state of Oaxaca.
@@ -32,14 +34,15 @@ const zapotec = {
       about half a million people. They do not usually call themselves and their
       ancestors Zapotecs, but instead sometimes use the name Ben’Zaa, which
       means "The Cloud People".
-    </p>,
+    </span>,
   ],
 };
 
 const maya = {
-  heading: <h1>Maya (ca. 1000 BCE to today)</h1>,
+  slug: 'maya',
+  heading: <span>Maya (ca. 1000 BCE to today)</span>,
   body: [
-    <p key="0">
+    <span key="0">
       The Mayan culture spread out over a huge area covering what is today
       Mexico, Guatemala, Honduras, Belize and El Salvador. What we refer to as
       the Mayan civilization included a number of different groups with similar
@@ -47,14 +50,17 @@ const maya = {
       The last Mayan kingdom fell to the Spaniards in 1697. Most of the Maya in
       Mexico today live on the Yucatán Peninsula and in Chiapas. In Guatemala,
       they comprise about 60 percent of the population.
-    </p>,
+    </span>,
   ],
 };
 
 const teotihuacan = {
-  heading: <h1>Teotihuacán – City of the Gods (ca. 600 BCE to ca. 700 CE)</h1>,
+  slug: 'teotihuacan',
+  heading: (
+    <span>Teotihuacán – City of the Gods (ca. 600 BCE to ca. 700 CE)</span>
+  ),
   body: [
-    <p key="0">
+    <span key="0">
       Teotihuacán is the largest known city in Mexico from the time before
       Spanish conquest. It was founded when the Maya culture was at its peak and
       was later populated by other cultures, such as the Zapotec. In the 6th
@@ -65,14 +71,15 @@ const teotihuacan = {
       influence throughout Mesoamerica. The population of Teotihuacán dropped
       drastically during the 8th century and the city was eventually completely
       dismantled.
-    </p>,
+    </span>,
   ],
 };
 
 const toltec = {
-  heading: <h1>Toltec (ca. 800 to 1200 CE)</h1>,
+  slug: 'toltec',
+  heading: <span>Toltec (ca. 800 to 1200 CE)</span>,
   body: [
-    <p key="0">
+    <span key="0">
       The Toltecs migrated from the northwest into the central parts of Mexico
       in the 9th century. The Toltecs consisted of several different groups. Up
       to 40,000 people lived in the capital city of <i>Tula</i> in central
@@ -83,14 +90,15 @@ const toltec = {
       were likely related to the Toltecs and were inspired by their religion.
       According to Aztec myths, the god Quetzalcoatl was the son of the first
       Toltec leader.
-    </p>,
+    </span>,
   ],
 };
 
 const theAztecEmpire = {
-  heading: <h1>The Aztec Empire (ca. 1300–1521 CE)</h1>,
+  slug: 'the-aztec-empire',
+  heading: <span>The Aztec Empire (ca. 1300–1521 CE)</span>,
   body: [
-    <p key="0">
+    <span key="0">
       The Aztec Empire was powerful and rich. As the empire grew, it came to
       include many different cultures and languages. The dominant people called
       themselves <i>Mexica</i> or <i>Culhua-Mexica</i>. It was the Europeans who
@@ -101,7 +109,7 @@ const theAztecEmpire = {
       nobility. A large portion of the population were also slaves taken as
       prisoners from other ethnic groups. The Aztecs were often at war with
       other groups, and they had many enemies.
-    </p>,
+    </span>,
   ],
 };
 
@@ -111,9 +119,9 @@ export const origin = {
   content: [
     {
       introduction: {
-        heading: <h1>What existed before Mexico?</h1>,
+        heading: <span>What existed before Mexico?</span>,
         body: [
-          <p key="0">
+          <span key="0">
             Mesoamerica is the name of the large area that covered Mexico and
             large portions of Central America before the current countries
             existed. Many powerful cultures flourished here. The first people
@@ -125,7 +133,7 @@ export const origin = {
             agriculture, irrigation, architecture and calendars. In their world
             views and religions were similar ideas about gods, myths, and over-
             and underworlds.
-          </p>,
+          </span>,
         ],
       },
       timeline: [olmec, zapotec, maya, teotihuacan, toltec, theAztecEmpire],
@@ -143,6 +151,8 @@ export const origin = {
         'Aztec idol of the corn goddess Chicomecóatl. Mexico City. Corn is important in Mesoamerican history. Time period: 1350–1521 CE Object number: 1928.19.0134',
         'Aztec three-legged vessel. Probably a type of spice mortar (molcajete). Time period: 1250–1521 CE Object number: 1962.69.0002',
       ],
+      inDepthTexts: [],
     },
   ],
+  inDepthTexts: [],
 };
