@@ -12,4 +12,7 @@ export const utils = {
         theme.content.flatMap((content) => content.inDepthTexts)
       )
       .find((inDepthText) => inDepthText.slug === inDepthTextSlug),
+
+  getThemeByThemeName: (themeName) =>
+    themes.find((theme) => theme.name === themeName),
 };
