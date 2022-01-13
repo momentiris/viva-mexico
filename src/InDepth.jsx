@@ -1,5 +1,5 @@
 import { Navigate, useParams } from 'react-router-dom';
-import { Article } from './Article';
+import { Article } from './Article.jsx';
 import { utils } from './utils';
 
 export const InDepth = () => {

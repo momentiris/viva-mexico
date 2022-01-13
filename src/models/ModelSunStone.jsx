@@ -6,7 +6,7 @@ import { useEffect, useRef } from 'react';
 import { useGLTF } from '@react-three/drei';
 import { useFrame } from '@react-three/fiber';
 
-export default function Model({ ...props }) {
+export const ModelSunStone = ({ ...props }) => {
   const group = useRef();
   const { nodes, materials } = useGLTF('/model.glb');
 
@@ -42,6 +42,6 @@ export default function Model({ ...props }) {
       {/* </PresentationControls> */}
     </group>
   );
-}
+};
 
 useGLTF.preload('/model.glb');

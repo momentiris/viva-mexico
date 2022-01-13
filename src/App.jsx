@@ -1,25 +1,23 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import { Theme } from './Theme';
-import { InDepth } from './InDepth';
-import { Home } from './Home';
+import { Theme } from './Theme.jsx';
+import { InDepth } from './InDepth.jsx';
+import { Home } from './Home.jsx';
 
 import { Suspense } from 'react';
-import { ScreenOne } from './ScreenOne';
+import { ScreenOne } from './ScreenOne.jsx';
 
 function App() {
   return (
-    <Suspense fallback={<div>Loading</div>}>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/screen-one" element={<ScreenOne />} />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/screen-one" element={<ScreenOne />} />
 
-          <Route path="in-depth/:slug" element={<InDepth />} />
-          <Route path=":theme/*" element={<Theme />} />
-        </Routes>
-      </BrowserRouter>
-    </Suspense>
+        <Route path="in-depth/:slug" element={<InDepth />} />
+        <Route path=":theme/*" element={<Theme />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
