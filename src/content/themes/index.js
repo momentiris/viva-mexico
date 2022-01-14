@@ -1,6 +1,6 @@
-import { colonization } from './colonization';
-import { origin } from './origin';
-import { independence } from './independence';
-import { myths } from './myths';
+import { colonization } from './colonization.jsx';
+import { origin } from './origin.jsx';
+import { independence } from './independence.jsx';
+import { myths } from './myths.jsx';
 
 export const themes = [colonization, origin, independence, myths];

@@ -1,6 +1,7 @@
 import { useParams, Routes, Route, Navigate } from 'react-router-dom';
-import { TimelineInstance } from '@/TimelineInstance';
-import { ThemeHome } from './ThemeHome';
+import { ThemeHome } from './ThemeHome.jsx';
+import { TimelineInstance } from './TimelineInstance.jsx';
+
 import { utils } from './utils.js';
 
 export const Theme = () => {

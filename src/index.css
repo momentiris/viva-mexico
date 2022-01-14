@@ -18,11 +18,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 @layer components {
   .heading-1 {
     @apply text-2xl tracking-wide font-bold;

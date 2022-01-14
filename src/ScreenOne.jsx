@@ -1,7 +1,8 @@
+import { Suspense } from 'react';
 import { OrbitControls } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
-import { Suspense } from 'react';
-import { ModelSunStone } from './models/ModelSunStone.jsx';
+
+import { SunStone } from './models/SunStone.jsx';
 
 export const ScreenOne = () => {
   return (
@@ -18,7 +19,7 @@ export const ScreenOne = () => {
           />
 
           <OrbitControls autoRotate={true} autoRotateSpeed={1} />
-          <ModelSunStone />
+          <SunStone />
         </Canvas>
         <Canvas className="bg-gray-400">
           <ambientLight intensity={0.6} color="white" />
@@ -31,7 +32,7 @@ export const ScreenOne = () => {
           />
 
           <OrbitControls autoRotate={true} autoRotateSpeed={1} />
-          <ModelSunStone />
+          <SunStone />
         </Canvas>
         <Canvas className="bg-gray-400 col-span-1 lg:col-span-2">
           <ambientLight intensity={0.6} color="white" />
@@ -43,7 +44,7 @@ export const ScreenOne = () => {
             castShadow
           />
           <OrbitControls autoRotate={true} autoRotateSpeed={1} />
-          <ModelSunStone />
+          <SunStone />
         </Canvas>
       </div>
     </Suspense>
