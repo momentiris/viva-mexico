@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { themes } from './content/themes';
+import { themes } from './content/themes/index.js';
 
 export const Home = () => {
   return (

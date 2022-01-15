@@ -17,11 +17,15 @@ import { Suspense } from 'react';
 import { Olmek } from './models/Olmek.jsx';
 import { SunStone } from './models/SunStone.jsx';
 import { Maya } from './models/Maya.jsx';
+import { Toltek } from './models/Toltek.jsx';
+import { SacrificalStone } from './models/SacrificialStone.jsx';
 
 const models = {
   olmek: <Olmek />,
   sunstone: <SunStone />,
   maya: <Maya />,
+  toltek: <Toltek />,
+  sacrificialstone: <SacrificalStone />,
 };
 
 const Scene = () => {
