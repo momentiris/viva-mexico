@@ -10,9 +10,5 @@ export const InDepth = () => {
     return <Navigate to="/" />;
   }
 
-  return (
-    <div>
-      <Article content={inDepthText} />
-    </div>
-  );
+  return <Article content={inDepthText} />;
 };
