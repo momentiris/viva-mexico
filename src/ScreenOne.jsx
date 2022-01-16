@@ -1,52 +1,24 @@
-import { Suspense } from 'react';
-import { OrbitControls } from '@react-three/drei';
-import { Canvas } from '@react-three/fiber';
-
-import { SunStone } from './models/SunStone.jsx';
+import { ModelWrapper } from './ModelWrapper.jsx';
+import { Maya, Toltek, Olmek } from './models/index.jsx';
 
 export const ScreenOne = () => {
   return (
-    <Suspense fallback={<div>Loading</div>}>
-      <div className="w-full h-full grid grid-cols-1 lg:grid-cols-2 grid-rows-3 lg:grid-rows-2 bg-gray-800 gap-2">
-        <Canvas className="bg-gray-400">
-          <ambientLight intensity={0.6} color="white" />
-          <spotLight
-            intensity={0.6}
-            angle={0.1}
-            penumbra={1}
-            position={[10, 15, 10]}
-            castShadow
-          />
-
-          <OrbitControls autoRotate={true} autoRotateSpeed={1} />
-          <SunStone />
-        </Canvas>
-        <Canvas className="bg-gray-400">
-          <ambientLight intensity={0.6} color="white" />
-          <spotLight
-            intensity={0.6}
-            angle={0.1}
-            penumbra={1}
-            position={[10, 15, 10]}
-            castShadow
-          />
-
-          <OrbitControls autoRotate={true} autoRotateSpeed={1} />
-          <SunStone />
-        </Canvas>
-        <Canvas className="bg-gray-400 col-span-1 lg:col-span-2">
-          <ambientLight intensity={0.6} color="white" />
-          <spotLight
-            intensity={0.6}
-            angle={0.1}
-            penumbra={1}
-            position={[10, 15, 10]}
-            castShadow
-          />
-          <OrbitControls autoRotate={true} autoRotateSpeed={1} />
-          <SunStone />
-        </Canvas>
+    <div className="w-full h-full grid grid-cols-1 lg:grid-cols-2 grid-rows-3 lg:grid-rows-2 bg-white gap-1">
+      <div className="bg-gray-700">
+        <ModelWrapper>
+          <Maya />
+        </ModelWrapper>
       </div>
-    </Suspense>
+      <div className="bg-gray-700">
+        <ModelWrapper>
+          <Toltek />
+        </ModelWrapper>
+      </div>
+      <div className="col-span-1 lg:col-span-2 bg-gray-700">
+        <ModelWrapper>
+          <Olmek />
+        </ModelWrapper>
+      </div>
+    </div>
   );
 };

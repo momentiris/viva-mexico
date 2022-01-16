@@ -5,15 +5,15 @@ import { InDepth } from './InDepth.jsx';
 import { Home } from './Home.jsx';
 
 import { ScreenOne } from './ScreenOne.jsx';
-import { SceneContainer } from './SceneContainer.jsx';
+import { ModelRouter } from './ModelRouter.jsx';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/model/:model" element={<SceneContainer />} />
-        <Route path="/screen-one" element={<ScreenOne />} />
+        <Route path="/model/:model" element={<ModelRouter />} />
+        <Route path="/screen/one" element={<ScreenOne />} />
         <Route path="in-depth/:slug" element={<InDepth />} />
         <Route path=":theme/*" element={<Theme />} />
       </Routes>
