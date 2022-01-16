@@ -7,7 +7,7 @@ import { useGLTF } from '@react-three/drei';
 
 export const Maya = ({ ...props }) => {
   const group = useRef();
-  const { nodes, materials } = useGLTF('/maya.glb');
+  const { nodes, materials } = useGLTF('/maya-transformed.glb');
   return (
     <group ref={group} {...props} dispose={null}>
       <mesh
@@ -20,4 +20,4 @@ export const Maya = ({ ...props }) => {
   );
 };
 
-useGLTF.preload('/maya.glb');
+useGLTF.preload('/maya-transformed.glb');

@@ -7,7 +7,7 @@ import { useGLTF } from '@react-three/drei';
 
 export const SacrificalStone = ({ ...props }) => {
   const group = useRef();
-  const { nodes, materials } = useGLTF('/sacrificialstone.glb');
+  const { nodes, materials } = useGLTF('/sacrificialstone-transformed.glb');
 
   useEffect(() => {
     group.current.rotation.x = 90;
@@ -25,4 +25,4 @@ export const SacrificalStone = ({ ...props }) => {
   );
 };
 
-useGLTF.preload('/sacrificialstone.glb');
+useGLTF.preload('/sacrificialstone-transformed.glb');

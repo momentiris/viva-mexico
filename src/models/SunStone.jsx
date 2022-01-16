@@ -7,7 +7,7 @@ import { useGLTF } from '@react-three/drei';
 
 export const SunStone = ({ ...props }) => {
   const group = useRef();
-  const { nodes, materials } = useGLTF('/sunstone.glb');
+  const { nodes, materials } = useGLTF('/sunstone-transformed.glb');
 
   useEffect(() => {
     group.current.rotation.x = 90;
@@ -20,4 +20,4 @@ export const SunStone = ({ ...props }) => {
   );
 };
 
-useGLTF.preload('/sunstone.glb');
+useGLTF.preload('/sunstone-transformed.glb');

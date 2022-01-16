@@ -7,7 +7,7 @@ import { useGLTF } from '@react-three/drei';
 
 export const Olmek = ({ ...props }) => {
   const group = useRef();
-  const { nodes, materials } = useGLTF('/olmek.glb');
+  const { nodes, materials } = useGLTF('/olmek-transformed.glb');
 
   return (
     <group ref={group} {...props} dispose={null}>
@@ -21,4 +21,4 @@ export const Olmek = ({ ...props }) => {
   );
 };
 
-useGLTF.preload('/olmek.glb');
+useGLTF.preload('/olmek-transformed.glb');

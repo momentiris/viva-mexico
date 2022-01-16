@@ -20,12 +20,34 @@ import { Maya } from './models/Maya.jsx';
 import { Toltek } from './models/Toltek.jsx';
 import { SacrificalStone } from './models/SacrificialStone.jsx';
 
+import { animated, useSpring } from '@react-spring/web';
+
 const models = {
   olmek: <Olmek />,
   sunstone: <SunStone />,
   maya: <Maya />,
   toltek: <Toltek />,
   sacrificialstone: <SacrificalStone />,
+};
+
+const Loader = () => {
+  const styles = useSpring({
+    from: { opacity: 0 },
+    to: { opacity: 1 },
+
+    // config: {
+    //   duration: 500,
+    // },
+  });
+
+  return (
+    <animated.div
+      style={styles}
+      className="w-full h-full flex items-center justify-center bg-gray-300"
+    >
+      loading
+    </animated.div>
+  );
 };
 
 const Scene = () => {
@@ -37,8 +59,8 @@ const Scene = () => {
   }
 
   return (
-    <div className="w-full h-full  gap-2">
-      <Suspense fallback={<div className="loader">Loading</div>}>
+    <div className="w-full h-full gap-2 bg-gray-300">
+      <Suspense fallback={null}>
         <Canvas>
           <ambientLight intensity={0.6} color="white" />
           <spotLight
@@ -48,12 +70,16 @@ const Scene = () => {
             position={[10, 15, 10]}
             castShadow
           />
+          {/* <OrbitControls /> */}
           <OrbitControls autoRotate={true} autoRotateSpeed={1} />
           <Float speed={2} rotationIntensity={1} floatIntensity={2}>
+            {/* <motion.mesh /> */}
+
             {model}
           </Float>
         </Canvas>
       </Suspense>
+      <Loader />
     </div>
   );
 };
