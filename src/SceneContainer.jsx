@@ -30,7 +30,7 @@ export const SceneContainer = () => {
   }
 
   return (
-    <div className="w-full h-full gap-2 bg-gray-300">
+    <div className="w-full h-full gap-2 bg-gradient-to-bl from-gray-900 to-gray-600">
       <Suspense fallback={null}>
         <Canvas>
           <ambientLight intensity={0.6} color="white" />
@@ -48,7 +48,7 @@ export const SceneContainer = () => {
           </Float>
         </Canvas>
       </Suspense>
-      <Loader />
+      <Loader containerStyles={{ backgroundColor: 'rgb(17 24 39)' }} />
     </div>
   );
 };

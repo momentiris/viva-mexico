@@ -4,7 +4,7 @@ export const ModelAnimationMount = ({ children }) => {
   const animation = useSpring({
     from: {
       scale: [0, 0, 0],
-      rotation: [0, -10, 0],
+      rotation: [0, -7, 0],
     },
     to: {
       scale: [1, 1, 1],
@@ -13,5 +13,9 @@ export const ModelAnimationMount = ({ children }) => {
     config: { mass: 40, tension: 350, friction: 300, precision: 0.00001 },
   });
 
-  return <a.group {...animation}>{children}</a.group>;
+  return (
+    <a.group castShadow receiveShadow {...animation}>
+      {children}
+    </a.group>
+  );
 };
