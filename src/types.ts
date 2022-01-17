@@ -13,7 +13,7 @@ export type Theme = {
   inDepthTexts: JSX.Element[];
 };
 
-type ThemeContent = {
+export type ThemeContent = {
   label: string;
   introduction: PostContent;
   inDepthTexts: InDepthText[];

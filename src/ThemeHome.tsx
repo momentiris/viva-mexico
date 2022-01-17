@@ -1,6 +1,11 @@
 import { Link } from 'react-router-dom';
+import { Theme, ThemeContent as ThemeContentType } from './types';
 
-export const ThemeHome = ({ theme }) => {
+type ThemeHomeProps = {
+  theme: Theme;
+};
+
+export const ThemeHome = ({ theme }: ThemeHomeProps) => {
   return (
     <div>
       <h1 className="heading-1">{theme.label}</h1>
@@ -11,7 +16,11 @@ export const ThemeHome = ({ theme }) => {
   );
 };
 
-const ThemeContent = ({ content }) => {
+type ThemeContentProps = {
+  content: ThemeContentType;
+};
+
+const ThemeContent = ({ content }: ThemeContentProps) => {
   return (
     <div>
       <h2 className="text-xl font-bold">{content.introduction.heading}</h2>
