@@ -3,7 +3,7 @@ import { Article } from './Article';
 import { utils } from './utils';
 
 export const InDepth = () => {
-  const params = useParams();
+  const params = useParams<'slug'>();
   const inDepthText = utils.getInDepthText(params.slug);
 
   if (!inDepthText) {

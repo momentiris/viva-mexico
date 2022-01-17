@@ -22,4 +22,8 @@ body {
   .heading-1 {
     @apply text-2xl tracking-wide font-bold;
   }
+
+  a {
+    @apply underline;
+  }
 }

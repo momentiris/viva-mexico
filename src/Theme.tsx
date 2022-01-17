@@ -5,7 +5,7 @@ import { TimelineInstance } from './TimelineInstance';
 import { utils } from './utils';
 
 export const Theme = () => {
-  const params = useParams();
+  const params = useParams<'theme'>();
   const theme = utils.getThemeByThemeName(params.theme);
 
   if (!theme) {
@@ -16,10 +16,7 @@ export const Theme = () => {
   return (
     <Routes>
       <Route path="/" element={<ThemeHome theme={theme} />} />
-      <Route
-        path=":timelineInstance"
-        element={<TimelineInstance theme={theme} />}
-      />
+      <Route path=":timelineInstance" element={<TimelineInstance />} />
     </Routes>
   );
 };

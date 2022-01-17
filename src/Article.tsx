@@ -1,4 +1,9 @@
-export const Article = ({ content }) => {
+import { PostContent } from './types';
+
+type ArticleProps = {
+  content: PostContent;
+};
+export const Article = ({ content }: ArticleProps) => {
   return (
     <article>
       <h1 className="heading-1">{content.heading}</h1>

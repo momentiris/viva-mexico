@@ -21,7 +21,7 @@ type ThemeContent = {
   labels: string[];
 };
 
-type PostContent = {
+export type PostContent = {
   heading: JSX.Element;
   body: JSX.Element[];
 };

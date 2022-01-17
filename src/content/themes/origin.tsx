@@ -40,6 +40,8 @@ const zapotec: Post = {
       means "The Cloud People".
     </span>,
   ],
+  labelTexts: [],
+  objectTexts: [],
 };
 
 const maya: Post = {

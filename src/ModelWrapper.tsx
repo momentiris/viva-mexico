@@ -3,7 +3,11 @@ import { Canvas } from '@react-three/fiber';
 import { Suspense } from 'react';
 import { ModelAnimationMount } from './ModelAnimationMount';
 
-export const ModelWrapper = ({ children }) => (
+type ModelWrapperProps = {
+  children: React.ReactNode;
+};
+
+export const ModelWrapper = ({ children }: ModelWrapperProps) => (
   <div className="w-full h-full">
     <Suspense fallback={null}>
       <Canvas>
