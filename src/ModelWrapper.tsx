@@ -20,10 +20,11 @@ export const ModelWrapper = ({ children }: ModelWrapperProps) => (
           castShadow
         />
 
-        <OrbitControls autoRotate={true} autoRotateSpeed={1} />
-        <Float speed={2} rotationIntensity={1} floatIntensity={2}>
-          <ModelAnimationMount>{children}</ModelAnimationMount>
-        </Float>
+        <OrbitControls />
+        {/* <OrbitControls autoRotate={true} autoRotateSpeed={1} /> */}
+        {/* <Float speed={2} rotationIntensity={1} floatIntensity={2}> */}
+        <ModelAnimationMount>{children}</ModelAnimationMount>
+        {/* </Float> */}
       </Canvas>
     </Suspense>
     <Loader containerStyles={{ backgroundColor: 'rgb(17 24 39)' }} />

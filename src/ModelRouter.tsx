@@ -9,15 +9,16 @@ import {
   Maya,
   Toltek,
   SacrificalStone,
+  SacrificialCasket,
 } from './models/index';
 
 const models: Record<string, React.ReactNode> = {
   olmek: <Olmek />,
-
   maya: <Maya />,
   toltek: <Toltek />,
   sacrificialstone: <SacrificalStone />,
   sunstonesmall: <SunStoneSmall />,
+  sacrificialcasket: <SacrificialCasket />,
 };
 
 export const ModelRouter = () => {
