@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navigate, useParams } from 'react-router-dom';
 
-import { ModelWrapper } from './ModelWrapper';
+import { PresentationalScene } from './PresentationalScene';
 
 import {
   Olmek,
@@ -30,7 +30,7 @@ export const ModelRouter = () => {
 
   return (
     <div className="bg-gradient-to-bl from-gray-900 to-gray-600 w-full h-full">
-      <ModelWrapper>{models[model]}</ModelWrapper>;
+      <PresentationalScene>{models[model]}</PresentationalScene>;
     </div>
   );
 };
