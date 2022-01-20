@@ -1,10 +1,10 @@
 import { themes } from './content/themes/index';
 
 export const utils = {
-  getTimelineInstance: (timeLineInstanceSlug?: string) =>
+  getPost: (slug?: string) =>
     themes
       .flatMap((theme) => theme.content.flatMap((content) => content.timeline))
-      .find((instance) => instance.slug === timeLineInstanceSlug),
+      .find((instance) => instance.slug === slug),
   getInDepthText: (inDepthTextSlug?: string) =>
     themes
       .flatMap((theme) =>

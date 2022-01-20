@@ -9,8 +9,10 @@ export type Post = {
 export type Theme = {
   name: string;
   label: string;
+  labelTranslation?: string;
   content: ThemeContent[];
   inDepthTexts: JSX.Element[];
+  objectTexts: PostContent[];
 };
 
 export type ThemeContent = {

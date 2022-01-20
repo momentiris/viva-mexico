@@ -125,7 +125,8 @@ const independenceDayCelebrations: Post = {
 
 export const independence: Theme = {
   name: 'independence',
-  label: 'Independence',
+  label: 'Självständighet',
+  labelTranslation: 'Indepencence',
   content: [
     {
       label: 'independence',
@@ -221,4 +222,5 @@ export const independence: Theme = {
     },
   ],
   inDepthTexts: [],
+  objectTexts: [],
 };

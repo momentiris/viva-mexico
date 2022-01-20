@@ -1,6 +1,6 @@
-import { useParams, Routes, Route, Navigate } from 'react-router-dom';
+import { useParams, Navigate } from 'react-router-dom';
+
 import { ThemeHome } from './ThemeHome';
-import { TimelineInstance } from './TimelineInstance';
 
 import { utils } from './utils';
 
@@ -13,10 +13,5 @@ export const Theme = () => {
     return <Navigate to="/" />;
   }
 
-  return (
-    <Routes>
-      <Route path="/" element={<ThemeHome theme={theme} />} />
-      <Route path=":timelineInstance" element={<TimelineInstance />} />
-    </Routes>
-  );
+  return <ThemeHome theme={theme} />;
 };

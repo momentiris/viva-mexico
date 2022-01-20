@@ -168,7 +168,8 @@ const rebirthAndSacrifice: Post = {
 
 export const myths: Theme = {
   name: 'myths',
-  label: 'Myths',
+  label: 'Myter',
+  labelTranslation: 'Myths',
   content: [
     {
       label: 'MYTHS BETWEEN LIFE AND DEATH',
@@ -235,4 +236,5 @@ export const myths: Theme = {
     },
   ],
   inDepthTexts: [],
+  objectTexts: [],
 };

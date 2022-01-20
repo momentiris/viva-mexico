@@ -129,7 +129,8 @@ const theAztecEmpire: Post = {
 
 export const origin: Theme = {
   name: 'origin',
-  label: 'Origin',
+  label: 'Ursprung',
+  labelTranslation: 'Origin',
   content: [
     {
       label: 'What existed before Mexico?',
@@ -170,4 +171,5 @@ export const origin: Theme = {
     },
   ],
   inDepthTexts: [],
+  objectTexts: [],
 };

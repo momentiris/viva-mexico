@@ -210,7 +210,8 @@ const laVirgeGuadalupeTheFirstMexican: Post = {
 
 export const colonization: Theme = {
   name: 'colonization',
-  label: 'Colonization',
+  label: 'Kolonisering',
+  labelTranslation: 'Colonization',
   content: [
     {
       label: 'A CLASH BETWEEN WORLDS',
@@ -248,4 +249,5 @@ export const colonization: Theme = {
     },
   ],
   inDepthTexts: [],
+  objectTexts: [],
 };
