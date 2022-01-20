@@ -1,15 +1,16 @@
 import { PostContent } from './types';
 
 type ArticleProps = {
-  content: PostContent;
+  article: PostContent;
 };
-export const Article = ({ content }: ArticleProps) => {
+
+export const Article = ({ article }: ArticleProps) => {
   return (
     <article>
-      <h1 className="heading-1">{content.heading}</h1>
-      {content.body.map((x) => (
-        <p key={x.key} className="mb-4">
-          {x}
+      <h1 className="heading-1">{article.heading}</h1>
+      {article.body.map((p) => (
+        <p key={p.key} className="mb-4">
+          {p}
         </p>
       ))}
     </article>

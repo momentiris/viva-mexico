@@ -1,6 +1,16 @@
 import { themes } from './content/themes/index';
 
 export const utils = {
+  getObjectText: (slug?: string) => {
+    return themes
+      .flatMap((theme) =>
+        theme.content
+          .flatMap((content) => content.timeline)
+          .flatMap((timeline) => timeline.objectTexts)
+          .concat(themes.flatMap((theme) => theme.objectTexts))
+      )
+      .find((x) => x.slug === slug);
+  },
   getPost: (slug?: string) =>
     themes
       .flatMap((theme) => theme.content.flatMap((content) => content.timeline))

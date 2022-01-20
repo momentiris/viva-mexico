@@ -7,6 +7,7 @@ import { Home } from './Home';
 import { ScreenOne } from './ScreenOne';
 import { ModelRouter } from './ModelRouter';
 import { ThemePost } from './ThemePost';
+import { ThemeObjectText } from './ThemeObjectText';
 
 function App() {
   return (
@@ -20,8 +21,12 @@ const Router = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="theme/:theme" element={<Theme />}></Route>
-      <Route path="theme/:theme/:post" element={<ThemePost />} />
+      <Route path="/theme/:theme" element={<Theme />} />
+      <Route path="/theme/:theme/post/:post" element={<ThemePost />} />
+      <Route
+        path="/theme/:theme/object-text/:slug"
+        element={<ThemeObjectText />}
+      />
 
       <Route path="model/:model" element={<ModelRouter />} />
       <Route path="/screen/one" element={<ScreenOne />} />

@@ -26,6 +26,8 @@ export type ThemeContent = {
 export type PostContent = {
   heading: JSX.Element;
   body: JSX.Element[];
+  finePrint?: string;
+  photographTexts?: string[];
 };
 
 export type ObjectText = Pick<Post, 'heading' | 'body' | 'slug'> & {

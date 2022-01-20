@@ -2,9 +2,9 @@ import { Navigate, useParams } from 'react-router-dom';
 import { Article } from './Article';
 import { utils } from './utils';
 
-export const ThemePost = () => {
+export const ThemeObjectText = () => {
   const params = useParams<'post'>();
-  const post = utils.getPost(params.post);
+  const post = utils.getObjectText(params.post);
 
   if (!post) {
     return <Navigate to="/" />;

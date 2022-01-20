@@ -12,6 +12,13 @@ export const ThemeHome = ({ theme }: ThemeHomeProps) => {
       {theme.content.map((content, index) => (
         <ThemeContent content={content} key={index} />
       ))}
+
+      {Boolean(theme.objectTexts.length) && (
+        <h2 className="heading-1">Object texts</h2>
+      )}
+      {theme.objectTexts.map((content) => (
+        <div key={content.slug}>{content.heading}</div>
+      ))}
     </div>
   );
 };
@@ -32,9 +39,13 @@ const ThemeContent = ({ content }: ThemeContentProps) => {
         ))}
       </div>
       <div>
+        <h2>Texts</h2>
         {content.timeline.map((timelineInstance) => (
           <div key={timelineInstance.slug} className="mb-2">
-            <Link to={timelineInstance.slug} className="text-lg font-semibold">
+            <Link
+              to={`post/${timelineInstance.slug}`}
+              className="text-lg font-semibold"
+            >
               {timelineInstance.heading}
             </Link>
           </div>
