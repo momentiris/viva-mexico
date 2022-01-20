@@ -3,7 +3,7 @@ export type Post = {
   heading: JSX.Element;
   body: JSX.Element[];
   labelTexts: JSX.Element[];
-  objectTexts: PostContent[];
+  objectTexts: ObjectText[];
 };
 
 export type Theme = {
@@ -12,7 +12,7 @@ export type Theme = {
   labelTranslation?: string;
   content: ThemeContent[];
   inDepthTexts: JSX.Element[];
-  objectTexts: PostContent[];
+  objectTexts: ObjectText[];
 };
 
 export type ThemeContent = {
@@ -26,6 +26,11 @@ export type ThemeContent = {
 export type PostContent = {
   heading: JSX.Element;
   body: JSX.Element[];
+};
+
+export type ObjectText = Pick<Post, 'heading' | 'body' | 'slug'> & {
+  photographTexts?: string[];
+  finePrint?: string;
 };
 
 type InDepthText = {

@@ -56,6 +56,7 @@ const theNewFireCeremony: Post = {
   ],
   objectTexts: [
     {
+      slug: 'dance-of-the-flyers',
       heading: <span>Dance of the Flyers</span>,
       body: [
         <span key="0">

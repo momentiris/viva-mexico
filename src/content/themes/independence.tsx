@@ -30,20 +30,7 @@ const theRevolutionAndTheSearchForCulturalGoods: Post = {
       1980.11.0021
     </span>,
   ],
-  objectTexts: [
-    {
-      heading: <span>Frida Kahlo in Tehuana dress</span>,
-      body: [
-        <span key="0">
-          The artist Frida Kahlo helped to call attention to Tehuantepec, as she
-          often wore the traditional dress of Tehuana women: huipil blouses,
-          dresses and flowers in her hair. She often used fashion and clothing
-          to express her political and cultural identity. Frida Kahlo’s mother
-          was from Tehuantepec.
-        </span>,
-      ],
-    },
-  ],
+  objectTexts: [],
 };
 
 const tehuanaWomensParadesAndFestivals: Post = {
@@ -79,6 +66,7 @@ const tehuanaWomensParadesAndFestivals: Post = {
   ],
   objectTexts: [
     {
+      slug: 'frida-kahlo-in-tehuana-dress',
       heading: <span>Frida Kahlo in Tehuana dress</span>,
       body: [
         <span key="0">
