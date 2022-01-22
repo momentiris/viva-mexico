@@ -29,7 +29,6 @@ const ROuter2 = () => {
   return (
     <Routes>
       <Route path="/model/:model" element={<ModelRouter />} />
-      <Route path="/screen/one" element={<ScreenOne />} />
     </Routes>
   );
 };
@@ -66,6 +65,7 @@ const Router = () => {
     <Routes>
       <Route path="/*" element={<ThemeRouter />} />
       <Route path="/model/:model" element={<ModelRouter />} />
+      <Route path="/screen/one" element={<ScreenOne />} />
     </Routes>
   );
 };
