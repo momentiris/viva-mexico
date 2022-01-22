@@ -1,4 +1,10 @@
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  useLocation,
+  Outlet,
+} from 'react-router-dom';
 
 import { Theme } from './Theme';
 
@@ -13,12 +19,22 @@ import { AnimatePresence, motion } from 'framer-motion';
 function App() {
   return (
     <BrowserRouter>
+      {/* <ROuter2 /> */}
       <Router />
     </BrowserRouter>
   );
 }
 
-const Router = () => {
+const ROuter2 = () => {
+  return (
+    <Routes>
+      <Route path="/model/:model" element={<ModelRouter />} />
+      <Route path="/screen/one" element={<ScreenOne />} />
+    </Routes>
+  );
+};
+
+const ThemeRouter = () => {
   const location = useLocation();
 
   return (
@@ -38,12 +54,19 @@ const Router = () => {
             path="/theme/:theme/object-text/:slug"
             element={<ThemeObjectText />}
           />
-
-          <Route path="/model/:model" element={<ModelRouter />} />
-          <Route path="/screen/one" element={<ScreenOne />} />
+          <Route path="*" element={<div>NOT FOUND</div>} />
         </Routes>
       </motion.div>
     </AnimatePresence>
+  );
+};
+
+const Router = () => {
+  return (
+    <Routes>
+      <Route path="/*" element={<ThemeRouter />} />
+      <Route path="/model/:model" element={<ModelRouter />} />
+    </Routes>
   );
 };
 
