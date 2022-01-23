@@ -10,6 +10,7 @@ import {
   Toltek,
   SacrificalStone,
   SacrificialCasket,
+  Xolo,
 } from './models/index';
 
 const models: Record<string, React.ReactNode> = {
@@ -19,6 +20,7 @@ const models: Record<string, React.ReactNode> = {
   sacrificialstone: <SacrificalStone />,
   sunstonesmall: <SunStoneSmall />,
   sacrificialcasket: <SacrificialCasket />,
+  xolo: <Xolo />,
 };
 
 export const ModelRouter = () => {
