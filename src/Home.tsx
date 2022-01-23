@@ -2,8 +2,9 @@ import { Link } from 'react-router-dom';
 import { themes } from './content/themes/index';
 
 export const Home = () => {
+  console.log('hl');
   return (
-    <div className="w-full h-full bg-mexicoBlue">
+    <div className="w-full h-full bg-blue">
       <div className="mx-auto flex h-full flex-col items-center justify-center text-white">
         {themes.map((theme) => (
           <Link
