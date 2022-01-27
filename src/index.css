@@ -20,10 +20,14 @@ body {
 
 @layer components {
   .heading-1 {
-    @apply text-2xl tracking-wide font-bold;
+    @apply text-2xl tracking-wide font-bold mb-6 max-w-xl;
   }
 
   a {
     @apply underline;
+  }
+
+  .paragraph {
+    @apply max-w-xl mb-6
   }
 }

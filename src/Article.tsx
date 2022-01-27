@@ -6,10 +6,10 @@ type ArticleProps = {
 
 export const Article = ({ article }: ArticleProps) => {
   return (
-    <article>
+    <article className="flex flex-col items-center">
       <h1 className="heading-1">{article.heading}</h1>
       {article.body.map((p) => (
-        <p key={p.key} className="mb-4">
+        <p key={p.key} className="paragraph">
           {p}
         </p>
       ))}

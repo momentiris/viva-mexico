@@ -23,4 +23,24 @@ export const utils = {
       .find((inDepthText) => inDepthText.slug === inDepthTextSlug),
   getThemeByThemeName: (themeName?: string) =>
     themes.find((theme) => theme.name === themeName),
+  getNextAndPreviousPost: (
+    themeName: string,
+    currentPost: string
+  ): [previousPost?: string, nextPost?: string] => {
+    const timeline = utils
+      .getThemeByThemeName(themeName)
+      ?.content.map((x) => x.timeline)
+      .flat();
+
+    const currentPostIndex = timeline?.findIndex((x) => x.slug === currentPost);
+
+    if (!timeline || currentPostIndex === undefined) {
+      return [];
+    }
+
+    return [
+      timeline[currentPostIndex - 1]?.slug,
+      timeline[currentPostIndex + 1]?.slug,
+    ];
+  },
 };
