@@ -19,7 +19,6 @@ const olmec: Post = {
     </span>,
   ],
   labelTexts: [],
-  objectTexts: [],
 };
 
 const zapotec: Post = {
@@ -41,7 +40,6 @@ const zapotec: Post = {
     </span>,
   ],
   labelTexts: [],
-  objectTexts: [],
 };
 
 const maya: Post = {
@@ -59,7 +57,6 @@ const maya: Post = {
     </span>,
   ],
   labelTexts: [],
-  objectTexts: [],
 };
 
 const teotihuacan: Post = {
@@ -82,7 +79,6 @@ const teotihuacan: Post = {
     </span>,
   ],
   labelTexts: [],
-  objectTexts: [],
 };
 
 const toltec: Post = {
@@ -103,7 +99,6 @@ const toltec: Post = {
     </span>,
   ],
   labelTexts: [],
-  objectTexts: [],
 };
 
 const theAztecEmpire: Post = {
@@ -124,7 +119,6 @@ const theAztecEmpire: Post = {
     </span>,
   ],
   labelTexts: [],
-  objectTexts: [],
 };
 
 export const origin: Theme = {

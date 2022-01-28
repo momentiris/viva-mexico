@@ -28,7 +28,6 @@ const theMictlanRealm: Post = {
     </span>,
   ],
   labelTexts: [],
-  objectTexts: [],
 };
 
 const rebirthAndSacrifice: Post = {
@@ -53,7 +52,6 @@ const rebirthAndSacrifice: Post = {
     </span>,
   ],
   labelTexts: [],
-  objectTexts: [],
 };
 
 export const deathMyths: Theme = {

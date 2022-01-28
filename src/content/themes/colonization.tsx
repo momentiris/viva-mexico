@@ -25,7 +25,6 @@ const theConquest: Post = {
     </span>,
   ],
   labelTexts: [],
-  objectTexts: [],
 };
 
 const laMalincheTheSlaveGirlWhoBecameADiplomat: Post = {
@@ -55,7 +54,6 @@ const laMalincheTheSlaveGirlWhoBecameADiplomat: Post = {
     </span>,
   ],
   labelTexts: [],
-  objectTexts: [],
 };
 
 const newSpainNewBorders: Post = {
@@ -98,8 +96,6 @@ const newSpainNewBorders: Post = {
       Gallegos, 2010
     </span>,
   ],
-
-  objectTexts: [],
 };
 
 const danceMasks: Post = {
@@ -134,7 +130,6 @@ const danceMasks: Post = {
       mustaches. Many of the masks come from Veracruz or Guerrero.
     </span>,
   ],
-  objectTexts: [],
 };
 
 const zapotecDanceOfTheFeatherAboutTheSpanishConquest: Post = {
@@ -167,7 +162,6 @@ const zapotecDanceOfTheFeatherAboutTheSpanishConquest: Post = {
       1937. Object number: 1937.19.0139
     </span>,
   ],
-  objectTexts: [],
 };
 
 const laVirgeGuadalupeTheFirstMexican: Post = {
@@ -205,7 +199,6 @@ const laVirgeGuadalupeTheFirstMexican: Post = {
       World Culture collections. 20th century.
     </span>,
   ],
-  objectTexts: [],
 };
 
 export const colonization: Theme = {

@@ -3,7 +3,6 @@ export type Post = {
   heading: JSX.Element;
   body: JSX.Element[];
   labelTexts: JSX.Element[];
-  objectTexts: ObjectText[];
 };
 
 export type Theme = {

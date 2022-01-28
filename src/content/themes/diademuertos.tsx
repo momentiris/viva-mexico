@@ -24,7 +24,6 @@ const traditionsInPaper: Post = {
     </span>,
   ],
   labelTexts: [],
-  objectTexts: [],
 };
 
 const theOfrendaTheAltar: Post = {
@@ -49,7 +48,6 @@ const theOfrendaTheAltar: Post = {
     </span>,
   ],
   labelTexts: [],
-  objectTexts: [],
 };
 
 const calaverasSkulls: Post = {
@@ -67,7 +65,6 @@ const calaverasSkulls: Post = {
     </span>,
   ],
   labelTexts: [],
-  objectTexts: [],
 };
 
 const copalIncenseTheFoodOfTheGods: Post = {
@@ -85,7 +82,6 @@ const copalIncenseTheFoodOfTheGods: Post = {
     </span>,
   ],
   labelTexts: [],
-  objectTexts: [],
 };
 
 export const diaDeMuertos: Theme = {
@@ -117,6 +113,7 @@ export const diaDeMuertos: Theme = {
         ],
       },
       timeline: [
+        traditionsInPaper,
         theOfrendaTheAltar,
         calaverasSkulls,
         copalIncenseTheFoodOfTheGods,
