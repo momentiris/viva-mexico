@@ -55,10 +55,10 @@ const calaverasSkulls: Post = {
   heading: <span>Calaveras – skulls</span>,
   body: [
     <span key="0">
-      Skulls, or calaveras as they’re called in Spanish, play a major role on
+      Skulls, or calaveras as they’re called in Spanish, play a major role on{' '}
       <i>Día de Muertos</i>. They are used as decorations everywhere, in various
       shapes and materials. The skulls represent ancestors and the close
-      relationship between life and death. During the celebration, sugar
+      relationship between life and death. During the celebration, sugar{' '}
       <i>calaveras</i> are made to be given as candy to the children and to be
       placed on the alter. Decorating with skulls is an old tradition, with
       roots in cultures such as the Aztec and Toltec.
