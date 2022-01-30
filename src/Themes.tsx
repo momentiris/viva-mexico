@@ -4,32 +4,35 @@ import { themes } from './content/themes/index';
 export const Themes = () => {
   return (
     <div className="w-full h-full">
-      <h1 className="heading-1">Viva México!</h1>
-      <div className="mx-auto flex h-full flex-col items-center justify-center text-white">
+      <h1 className="text-4xl font-black text-gray-800 mx-auto text-center">
+        Viva México!
+      </h1>
+      <div className="mx-auto flex h-full flex-col gap-6 items-center justify-center text-white">
         {themes.map((theme) => (
-          <ThemeColorSection key={theme.name} themeName={theme.name}>
-            <Link to={`${theme.name}`} className="text-2xl font-bold">
+          <ThemeColor key={theme.name} themeName={theme.name}>
+            <Link
+              to={`${theme.name}`}
+              className="text-4xl font-black no-underline py-1 px-4"
+            >
               {theme.label}
             </Link>
-          </ThemeColorSection>
+          </ThemeColor>
         ))}
       </div>
     </div>
   );
 };
 
-type ThemeColorSectionProps = {
+type ThemeColorProps = {
   children: React.ReactNode;
   themeName: string;
 };
 
-const ThemeColorSection = ({ children, themeName }: ThemeColorSectionProps) => {
+const ThemeColor = ({ children, themeName }: ThemeColorProps) => {
   const bg = deriveBgColorFromThemeName(themeName);
 
   return (
-    <div className={`${bg} flex-grow w-full flex items-center justify-center`}>
-      {children}
-    </div>
+    <div className={`${bg} flex items-center justify-center `}>{children}</div>
   );
 };
 

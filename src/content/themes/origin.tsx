@@ -162,8 +162,7 @@ export const origin: Theme = {
         'Aztec three-legged vessel. Probably a type of spice mortar (molcajete). Time period: 1250–1521 CE Object number: 1962.69.0002',
       ],
       inDepthTexts: [],
+      objectTexts: [],
     },
   ],
-  inDepthTexts: [],
-  objectTexts: [],
 };

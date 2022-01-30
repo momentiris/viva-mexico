@@ -239,8 +239,7 @@ export const colonization: Theme = {
       ],
       labels: [],
       inDepthTexts: [],
+      objectTexts: [],
     },
   ],
-  inDepthTexts: [],
-  objectTexts: [],
 };

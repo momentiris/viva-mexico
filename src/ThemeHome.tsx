@@ -7,18 +7,13 @@ type ThemeHomeProps = {
 
 export const ThemeHome = ({ theme }: ThemeHomeProps) => {
   return (
-    <div>
-      <h1 className="heading-1">{theme.label}</h1>
-      {theme.content.map((content, index) => (
-        <ThemeContent content={content} key={index} />
-      ))}
-
-      {Boolean(theme.objectTexts.length) && (
-        <h2 className="heading-1">Object texts</h2>
-      )}
-      {theme.objectTexts.map((content) => (
-        <div key={content.slug}>{content.heading}</div>
-      ))}
+    <div className="flex flex-col items-center">
+      <div className="max-w-xl">
+        <div className="italic mb-4 text-sm">{theme.label}</div>
+        {theme.content.map((content, index) => (
+          <ThemeContent content={content} key={index} />
+        ))}
+      </div>
     </div>
   );
 };
@@ -30,25 +25,39 @@ type ThemeContentProps = {
 const ThemeContent = ({ content }: ThemeContentProps) => {
   return (
     <div>
-      <h2 className="text-xl font-bold">{content.introduction.heading}</h2>
+      <h1 className="heading-1">{content.introduction.heading}</h1>
       <div>
         {content.introduction.body.map((textElement) => (
-          <div key={textElement.key} className="mb-4">
+          <p key={textElement.key} className="paragraph">
             {textElement}
-          </div>
+          </p>
         ))}
       </div>
-      <div>
-        <h2>Texts</h2>
+      <div className="pt-4">
+        <h2 className="heading-2">Theme texts</h2>
         {content.timeline.map((timelineInstance) => (
           <div key={timelineInstance.slug} className="mb-2">
             <Link
-              to={`post/${timelineInstance.slug}`}
+              to={`posts/${timelineInstance.slug}`}
               className="text-lg font-semibold"
             >
               {timelineInstance.heading}
             </Link>
           </div>
+        ))}
+      </div>
+      <div className="pt-4">
+        {Boolean(content.objectTexts.length) && (
+          <h2 className="heading-2">Object texts</h2>
+        )}
+        {content.objectTexts.map((post) => (
+          <Link
+            to={`object-text/${post.slug}`}
+            className="text-lg font-semibold"
+            key={post.slug}
+          >
+            {post.heading}
+          </Link>
         ))}
       </div>
     </div>

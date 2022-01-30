@@ -7,12 +7,9 @@ export const ThemeObjectText = () => {
   const post = utils.getObjectText(params.post);
 
   if (!post) {
+    console.warn('no object text found for slug: ', post);
     return <Navigate to="/" />;
   }
 
-  return (
-    <div>
-      <Article article={post} />
-    </div>
-  );
+  return <Article article={post} />;
 };

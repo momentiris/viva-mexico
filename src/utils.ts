@@ -4,10 +4,7 @@ export const utils = {
   getObjectText: (slug?: string) => {
     return themes
       .flatMap((theme) =>
-        theme.content
-          .flatMap((content) => content.timeline)
-          .flatMap((timeline) => timeline.objectTexts)
-          .concat(themes.flatMap((theme) => theme.objectTexts))
+        theme.content.flatMap((content) => content.objectTexts)
       )
       .find((x) => x.slug === slug);
   },

@@ -20,7 +20,11 @@ body {
 
 @layer components {
   .heading-1 {
-    @apply text-2xl tracking-wide font-bold mb-6 max-w-xl;
+    @apply text-3xl tracking-wide font-bold mb-6 max-w-xl;
+  }
+
+  .heading-2 {
+    @apply text-2xl tracking-wide font-bold mb-4 max-w-xl;
   }
 
   a {
@@ -28,8 +32,7 @@ body {
   }
 
   .paragraph {
-    @apply max-w-xl mb-6 leading-relaxed tracking-wide
-
+    @apply max-w-xl mb-6 leading-relaxed tracking-wide text-lg
   }
 
 }

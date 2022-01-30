@@ -10,8 +10,6 @@ export type Theme = {
   label: string;
   labelTranslation?: string;
   content: ThemeContent[];
-  inDepthTexts: JSX.Element[];
-  objectTexts: ObjectText[];
 };
 
 export type ThemeContent = {
@@ -20,6 +18,7 @@ export type ThemeContent = {
   inDepthTexts: InDepthText[];
   timeline: Post[];
   labels: string[];
+  objectTexts: ObjectText[];
 };
 
 export type PostContent = {

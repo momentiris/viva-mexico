@@ -96,8 +96,8 @@ export const deathMyths: Theme = {
         'Xolo dog from the Tumbas de Tiro culture. Time period: 200–900 CE Object number: 1923.06.0545',
         'Xolo dog from Colima. Time period: 200–900 CE Object number: 1962.73.19',
       ],
+
+      objectTexts: [],
     },
   ],
-  inDepthTexts: [],
-  objectTexts: [],
 };

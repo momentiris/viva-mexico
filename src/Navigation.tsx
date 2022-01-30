@@ -12,17 +12,32 @@ const Hamburger = ({ onClick }: { onClick: () => void }) => (
   </button>
 );
 
-const NavLinks = () => {
+type NavLinksProps = {
+  onClick: () => void;
+};
+
+const NavLinks = ({ onClick }: NavLinksProps) => {
   return (
     <>
       <li>
-        <NavLink to="/models">3D - Objects</NavLink>
+        <NavLink onClick={onClick} to="/">
+          Start
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/models">Fördjupningstexter</NavLink>
+        <NavLink onClick={onClick} to="/models">
+          3D - Objects
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/models">Karta / map</NavLink>
+        <NavLink onClick={onClick} to="/in-depth">
+          Fördjupningstexter
+        </NavLink>
+      </li>
+      <li>
+        <NavLink onClick={onClick} to="/map">
+          Karta / map
+        </NavLink>
       </li>
     </>
   );
@@ -30,6 +45,7 @@ const NavLinks = () => {
 
 export const Navigation = () => {
   const [open, setOpen] = React.useState(false);
+
   return (
     <div className="absolute">
       <div
@@ -39,14 +55,13 @@ export const Navigation = () => {
       >
         <div className="flex h-full items-center justify-center">
           <ul>
-            <NavLinks />
+            <NavLinks onClick={() => setOpen(false)} />
           </ul>
         </div>
       </div>
       <div className="fixed bottom-5 right-5 z-50">
         <Hamburger onClick={() => setOpen((open) => !open)} />
       </div>
-      {/* <NavLink to="/">Home</NavLink> */}
     </div>
   );
 };

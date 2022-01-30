@@ -7,10 +7,13 @@ import { ModelRouter } from './ModelRouter';
 import { ThemePost } from './ThemePost';
 import { Layout } from './Layout';
 import { Start } from './Start';
+import { ThemeObjectText } from './ThemeObjectText';
+import { ScrollToTop } from './ScrollToTop';
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Router />
     </BrowserRouter>
   );
@@ -21,11 +24,15 @@ const Router = () => {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Start />} />
-        <Route path="theme" element={<Themes />} />
-        <Route path="theme/:theme" element={<Theme />} />
-        <Route path="theme/:theme/post/:post" element={<ThemePost />} />
+        <Route path="themes" element={<Themes />} />
+        <Route path="themes/:theme" element={<Theme />} />
+        <Route path="themes/:theme/posts/:post" element={<ThemePost />} />
+        <Route
+          path="themes/:theme/object-text/:post"
+          element={<ThemeObjectText />}
+        />
       </Route>
-      <Route path="/model/:model" element={<ModelRouter />} />
+      <Route path="/models/:model" element={<ModelRouter />} />
       <Route path="/screen/one" element={<ScreenOne />} />
     </Routes>
   );

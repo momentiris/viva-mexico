@@ -128,133 +128,134 @@ export const diaDeMuertos: Theme = {
         'Silhouette figures in tissue paper from the Otomi ethnic group. They have been used in sacred rites. 1968.16.0101, 1968.16.0102,1968.16.0103, 1968.16.0104, 1968.16.0105, 1968.16.0110, 1968.16.0095 and 1968.16.0098',
       ],
       inDepthTexts: [],
-    },
-  ],
-  inDepthTexts: [],
-  objectTexts: [
-    {
-      slug: 'flower-of-the-dead',
-      heading: <span>Flower of the Dead</span>,
-      body: [
-        <span key="0">
-          The sweet aroma of the orange and yellow marigolds is said to tempt
-          the dead to return to the world of the living. The flowers make it
-          easier for the souls to find their way back on the night between the
-          1st and 2nd of November. In Mexico, the flowers are often called{' '}
-          <i>flor de muerto</i>, or “flower of the dead.” On the Day of the
-          Dead, the flowers are used in abundance on streets and altars and in
-          homes and cemeteries.
-        </span>,
+      objectTexts: [
+        {
+          slug: 'flower-of-the-dead',
+          heading: <span>Flower of the Dead</span>,
+          body: [
+            <span key="0">
+              The sweet aroma of the orange and yellow marigolds is said to
+              tempt the dead to return to the world of the living. The flowers
+              make it easier for the souls to find their way back on the night
+              between the 1st and 2nd of November. In Mexico, the flowers are
+              often called <i>flor de muerto</i>, or “flower of the dead.” On
+              the Day of the Dead, the flowers are used in abundance on streets
+              and altars and in homes and cemeteries.
+            </span>,
+          ],
+        },
+        {
+          slug: 'quote-anabeli-brancusi',
+          heading: <span />,
+          body: [
+            <span key="0">
+              <blockquote>
+                For me, the skulls and flowers are a symbol that life and death
+                are connected and that something new always comes when something
+                ends. They symbolize that you wish the person the best in life,
+                but also a nice journey onward after death.
+              </blockquote>
+              <i>–Anabelí Brancusi, ceramicist and artist</i>
+            </span>,
+          ],
+        },
+        {
+          slug: 'cemetery-celebrations',
+          heading: <span>Cemetery celebrations</span>,
+          body: [
+            <span key="0">
+              On <i>Día de Muertos</i>, the spirits of the dead return to the
+              world of the living. Cemetery visits often include picnics to
+              spend time with relatives and enjoy good food and drink. The
+              favorite foods and beverages of the dead are placed on the grave.
+              The dead are quite simply offered the most beautiful things that
+              life has to offer: flowers, food, beverages, songs and friendship.
+              The traditions are a way of arresting the transitoriness of life.
+              To be able to meet again whether you are dead or alive.
+            </span>,
+          ],
+          photographTexts: [
+            '1. Man at cemetery outside Mexico City. 2018 photo: Frederik Trovatten',
+            '2. Flowered grave at cemetery in Milpa Alta Photo: Gösta Montell.',
+            '3. Funeral for a child. Photo: Gösta Montell',
+          ],
+        },
+        {
+          slug: 'celebration-in-the-streets',
+          heading: <span>Celebrations in the streets</span>,
+          body: [
+            <span key="0">
+              In the cities, the traditions surrounding <i>Día de Muertos</i>{' '}
+              have changed and grown in recent years. Celebrations have become
+              more public and commercial. The carnival-like parade in Mexico
+              City is a colorful spectacle with elaborate floats, dances and
+              costumes. In the cities, enormous altars are erected as pure art
+              installations. They are usually not dedicated to one person but
+              are instead intended to call attention to a societal problem.
+              Violence against women or environmental issues, for example, which
+              are major issues in Mexico.
+            </span>,
+          ],
+          photographTexts: [
+            '“There are no words that could do justice to the feeling of being in Mexico and taking part in the Day of the Dead. You just have to experience it yourself.” Frederik Trovatten is a photographer with roots in Denmark. He has been living in Mexico City since 2017.',
+          ],
+        },
+        {
+          slug: 'la-catrina-the-skeleton-woman',
+          heading: <span>LA CATRINA, THE SKELETON WOMAN</span>,
+          body: [
+            <span key="0">
+              <i>La Catrina</i> is a skeleton-like woman drawn by artist José
+              Guadalupe Posada in the early 1900s. She is an upper-class lady
+              wearing fancy clothes and a large hat. Posada created La Catrina
+              as a critique against the Mexican upper class. An upper class who
+              often had roots in the Spanish colonial population. She was meant
+              to be a reminder that no power lasts forever and that we will all
+              die at some point. La Catrina has become a very popular element in
+              the celebration of the Day of the Dead and there have been
+              countless interpretations of her.
+            </span>,
+          ],
+          finePrint: 'Reproduction. The original work is from 1910',
+        },
+        {
+          slug: 'dream-of-a-sunday-afternoon-in-alameda-park',
+          heading: <span>Dream of a Sunday Afternoon in Alameda Park</span>,
+          body: [
+            <span key="0">
+              Diego Rivera was one of the first artists to highlight{' '}
+              <i>Día de Muertos</i>. Among other things, he created large-scale
+              <i>ofrenda</i> installations in the mid-1900s. In{' '}
+              <i>Dream of a Sunday Afternoon in Alameda Park</i>, Rivera painted
+              a number of historical Mexican figures from different periods and
+              different origins together in one large mural. Diego Rivera
+              himself is shown holding hands with La Catrina. The artist Frida
+              Kahlo, his wife, is standing behind them. The woman dressed in
+              yellow watching them may just be the important historical figure
+              La Malinche. She was the slave woman who went on to become the
+              interpreter for the Spanish conquistador Hernán Cortés.
+            </span>,
+          ],
+          finePrint: 'Reproduction. The original work is from 1947-1948',
+        },
+        {
+          slug: 'girl-with-death-mask',
+          heading: <span>Girl with Death Mask</span>,
+          body: [
+            <span key="0">
+              The artist Frida Kahlo often addressed death in her art. In this
+              painting, we see a little girl with a skull mask. Many believe
+              this was a self-portrait. The girl is holding a yellow marigold,
+              like those laid on graves on the Day of the Dead. On the ground
+              beside her, we see another mask, this one representing a tiger.
+              Frida Kahlo’s life was fraught with accidents, illness and chronic
+              pain. The masks in the painting can be seen as symbols of her
+              fate.
+            </span>,
+          ],
+          finePrint: 'Reproduction. The original work is from 1938',
+        },
       ],
-    },
-    {
-      slug: 'quote-anabeli-brancusi',
-      heading: <span />,
-      body: [
-        <span key="0">
-          <blockquote>
-            For me, the skulls and flowers are a symbol that life and death are
-            connected and that something new always comes when something ends.
-            They symbolize that you wish the person the best in life, but also a
-            nice journey onward after death.
-          </blockquote>
-          <i>–Anabelí Brancusi, ceramicist and artist</i>
-        </span>,
-      ],
-    },
-    {
-      slug: 'cemetery-celebrations',
-      heading: <span>Cemetery celebrations</span>,
-      body: [
-        <span key="0">
-          On <i>Día de Muertos</i>, the spirits of the dead return to the world
-          of the living. Cemetery visits often include picnics to spend time
-          with relatives and enjoy good food and drink. The favorite foods and
-          beverages of the dead are placed on the grave. The dead are quite
-          simply offered the most beautiful things that life has to offer:
-          flowers, food, beverages, songs and friendship. The traditions are a
-          way of arresting the transitoriness of life. To be able to meet again
-          whether you are dead or alive.
-        </span>,
-      ],
-      photographTexts: [
-        '1. Man at cemetery outside Mexico City. 2018 photo: Frederik Trovatten',
-        '2. Flowered grave at cemetery in Milpa Alta Photo: Gösta Montell.',
-        '3. Funeral for a child. Photo: Gösta Montell',
-      ],
-    },
-    {
-      slug: 'celebration-in-the-streets',
-      heading: <span>Celebrations in the streets</span>,
-      body: [
-        <span key="0">
-          In the cities, the traditions surrounding <i>Día de Muertos</i> have
-          changed and grown in recent years. Celebrations have become more
-          public and commercial. The carnival-like parade in Mexico City is a
-          colorful spectacle with elaborate floats, dances and costumes. In the
-          cities, enormous altars are erected as pure art installations. They
-          are usually not dedicated to one person but are instead intended to
-          call attention to a societal problem. Violence against women or
-          environmental issues, for example, which are major issues in Mexico.
-        </span>,
-      ],
-      photographTexts: [
-        '“There are no words that could do justice to the feeling of being in Mexico and taking part in the Day of the Dead. You just have to experience it yourself.” Frederik Trovatten is a photographer with roots in Denmark. He has been living in Mexico City since 2017.',
-      ],
-    },
-    {
-      slug: 'la-catrina-the-skeleton-woman',
-      heading: <span>LA CATRINA, THE SKELETON WOMAN</span>,
-      body: [
-        <span key="0">
-          <i>La Catrina</i> is a skeleton-like woman drawn by artist José
-          Guadalupe Posada in the early 1900s. She is an upper-class lady
-          wearing fancy clothes and a large hat. Posada created La Catrina as a
-          critique against the Mexican upper class. An upper class who often had
-          roots in the Spanish colonial population. She was meant to be a
-          reminder that no power lasts forever and that we will all die at some
-          point. La Catrina has become a very popular element in the celebration
-          of the Day of the Dead and there have been countless interpretations
-          of her.
-        </span>,
-      ],
-      finePrint: 'Reproduction. The original work is from 1910',
-    },
-    {
-      slug: 'dream-of-a-sunday-afternoon-in-alameda-park',
-      heading: <span>Dream of a Sunday Afternoon in Alameda Park</span>,
-      body: [
-        <span key="0">
-          Diego Rivera was one of the first artists to highlight{' '}
-          <i>Día de Muertos</i>. Among other things, he created large-scale
-          <i>ofrenda</i> installations in the mid-1900s. In{' '}
-          <i>Dream of a Sunday Afternoon in Alameda Park</i>, Rivera painted a
-          number of historical Mexican figures from different periods and
-          different origins together in one large mural. Diego Rivera himself is
-          shown holding hands with La Catrina. The artist Frida Kahlo, his wife,
-          is standing behind them. The woman dressed in yellow watching them may
-          just be the important historical figure La Malinche. She was the slave
-          woman who went on to become the interpreter for the Spanish
-          conquistador Hernán Cortés.
-        </span>,
-      ],
-      finePrint: 'Reproduction. The original work is from 1947-1948',
-    },
-    {
-      slug: 'girl-with-death-mask',
-      heading: <span>Girl with Death Mask</span>,
-      body: [
-        <span key="0">
-          The artist Frida Kahlo often addressed death in her art. In this
-          painting, we see a little girl with a skull mask. Many believe this
-          was a self-portrait. The girl is holding a yellow marigold, like those
-          laid on graves on the Day of the Dead. On the ground beside her, we
-          see another mask, this one representing a tiger. Frida Kahlo’s life
-          was fraught with accidents, illness and chronic pain. The masks in the
-          painting can be seen as symbols of her fate.
-        </span>,
-      ],
-      finePrint: 'Reproduction. The original work is from 1938',
     },
   ],
 };
