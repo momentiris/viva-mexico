@@ -23,9 +23,9 @@ const models: Record<string, React.ReactNode> = {
   xolo: <Xolo />,
 };
 
-export const ModelRouter = () => {
+export const Model = () => {
   const { model } = useParams<'model'>();
-
+  console.log('hello');
   if (!model || !models[model]) {
     return <Navigate to="/" />;
   }

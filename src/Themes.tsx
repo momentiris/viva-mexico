@@ -3,11 +3,11 @@ import { themes } from './content/themes/index';
 
 export const Themes = () => {
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-full flex flex-col">
       <h1 className="text-4xl font-black text-gray-800 mx-auto text-center">
         Viva México!
       </h1>
-      <div className="mx-auto flex h-full flex-col gap-6 items-center justify-center text-white">
+      <div className="flex flex-grow flex-col gap-6 items-center justify-center text-white">
         {themes.map((theme) => (
           <ThemeColor key={theme.name} themeName={theme.name}>
             <Link
