@@ -8,7 +8,7 @@ const Hamburger = ({ onClick }: { onClick: () => void }) => (
     onClick={onClick}
     className="bg-black text-white p-4 w-max rounded-full shadow-md shadow-zinc-600 flex items-center justify-center"
   >
-    <HiMenu size="32" />
+    <HiMenu size="24" />
   </button>
 );
 
@@ -18,7 +18,7 @@ type NavLinksProps = {
 
 const NavLinks = ({ onClick }: NavLinksProps) => {
   return (
-    <>
+    <ul>
       <li>
         <NavLink onClick={onClick} to="/">
           Start
@@ -39,7 +39,7 @@ const NavLinks = ({ onClick }: NavLinksProps) => {
           Karta / map
         </NavLink>
       </li>
-    </>
+    </ul>
   );
 };
 
@@ -47,21 +47,19 @@ export const Navigation = () => {
   const [open, setOpen] = React.useState(false);
 
   return (
-    <div className="absolute">
+    <>
       <div
         className={`${
           open ? 'translate-x-0' : 'translate-x-full'
-        } fixed w-screen h-screen bg-white`}
+        } fixed w-screen h-screen top-0 left-0 bg-gray-300`}
       >
         <div className="flex h-full items-center justify-center">
-          <ul>
-            <NavLinks onClick={() => setOpen(false)} />
-          </ul>
+          <NavLinks onClick={() => setOpen(false)} />
         </div>
       </div>
-      <div className="fixed bottom-5 right-5 z-50">
+      <div className="fixed top-5 right-5 z-50">
         <Hamburger onClick={() => setOpen((open) => !open)} />
       </div>
-    </div>
+    </>
   );
 };

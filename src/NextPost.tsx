@@ -11,7 +11,7 @@ export const NextPost = () => {
   );
 
   return (
-    <div className="mx-auto max-w-sm w-full flex justify-between text-xl py-16">
+    <div className="mx-auto max-w-sm w-full flex justify-between text-xl pt-16 pb-4">
       <div>
         <Link
           className={

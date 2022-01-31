@@ -3,7 +3,7 @@ import { Navigation } from './Navigation';
 
 export const Layout = () => {
   return (
-    <div className="py-8 px-4 h-full w-full">
+    <div className="pt-8 pb-8 px-6 min-h-screen w-full">
       <Navigation />
       <Outlet />
     </div>

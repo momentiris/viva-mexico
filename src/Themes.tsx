@@ -7,14 +7,14 @@ export const Themes = () => {
       <h1 className="text-4xl font-black text-gray-800 mx-auto text-center">
         Viva México!
       </h1>
-      <div className="flex flex-grow flex-col gap-6 items-center justify-center text-white">
+      <div className="flex flex-grow flex-col gap-4 items-center justify-center text-white pt-8">
         {themes.map((theme) => (
           <ThemeColor key={theme.name} themeName={theme.name}>
             <Link
               to={`${theme.name}`}
-              className="text-4xl font-black no-underline py-1 px-4"
+              className="text-3xl font-black no-underline py-2 px-4"
             >
-              {theme.label}
+              {theme.label} / {theme.labelTranslation}
             </Link>
           </ThemeColor>
         ))}

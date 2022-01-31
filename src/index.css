@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body,
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
 #root {
-  width: 100%;
   height: 100%;
 }
 
@@ -19,6 +24,9 @@ body {
 }
 
 @layer components {
+  #root {
+    @apply flex;
+  }
   .heading-1 {
     @apply text-3xl tracking-wide font-bold mb-6 max-w-xl;
   }
@@ -32,7 +40,6 @@ body {
   }
 
   .paragraph {
-    @apply max-w-xl mb-6 leading-relaxed tracking-wide text-lg
+    @apply max-w-xl mb-6 leading-relaxed tracking-wide text-lg;
   }
-
 }
