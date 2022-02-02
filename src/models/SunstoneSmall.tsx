@@ -16,7 +16,7 @@ type GLTFResult = GLTF & {
   };
 };
 
-export const SunStoneSmall = ({ ...props }: JSX.IntrinsicElements['group']) => {
+const SunStoneSmall = ({ ...props }: JSX.IntrinsicElements['group']) => {
   const group = useRef<THREE.Group>();
   const { nodes, materials } = useGLTF(
     '/sunstone-small-transformed.glb'
@@ -38,5 +38,7 @@ export const SunStoneSmall = ({ ...props }: JSX.IntrinsicElements['group']) => {
     </group>
   );
 };
+
+export default SunStoneSmall;
 
 useGLTF.preload('/sunstone-small-transformed.glb');

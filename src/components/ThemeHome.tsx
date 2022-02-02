@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Theme, ThemeContent as ThemeContentType } from './types';
+import { Theme, ThemeContent as ThemeContentType } from '../types';
 
 type ThemeHomeProps = {
   theme: Theme;

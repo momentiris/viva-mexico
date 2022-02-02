@@ -18,9 +18,7 @@ type GLTFResult = GLTF & {
   };
 };
 
-export const SacrificialCasket = ({
-  ...props
-}: JSX.IntrinsicElements['group']) => {
+const SacrificialCasket = ({ ...props }: JSX.IntrinsicElements['group']) => {
   const group = useRef<THREE.Group>();
   const { nodes, materials } = useGLTF(
     '/sacrificialcasket-transformed.glb'
@@ -40,5 +38,7 @@ export const SacrificialCasket = ({
     </group>
   );
 };
+
+export default SacrificialCasket;
 
 useGLTF.preload('/sacrificialcasket-transformed.glb');

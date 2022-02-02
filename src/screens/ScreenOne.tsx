@@ -1,4 +1,4 @@
-import { PresentationalScene } from '../PresentationalScene';
+import { PresentationalScene } from '../components/PresentationalScene';
 import { Maya, Toltek, Olmek } from '../models/index';
 
 export const ScreenOne = () => {

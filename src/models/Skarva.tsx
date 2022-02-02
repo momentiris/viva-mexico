@@ -16,7 +16,7 @@ type GLTFResult = GLTF & {
   };
 };
 
-export const Skarva = ({ ...props }: JSX.IntrinsicElements['group']) => {
+const Skarva = ({ ...props }: JSX.IntrinsicElements['group']) => {
   const group = useRef<THREE.Group>();
   const { nodes, materials } = useGLTF('/skarva-transformed.glb') as GLTFResult;
   return (
@@ -30,5 +30,7 @@ export const Skarva = ({ ...props }: JSX.IntrinsicElements['group']) => {
     </group>
   );
 };
+
+export default Skarva;
 
 useGLTF.preload('/skarva-transformed.glb');

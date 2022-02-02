@@ -16,9 +16,7 @@ type GLTFResult = GLTF & {
   };
 };
 
-export const Chalchiutlicue = ({
-  ...props
-}: JSX.IntrinsicElements['group']) => {
+const Chalchiutlicue = ({ ...props }: JSX.IntrinsicElements['group']) => {
   const group = useRef<THREE.Group>();
   const { nodes, materials } = useGLTF(
     '/chalchiutlicue-transformed.glb'
@@ -34,5 +32,7 @@ export const Chalchiutlicue = ({
     </group>
   );
 };
+
+export default Chalchiutlicue;
 
 useGLTF.preload('/chalchiutlicue-transformed.glb');

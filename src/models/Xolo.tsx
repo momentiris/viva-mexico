@@ -16,7 +16,7 @@ type GLTFResult = GLTF & {
   };
 };
 
-export const Xolo = ({ ...props }: JSX.IntrinsicElements['group']) => {
+const Xolo = ({ ...props }: JSX.IntrinsicElements['group']) => {
   const group = useRef<THREE.Group>();
   const { nodes, materials } = useGLTF('/xolo-transformed.glb') as GLTFResult;
   return (
@@ -30,5 +30,7 @@ export const Xolo = ({ ...props }: JSX.IntrinsicElements['group']) => {
     </group>
   );
 };
+
+export default Xolo;
 
 useGLTF.preload('/xolo-transformed.glb');

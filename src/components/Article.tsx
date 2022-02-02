@@ -1,4 +1,4 @@
-import { PostContent } from './types';
+import { PostContent } from '../types';
 
 type ArticleProps = {
   article: PostContent;

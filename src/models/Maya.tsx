@@ -15,7 +15,7 @@ type GLTFResult = GLTF & {
   };
 };
 
-export const Maya = ({ ...props }: JSX.IntrinsicElements['group']) => {
+const Maya = ({ ...props }: JSX.IntrinsicElements['group']) => {
   const group = useRef();
   const { nodes, materials } = useGLTF(
     '/maya-transformed.glb'
@@ -32,5 +32,7 @@ export const Maya = ({ ...props }: JSX.IntrinsicElements['group']) => {
     </group>
   );
 };
+
+export default Maya;
 
 useGLTF.preload('/maya-transformed.glb');

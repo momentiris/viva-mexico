@@ -16,9 +16,7 @@ type GLTFResult = GLTF & {
   };
 };
 
-export const Mictlantecutli = ({
-  ...props
-}: JSX.IntrinsicElements['group']) => {
+const Mictlantecutli = ({ ...props }: JSX.IntrinsicElements['group']) => {
   const group = useRef<THREE.Group>();
   const { nodes, materials } = useGLTF(
     '/mictlantecutli-transformed.glb'
@@ -36,4 +34,5 @@ export const Mictlantecutli = ({
   );
 };
 
+export default Mictlantecutli;
 useGLTF.preload('/mictlantecutli-transformed.glb');

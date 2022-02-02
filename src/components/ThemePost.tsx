@@ -1,7 +1,8 @@
-import { Navigate, useParams, Link } from 'react-router-dom';
+import { Navigate, useParams } from 'react-router-dom';
+import { utils } from '../utils';
 import { Article } from './Article';
+
 import { NextPost } from './NextPost';
-import { utils } from './utils';
 
 export const ThemePost = () => {
   const params = useParams<'post'>();

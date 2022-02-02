@@ -1,6 +1,6 @@
 import { Navigate, useParams } from 'react-router-dom';
 import { Article } from './Article';
-import { utils } from './utils';
+import { utils } from '../utils';
 
 export const InDepth = () => {
   const params = useParams<'slug'>();

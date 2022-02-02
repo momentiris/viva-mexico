@@ -1,15 +1,15 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import { Theme } from './Theme';
-import { Themes } from './Themes';
+import { Theme } from './components/Theme';
+import { Themes } from './components/Themes';
 
-import { Model } from './Model';
-import { ThemePost } from './ThemePost';
-import { Layout } from './Layout';
-import { Start } from './Start';
-import { ThemeObjectText } from './ThemeObjectText';
-import { ScrollToTop } from './ScrollToTop';
-import { Models } from './Models';
+import { Model } from './components/Model';
+import { ThemePost } from './components/ThemePost';
+import { Layout } from './components/Layout';
+import { Start } from './components/Start';
+import { ThemeObjectText } from './components/ThemeObjectText';
+import { ScrollToTop } from './components/ScrollToTop';
+import { Models } from './components/Models';
 import { ScreenOne, ScreenTwo } from './screens';
 
 function App() {

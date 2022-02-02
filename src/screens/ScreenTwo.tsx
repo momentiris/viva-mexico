@@ -1,4 +1,4 @@
-import { PresentationalScene } from '../PresentationalScene';
+import { PresentationalScene } from '../components/PresentationalScene';
 import { SunStoneSmall, SacrificialCasket } from '../models/index';
 
 export const ScreenTwo = () => {

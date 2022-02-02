@@ -2,7 +2,7 @@ import { useParams, Navigate } from 'react-router-dom';
 
 import { ThemeHome } from './ThemeHome';
 
-import { utils } from './utils';
+import { utils } from '../utils';
 
 export const Theme = () => {
   const params = useParams<'theme'>();

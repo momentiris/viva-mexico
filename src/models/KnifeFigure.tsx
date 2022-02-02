@@ -16,7 +16,7 @@ type GLTFResult = GLTF & {
   };
 };
 
-export const KnifeFigure = ({ ...props }: JSX.IntrinsicElements['group']) => {
+const KnifeFigure = ({ ...props }: JSX.IntrinsicElements['group']) => {
   const group = useRef<THREE.Group>();
   const { nodes, materials } = useGLTF(
     '/knivfigur-transformed.glb'
@@ -32,5 +32,7 @@ export const KnifeFigure = ({ ...props }: JSX.IntrinsicElements['group']) => {
     </group>
   );
 };
+
+export default KnifeFigure;
 
 useGLTF.preload('/knivfigur-transformed.glb');

@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import { utils } from './utils';
+import { utils } from '../utils';
 
 export const NextPost = () => {
   const params = useParams<'theme' | 'post'>();

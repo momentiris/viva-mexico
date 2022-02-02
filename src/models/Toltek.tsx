@@ -16,7 +16,7 @@ type GLTFResult = GLTF & {
   };
 };
 
-export const Toltek = ({ ...props }) => {
+const Toltek = ({ ...props }) => {
   const group = useRef();
   const { nodes, materials } = useGLTF('/toltek-transformed.glb') as GLTFResult;
 
@@ -31,5 +31,7 @@ export const Toltek = ({ ...props }) => {
     </group>
   );
 };
+
+export default Toltek;
 
 useGLTF.preload('/toltek-transformed.glb');

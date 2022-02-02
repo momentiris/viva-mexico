@@ -1,22 +1,24 @@
-import { Maya } from './Maya';
-import { Olmek } from './Olmek';
-import { SacrificalStone } from './SacrificialStone';
-import { Toltek } from './Toltek';
-import { SunStoneSmall } from './SunstoneSmall';
-import { SacrificialCasket } from './SacrificialCasket';
-import { Xolo } from './Xolo';
-import { Chalchiutlicue } from './Chalchiutlicue';
-import { KnifeFigure } from './KnifeFigure';
-import { MaskIncense } from './MaskIncense';
-import { Mictlantecutli } from './Mictlantecutli';
-import { Quetzalcoatl } from './Quetzalcoatl';
-import { Skarva } from './Skarva';
-import { Xochiquetzal } from './Xochiquetzal';
+import React from 'react';
+
+const Maya = React.lazy(() => import('./Maya'));
+const Olmek = React.lazy(() => import('./Olmek'));
+const Toltek = React.lazy(() => import('./Toltek'));
+const SunStoneSmall = React.lazy(() => import('./SunstoneSmall'));
+const SacrificialCasket = React.lazy(() => import('./SacrificialCasket'));
+const Xolo = React.lazy(() => import('./Xolo'));
+const Chalchiutlicue = React.lazy(() => import('./Chalchiutlicue'));
+const KnifeFigure = React.lazy(() => import('./KnifeFigure'));
+const MaskIncense = React.lazy(() => import('./MaskIncense'));
+const Mictlantecutli = React.lazy(() => import('./Mictlantecutli'));
+const Quetzalcoatl = React.lazy(() => import('./Quetzalcoatl'));
+const Skarva = React.lazy(() => import('./Skarva'));
+const Xochiquetzal = React.lazy(() => import('./Xochiquetzal'));
+const SacrificialStone = React.lazy(() => import('./SacrificialStone'));
 
 export {
   Maya,
   Olmek,
-  SacrificalStone,
+  SacrificialStone,
   Toltek,
   SunStoneSmall,
   SacrificialCasket,
@@ -36,7 +38,7 @@ export const models = [
   {
     slug: 'sacrificialstone',
     label: 'Sacrificial Stone',
-    element: <SacrificalStone />,
+    element: <SacrificialStone />,
   },
   { slug: 'toltek', label: 'Toltek', element: <Toltek /> },
   { slug: 'sunstone', label: 'Sun Stone', element: <SunStoneSmall /> },

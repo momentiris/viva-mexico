@@ -2,7 +2,7 @@ import { Navigate, useParams } from 'react-router-dom';
 
 import { PresentationalScene } from './PresentationalScene';
 
-import { models } from './models/index';
+import { models } from '../models/index';
 
 export const Model = () => {
   const params = useParams<'model'>();

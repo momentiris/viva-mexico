@@ -15,7 +15,7 @@ type GLTFResult = GLTF & {
   };
 };
 
-export const Olmek = ({ ...props }: JSX.IntrinsicElements['group']) => {
+const Olmek = ({ ...props }: JSX.IntrinsicElements['group']) => {
   const group = useRef();
   const { nodes, materials } = useGLTF('/olmek-transformed.glb') as GLTFResult;
 
@@ -30,5 +30,7 @@ export const Olmek = ({ ...props }: JSX.IntrinsicElements['group']) => {
     </group>
   );
 };
+
+export default Olmek;
 
 useGLTF.preload('/olmek-transformed.glb');

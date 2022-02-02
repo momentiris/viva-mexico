@@ -16,7 +16,7 @@ type GLTFResult = GLTF & {
   };
 };
 
-export const MaskIncense = ({ ...props }: JSX.IntrinsicElements['group']) => {
+const MaskIncense = ({ ...props }: JSX.IntrinsicElements['group']) => {
   const group = useRef<THREE.Group>();
   const { nodes, materials } = useGLTF(
     '/maskskärva-transformed.glb'
@@ -35,5 +35,7 @@ export const MaskIncense = ({ ...props }: JSX.IntrinsicElements['group']) => {
     </group>
   );
 };
+
+export default MaskIncense;
 
 useGLTF.preload('/maskskärva-transformed.glb');

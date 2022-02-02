@@ -15,7 +15,7 @@ type GLTFResult = GLTF & {
   };
 };
 
-export const SacrificalStone = ({ ...props }) => {
+const SacrificalStone = ({ ...props }) => {
   const group = useRef<THREE.Group>();
   const { nodes, materials } = useGLTF(
     '/sacrificialstone-transformed.glb'
@@ -38,5 +38,7 @@ export const SacrificalStone = ({ ...props }) => {
     </group>
   );
 };
+
+export default SacrificalStone;
 
 useGLTF.preload('/sacrificialstone-transformed.glb');

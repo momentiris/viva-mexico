@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { models } from './models/index';
+import { models } from '../models/index';
 
 export const Models = () => {
   return (
