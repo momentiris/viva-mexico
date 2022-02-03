@@ -35,7 +35,7 @@ body {
     @apply text-2xl tracking-wide font-bold mb-4 max-w-xl;
   }
 
-  a {
+  .link {
     @apply underline;
   }
 

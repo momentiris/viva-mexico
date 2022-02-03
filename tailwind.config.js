@@ -13,6 +13,9 @@ module.exports = {
         orange: '#FF7E33',
         beige: '#BDB199',
       },
+      backgroundImage: {
+        start: "url('/bg-start.svg')",
+      },
     },
   },
   plugins: [],

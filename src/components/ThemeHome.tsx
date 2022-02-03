@@ -7,7 +7,7 @@ type ThemeHomeProps = {
 
 export const ThemeHome = ({ theme }: ThemeHomeProps) => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center pt-8 pb-8 px-6">
       <div className="max-w-xl">
         <div className="italic mb-4 text-sm">{theme.label}</div>
         {theme.content.map((content, index) => (

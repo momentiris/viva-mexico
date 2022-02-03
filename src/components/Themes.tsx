@@ -3,7 +3,7 @@ import { themes } from '../content/themes/index';
 
 export const Themes = () => {
   return (
-    <div className="w-full h-full flex flex-col">
+    <div className="w-full h-full flex flex-col pt-8 pb-8 px-6">
       <h1 className="text-4xl font-black text-gray-800 mx-auto text-center">
         Viva México!
       </h1>
@@ -12,7 +12,7 @@ export const Themes = () => {
           <ThemeColor key={theme.name} themeName={theme.name}>
             <Link
               to={`${theme.name}`}
-              className="text-3xl font-black no-underline py-2 px-4"
+              className="text-3xl text-center font-black no-underline py-2 px-4"
             >
               {theme.label} / {theme.labelTranslation}
             </Link>
