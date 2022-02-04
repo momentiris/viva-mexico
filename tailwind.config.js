@@ -4,7 +4,6 @@ module.exports = {
     fontFamily: {
       sans: [
         'National',
-        'Arial',
         '-apple-system, BlinkMacSystemFont',
         'Segoe UI',
         'Roboto',

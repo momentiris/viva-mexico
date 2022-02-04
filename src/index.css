@@ -21,11 +21,14 @@ body {
 }
 
 @layer components {
+  body {
+    @apply bg-lightGrey;
+  }
   #root {
     @apply flex;
   }
   .heading-1 {
-    @apply text-3xl tracking-wide font-bold mb-6 max-w-xl;
+    @apply text-3xl tracking-wide font-bold mb-12 max-w-xl;
   }
 
   .heading-2 {
@@ -37,6 +40,6 @@ body {
   }
 
   .paragraph {
-    @apply max-w-xl mb-6 leading-relaxed tracking-wide text-lg;
+    @apply max-w-xl mb-8 last:mb-0 leading-relaxed tracking-wide text-xl;
   }
 }

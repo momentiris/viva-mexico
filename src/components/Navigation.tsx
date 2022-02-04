@@ -26,10 +26,15 @@ type NavLinksProps = {
 
 const NavLinks = ({ onClick }: NavLinksProps) => {
   return (
-    <ul className="text-gray-200 font-black text-3xl flex flex-col gap-4">
+    <ul className="text-gray-200 font-bold text-3xl flex flex-col gap-4">
       <li className="hover:bg-gray-200 active:bg-gray-200 hover:text-gray-800 active:text-gray-800 p-2 w-max transition-colors duration-150">
         <NavLink onClick={onClick} to="/">
           Start
+        </NavLink>
+      </li>
+      <li className="hover:bg-gray-200 active:bg-gray-200 hover:text-gray-800 active:text-gray-800 p-2 w-max transition-colors duration-150">
+        <NavLink onClick={onClick} to="/themes">
+          Themes
         </NavLink>
       </li>
       <li className="hover:bg-gray-200 hover:text-gray-800 p-2 w-max transition-colors duration-150">
@@ -59,7 +64,7 @@ export const Navigation = () => {
       <div
         className={`${
           open ? 'translate-x-0' : 'translate-x-full'
-        } fixed w-screen h-screen top-0 left-0 bg-gray-800`}
+        } fixed w-screen h-screen top-0 left-0 bg-gray-800 z-10`}
       >
         <div className="flex h-full items-center justify-center">
           <NavLinks onClick={() => setOpen(false)} />

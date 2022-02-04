@@ -3,7 +3,7 @@ import { themes } from '../content/themes/index';
 
 export const Themes = () => {
   return (
-    <div className="w-full h-full flex flex-col pt-8 pb-8 px-6">
+    <div className="w-full h-full flex flex-col pt-8 pb-8 px-6 bg-lightGrey">
       <h1 className="text-4xl font-black text-gray-800 mx-auto text-center">
         Viva México!
       </h1>

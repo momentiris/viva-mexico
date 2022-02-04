@@ -7,9 +7,9 @@ type ThemeHomeProps = {
 
 export const ThemeHome = ({ theme }: ThemeHomeProps) => {
   return (
-    <div className="flex flex-col items-center pt-8 pb-8 px-6">
+    <div className="flex flex-col items-center pt-8 pb-8 px-6 bg-lightGrey h-full">
       <div className="max-w-xl">
-        <div className="italic mb-4 text-sm">{theme.label}</div>
+        <div className="italic mb-4 text-sm">{theme.labelTranslation}</div>
         {theme.content.map((content, index) => (
           <ThemeContent content={content} key={index} />
         ))}
@@ -33,7 +33,7 @@ const ThemeContent = ({ content }: ThemeContentProps) => {
           </p>
         ))}
       </div>
-      <div className="pt-4">
+      <div className="pt-8">
         <h2 className="heading-2">Theme texts</h2>
         {content.timeline.map((timelineInstance) => (
           <div key={timelineInstance.slug} className="mb-2">
@@ -46,7 +46,7 @@ const ThemeContent = ({ content }: ThemeContentProps) => {
           </div>
         ))}
       </div>
-      <div className="pt-4">
+      <div className="pt-8">
         {Boolean(content.objectTexts.length) && (
           <h2 className="heading-2">Object texts</h2>
         )}
