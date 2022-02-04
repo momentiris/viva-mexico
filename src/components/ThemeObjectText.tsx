@@ -1,6 +1,7 @@
 import { Navigate, useParams } from 'react-router-dom';
 import { Article } from './Article';
 import { utils } from '../utils';
+import { Page } from './Page';
 
 export const ThemeObjectText = () => {
   const params = useParams<'post'>();
@@ -11,5 +12,9 @@ export const ThemeObjectText = () => {
     return <Navigate to="/" />;
   }
 
-  return <Article article={post} />;
+  return (
+    <Page>
+      <Article article={post} />
+    </Page>
+  );
 };

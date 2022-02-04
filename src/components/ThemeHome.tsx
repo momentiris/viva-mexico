@@ -54,13 +54,11 @@ const ThemeContent = ({ content }: ThemeContentProps) => {
           <h2 className="heading-2">Object texts</h2>
         )}
         {content.objectTexts.map((post) => (
-          <Link
-            to={`object-text/${post.slug}`}
-            className="text-xl underline"
-            key={post.slug}
-          >
-            {post.heading}
-          </Link>
+          <div key={post.slug} className="mb-2 ">
+            <Link to={`object-text/${post.slug}`} className="text-xl underline">
+              {post.heading}
+            </Link>
+          </div>
         ))}
       </div>
     </div>
