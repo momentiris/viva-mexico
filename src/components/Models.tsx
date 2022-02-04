@@ -5,9 +5,9 @@ import { Page } from './Page';
 export const Models = () => {
   return (
     <Page>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center max-w-2xl mx-auto">
         <h1 className="heading-1">All 3D Objects</h1>
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2 justify-center">
           {models.map((model) => (
             <Link
               to={`/models/${model.slug}`}
