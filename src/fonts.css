@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'national';
+  src: url(/National-Book.woff2) format('woff2');
+  font-style: normal;
+  font-display: optional;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: '';
+  src: url(/National-Medium.woff2) format('woff2');
+  font-style: normal;
+  font-display: optional;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: '';
+  src: url(/National-Semibold.woff2) format('woff2');
+  font-style: normal;
+  font-display: optional;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: '';
+  src: url(/National-Bold.woff2) format('woff2');
+  font-style: normal;
+  font-display: optional;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: '';
+  src: url(/National-Black.woff2) format('woff2');
+  font-style: normal;
+  font-display: optional;
+  font-weight: 800;
+}

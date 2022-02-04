@@ -1,6 +1,16 @@
 module.exports = {
   content: ['./src/**/*.{html,tsx}'],
   theme: {
+    fontFamily: {
+      sans: [
+        'National',
+        'Arial',
+        '-apple-system, BlinkMacSystemFont',
+        'Segoe UI',
+        'Roboto',
+        'Oxygen',
+      ],
+    },
     extend: {
       colors: {
         green: '#3B746E',
