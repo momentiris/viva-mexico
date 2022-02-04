@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Theme, ThemeContent as ThemeContentType } from '../types';
+import { Page } from './Page';
 
 type ThemeHomeProps = {
   theme: Theme;
@@ -7,14 +8,16 @@ type ThemeHomeProps = {
 
 export const ThemeHome = ({ theme }: ThemeHomeProps) => {
   return (
-    <div className="flex flex-col items-center pt-8 pb-8 px-6 bg-lightGrey h-full">
-      <div className="max-w-xl">
-        <div className="italic mb-4 text-sm">{theme.labelTranslation}</div>
-        {theme.content.map((content, index) => (
-          <ThemeContent content={content} key={index} />
-        ))}
+    <Page>
+      <div className="flex flex-col items-center bg-lightGrey h-full">
+        <div className="max-w-xl">
+          <div className="italic mb-4 text-sm">{theme.labelTranslation}</div>
+          {theme.content.map((content, index) => (
+            <ThemeContent content={content} key={index} />
+          ))}
+        </div>
       </div>
-    </div>
+    </Page>
   );
 };
 
@@ -39,7 +42,7 @@ const ThemeContent = ({ content }: ThemeContentProps) => {
           <div key={timelineInstance.slug} className="mb-2">
             <Link
               to={`posts/${timelineInstance.slug}`}
-              className="text-lg font-semibold"
+              className="text-xl underline"
             >
               {timelineInstance.heading}
             </Link>
@@ -53,7 +56,7 @@ const ThemeContent = ({ content }: ThemeContentProps) => {
         {content.objectTexts.map((post) => (
           <Link
             to={`object-text/${post.slug}`}
-            className="text-lg font-semibold"
+            className="text-xl underline"
             key={post.slug}
           >
             {post.heading}

@@ -11,6 +11,7 @@ import { ThemeObjectText } from './components/ThemeObjectText';
 import { ScrollToTop } from './components/ScrollToTop';
 import { Models } from './components/Models';
 import { ScreenOne, ScreenTwo } from './screens';
+import { Intro } from './Intro';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ const Router = () => {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Start />} />
+        <Route path="intro" element={<Intro />} />
         <Route path="themes" element={<Themes />} />
         <Route path="themes/:theme" element={<Theme />} />
         <Route path="themes/:theme/posts/:post" element={<ThemePost />} />

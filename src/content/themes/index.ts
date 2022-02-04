@@ -6,10 +6,10 @@ import { diaDeMuertos } from './diademuertos';
 import { creationMyths } from './creation-myths';
 
 export const themes = [
-  colonization,
   origin,
-  independence,
-  deathMyths,
   creationMyths,
+  deathMyths,
+  colonization,
+  independence,
   diaDeMuertos,
 ];

@@ -1,25 +1,36 @@
 import { Link } from 'react-router-dom';
 import { themes } from '../content/themes/index';
+import { Page } from './Page';
 
 export const Themes = () => {
   return (
-    <div className="w-full h-full flex flex-col pt-8 pb-8 px-6 bg-lightGrey">
-      <h1 className="text-4xl font-black text-gray-800 mx-auto text-center">
-        Viva México!
-      </h1>
-      <div className="flex flex-grow flex-col gap-4 items-center justify-center text-white pt-8">
-        {themes.map((theme) => (
-          <ThemeColor key={theme.name} themeName={theme.name}>
+    <Page>
+      <div className="w-full h-full flex flex-col">
+        <h1 className="text-4xl font-black text-gray-800 mx-auto text-center">
+          Viva México!
+        </h1>
+        <div className="flex flex-grow flex-col gap-4 items-center justify-center text-white pt-8">
+          <ThemeColor key={'intro'} themeName={'intro'}>
             <Link
-              to={`${theme.name}`}
-              className="text-3xl text-center font-black no-underline py-2 px-4"
+              to="/intro"
+              className="text-2xl md:text-3xl text-center font-black no-underline py-2 px-4"
             >
-              {theme.label} / {theme.labelTranslation}
+              Intro /
             </Link>
           </ThemeColor>
-        ))}
+          {themes.map((theme) => (
+            <ThemeColor key={theme.name} themeName={theme.name}>
+              <Link
+                to={`${theme.name}`}
+                className="text-2xl md:text-3xl text-center font-black no-underline py-2 px-4"
+              >
+                {theme.label} / {theme.labelTranslation}
+              </Link>
+            </ThemeColor>
+          ))}
+        </div>
       </div>
-    </div>
+    </Page>
   );
 };
 
@@ -38,6 +49,7 @@ const ThemeColor = ({ children, themeName }: ThemeColorProps) => {
 
 const deriveBgColorFromThemeName = (themeName: string) =>
   ({
+    intro: 'bg-red',
     'creation-myths': 'bg-beige',
     'death-myths': 'bg-beige',
     origin: 'bg-red',

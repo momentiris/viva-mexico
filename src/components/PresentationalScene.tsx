@@ -7,9 +7,16 @@ type ModelWrapperProps = {
   children: React.ReactNode;
 };
 
+const Spinner = () => {
+  return (
+    <div className="w-screen h-screen flex items-center justify-center bg-gray-800 text-lightGrey font-bold text-xl">
+      Loading...
+    </div>
+  );
+};
 export const PresentationalScene = ({ children }: ModelWrapperProps) => (
   <div className="w-full h-full">
-    <Suspense fallback={null}>
+    <Suspense fallback={<Spinner />}>
       <Canvas>
         <ambientLight intensity={0.6} color="white" />
         <spotLight
