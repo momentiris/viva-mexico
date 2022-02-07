@@ -1,18 +1,21 @@
 import { Link } from 'react-router-dom';
 
+import { BgStart } from '../assets/bg-start';
 import { Page } from './Page';
 
 export const Start = () => (
   <Page>
-    <div className="w-full h-full bg-lightGrey flex flex-col items-center justify-around">
-      <div className="flex items-center justify-center bg-start bg-contain bg-no-repeat bg-top w-full max-w-xl h-full max-h-80" />
+    <div className="w-full h-full bg-lightGrey flex flex-col items-center justify-center">
+      <div className="flex items-center justify-center bg-start bg-contain bg-no-repeat bg-top w-full max-w-xs md:max-w-xl ">
+        <BgStart />
+      </div>
 
-      <p className="italic text-xl max-w-md text-darkGrey">
+      <p className="italic  max-w-sm text-2xl text-center text-darkGrey pt-12">
         A journey through the Mexico of traditions – where then meets now and
         life meets death.
       </p>
       <Link
-        className="p-4 drop-shadow-2xl shadow-black text-4xl  font-bold text-darkGrey underline"
+        className=" mt-12 p-4 drop-shadow-2xl shadow-black border-4 bg-blue text-white rounded-xl  border-darkGrey text-4xl font-bold underline"
         to="themes"
       >
         Explore!
