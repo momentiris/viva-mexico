@@ -1,15 +1,16 @@
 import { Link } from 'react-router-dom';
 
 import { themes } from '../content/themes/index';
+import { utils } from '../utils';
 import { Page } from './Page';
 
 export const Themes = () => {
   return (
     <Page>
       <div className="w-full h-full flex flex-col">
-        {/* <h1 className="text-4xl font-black text-gray-800 mx-auto text-center">
+        <h1 className="text-4xl font-black text-gray-800 mx-auto text-center">
           Viva México!
-        </h1> */}
+        </h1>
         <div className="flex flex-grow flex-col gap-4 items-center justify-center text-white">
           <ThemeColor key={'intro'} themeName={'intro'}>
             <Link
@@ -41,20 +42,9 @@ type ThemeColorProps = {
 };
 
 const ThemeColor = ({ children, themeName }: ThemeColorProps) => {
-  const bg = deriveBgColorFromThemeName(themeName);
+  const bg = utils.deriveBgFromThemeName(themeName);
 
   return (
-    <div className={`${bg} flex items-center justify-center `}>{children}</div>
+    <div className={`${bg} flex items-center justify-center`}>{children}</div>
   );
 };
-
-const deriveBgColorFromThemeName = (themeName: string) =>
-  ({
-    intro: 'bg-red',
-    'creation-myths': 'bg-beige',
-    'death-myths': 'bg-beige',
-    origin: 'bg-red',
-    independence: 'bg-blue',
-    colonization: 'bg-orange',
-    'dia-de-muertos': 'bg-grey',
-  }[themeName]);

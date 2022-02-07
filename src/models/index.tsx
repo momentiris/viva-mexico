@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Model } from '../types';
+
 const Maya = React.lazy(() => import('./Maya'));
 const Olmek = React.lazy(() => import('./Olmek'));
 const Toltek = React.lazy(() => import('./Toltek'));
@@ -32,35 +34,69 @@ export {
   Xochiquetzal,
 };
 
-export const models = [
-  { slug: 'maya', label: 'Maya', element: <Maya /> },
-  { slug: 'olmek', label: 'Olmek', element: <Olmek /> },
-  {
-    slug: 'sacrificialstone',
-    label: 'Sacrificial Stone',
-    element: <SacrificialStone />,
-  },
-  { slug: 'toltek', label: 'Toltek', element: <Toltek /> },
-  { slug: 'sunstone', label: 'Sun Stone', element: <SunStoneSmall /> },
-  {
-    slug: 'sacrificialcasket',
-    label: 'Sacrificial Casket',
-    element: <SacrificialCasket />,
-  },
-  { slug: 'xolo', label: 'Xolo', element: <Xolo /> },
+export const models: Model[] = [
+  { slug: 'maya', label: 'Maya', element: <Maya />, theme: 'origin' },
+  { slug: 'olmek', label: 'Olmek', element: <Olmek />, theme: 'origin' },
+  { slug: 'toltek', label: 'Toltek', element: <Toltek />, theme: 'origin' },
   {
     slug: 'chalchiutlicue',
     label: 'Chalchiutlicue',
     element: <Chalchiutlicue />,
+    theme: 'creation-myths',
   },
-  { slug: 'maskincense', label: 'Mask Incense', element: <MaskIncense /> },
-  { slug: 'knifefigure', label: 'Knife Figure', element: <KnifeFigure /> },
+  {
+    slug: 'sunstone',
+    label: 'Sun Stone',
+    element: <SunStoneSmall />,
+    theme: 'creation-myths',
+  },
+  {
+    slug: 'xochiquetzal',
+    label: 'Xochiquetzal',
+    element: <Xochiquetzal />,
+    theme: 'creation-myths',
+  },
+  {
+    slug: 'quetzalcoatl',
+    label: 'Quetzalcoatl',
+    element: <Quetzalcoatl />,
+    theme: 'creation-myths',
+  },
+  {
+    slug: 'maskincense',
+    label: 'Mask Incense',
+    element: <MaskIncense />,
+    theme: 'death-myths',
+  },
+  {
+    slug: 'knifefigure',
+    label: 'Knife Figure',
+    element: <KnifeFigure />,
+    theme: 'death-myths',
+  },
   {
     slug: 'mictlantecutli',
     label: 'Mictlantecutli',
     element: <Mictlantecutli />,
+    theme: 'death-myths',
   },
-  { slug: 'quetzalcoatl', label: 'Quetzalcoatl', element: <Quetzalcoatl /> },
-  { slug: 'skarva', label: 'Skarva', element: <Skarva /> },
-  { slug: 'xochiquetzal', label: 'Xochiquetzal', element: <Xochiquetzal /> },
+  {
+    slug: 'sacrificialcasket',
+    label: 'Sacrificial Casket',
+    element: <SacrificialCasket />,
+    theme: 'death-myths',
+  },
+  {
+    slug: 'sacrificialstone',
+    label: 'Sacrificial Stone',
+    element: <SacrificialStone />,
+    theme: 'death-myths',
+  },
+  { slug: 'xolo', label: 'Xolo', element: <Xolo />, theme: 'death-myths' },
+  {
+    slug: 'skarva',
+    label: 'Skarva',
+    element: <Skarva />,
+    theme: 'death-myths',
+  },
 ];

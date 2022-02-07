@@ -10,12 +10,12 @@ export const Start = () => (
         <BgStart />
       </div>
 
-      <p className="italic  max-w-sm text-2xl text-center text-darkGrey pt-12">
+      <p className="italic max-w-sm text-2xl text-center text-darkGrey pt-12">
         A journey through the Mexico of traditions – where then meets now and
         life meets death.
       </p>
       <Link
-        className=" mt-12 p-4 drop-shadow-2xl shadow-black border-4 bg-blue text-white rounded-xl  border-darkGrey text-4xl font-bold underline"
+        className="mt-12 py-2 px-6 border-4 bg-blue text-white rounded-xl border-darkGrey text-4xl font-bold"
         to="themes"
       >
         Explore!

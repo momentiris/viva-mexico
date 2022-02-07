@@ -1,3 +1,5 @@
+import React from 'react';
+
 export type Post = {
   slug: string;
   heading: JSX.Element;
@@ -38,6 +40,13 @@ export type InDepthText = {
   heading: JSX.Element;
   body: JSX.Element[];
   locale: Locale;
+};
+
+export type Model = {
+  slug: string;
+  label: string;
+  element: React.ReactNode;
+  theme: string;
 };
 
 export type Locale = 'en' | 'sv' | 'mx';
