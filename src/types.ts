@@ -15,7 +15,6 @@ export type Theme = {
 export type ThemeContent = {
   label: string;
   introduction: PostContent;
-  inDepthTexts: InDepthText[];
   timeline: Post[];
   labels: string[];
   objectTexts: ObjectText[];
@@ -33,14 +32,12 @@ export type ObjectText = Pick<Post, 'heading' | 'body' | 'slug'> & {
   finePrint?: string;
 };
 
-type InDepthText = {
+export type InDepthText = {
   slug: string;
   name: string;
   heading: JSX.Element;
   body: JSX.Element[];
+  locale: Locale;
 };
 
-type LabelTexts = JSX.Element[];
-
-type ObjectTexts = JSX.Element[];
-type Slug = { slug: string };
+export type Locale = 'en' | 'sv' | 'mx';

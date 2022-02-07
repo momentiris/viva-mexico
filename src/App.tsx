@@ -1,17 +1,20 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import { Theme } from './components/Theme';
-import { Themes } from './components/Themes';
-
-import { Model } from './components/Model';
-import { ThemePost } from './components/ThemePost';
-import { Layout } from './components/Layout';
-import { Start } from './components/Start';
-import { ThemeObjectText } from './components/ThemeObjectText';
-import { ScrollToTop } from './components/ScrollToTop';
-import { Models } from './components/Models';
 import { ScreenOne, ScreenTwo } from './screens';
 import { Intro } from './Intro';
+import {
+  ScrollToTop,
+  Layout,
+  Start,
+  Themes,
+  Theme,
+  ThemePost,
+  ThemeObjectText,
+  InDepths,
+  InDepth,
+  Models,
+  Model,
+} from './components';
 
 function App() {
   return (
@@ -35,6 +38,8 @@ const Router = () => {
           path="themes/:theme/object-text/:post"
           element={<ThemeObjectText />}
         />
+        <Route path="in-depth" element={<InDepths />} />
+        <Route path="in-depth/:slug" element={<InDepth />} />
         <Route path="models" element={<Models />} />
       </Route>
       <Route path="/screen/one" element={<ScreenOne />} />

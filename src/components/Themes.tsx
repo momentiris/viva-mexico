@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+
 import { themes } from '../content/themes/index';
 import { Page } from './Page';
 
@@ -6,10 +7,10 @@ export const Themes = () => {
   return (
     <Page>
       <div className="w-full h-full flex flex-col">
-        <h1 className="text-4xl font-black text-gray-800 mx-auto text-center">
+        {/* <h1 className="text-4xl font-black text-gray-800 mx-auto text-center">
           Viva México!
-        </h1>
-        <div className="flex flex-grow flex-col gap-4 items-center justify-center text-white pt-8">
+        </h1> */}
+        <div className="flex flex-grow flex-col gap-4 items-center justify-center text-white">
           <ThemeColor key={'intro'} themeName={'intro'}>
             <Link
               to="/intro"

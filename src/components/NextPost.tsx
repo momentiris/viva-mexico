@@ -1,4 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
+
 import { utils } from '../utils';
 
 export const NextPost = () => {

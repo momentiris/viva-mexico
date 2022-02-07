@@ -125,66 +125,6 @@ export const independence: Theme = {
           </span>,
         ],
       },
-      inDepthTexts: [
-        {
-          slug: 'an-instable-century',
-          name: 'An instable century',
-          heading: <span>An instable century</span>,
-          body: [
-            <span key="0">
-              After independence in 1821, Mexico went through a difficult, long
-              and bloody process. A state with its own institutions, principles
-              and laws had to be designed. Mexico also needed to strengthen its
-              territorial borders, which were threatened by two foreign powers,
-              the US (1846–48) and the French (1863–1867). During this process,
-              the country also experienced internal bloody conflicts and civil
-              war between proponents of conservative versus liberal principles
-              and values. In these conflicts, the Catholic Church took the
-              conservative side. The Church got involved in projects to
-              establish a Mexican empire led by a prince from Austria, under the
-              protection of Napoleon III of France. Even before the liberals’
-              victory over the conservatives and their imperial project, the
-              Catholic Church had already seen its material assets shrink due to
-              the nationalization of the Church’s land by the liberal
-              government. The nationalization also affected the collective
-              landholdings of the indigenous peoples. The victory against the
-              French intervention in 1867 secured the secular state of Mexico.
-              The Catholic Church was no longer allowed to interfere in politics
-              or other government activities. These experiences distinguish
-              Mexico from the rest of Latin America, where the Catholic Church
-              maintained some of its political power throughout the 20th
-              century.
-            </span>,
-          ],
-        },
-        {
-          slug: 'zapatista-movement-in-chiapas',
-          name: 'Zapatista movement in Chiapas ',
-          heading: <span>Zapatista movement in Chiapas</span>,
-          body: [
-            <span key="0">
-              In January 1994, the Zapatistas led an uprising in the state of
-              Chiapas in southern Mexico. It was an armed conflict that lasted
-              two weeks, with demands for equality, justice and democracy for
-              all of Mexico. The Zapatistas’ revolutionary movement began in the
-              countryside, by people who belonged to the Mayan indigenous
-              people. The 1994 uprising was not the first in Chiapas but, with
-              the help of the Internet, the event received a lot of
-              international attention. The Zapatistas have created their own
-              society, with their own schools, cooperatives, hospitals, courts,
-              etc. The Zapatista dolls document this historical event. The first
-              dolls appeared in 1995 and were popular souvenirs for many years.
-            </span>,
-            <span key="1">
-              The Zapatistas’ struggle for indigenous peoples’ rights continues.
-              In 2021, a group of Zapatistas traveled from Mexico to Europe to
-              make a reverse journey in the tracks of colonization. The project
-              is called “Journey for Life – Europe Chapter.”
-            </span>,
-          ],
-        },
-      ],
-
       objectTexts: [
         {
           slug: 'frida-kahlo-in-tehuana-dress',

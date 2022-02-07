@@ -43,3 +43,12 @@ body {
     @apply max-w-xl mb-8 last:mb-0 leading-relaxed tracking-wide text-xl;
   }
 }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

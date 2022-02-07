@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
+
 import { Page } from './Page';
 
 export const Start = () => (
   <Page>
-    <div className="w-full h-full bg-lightGrey flex flex-col  items-center justify-around">
-      <div className="flex items-center justify-center bg-start bg-contain bg-no-repeat bg-top w-full max-w-xl h-full max-h-96" />
+    <div className="w-full h-full bg-lightGrey flex flex-col items-center justify-around">
+      <div className="flex items-center justify-center bg-start bg-contain bg-no-repeat bg-top w-full max-w-xl h-full max-h-80" />
 
       <p className="italic text-xl max-w-md text-darkGrey">
         A journey through the Mexico of traditions – where then meets now and

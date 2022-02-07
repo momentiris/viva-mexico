@@ -161,7 +161,7 @@ export const origin: Theme = {
         'Aztec idol of the corn goddess Chicomecóatl. Mexico City. Corn is important in Mesoamerican history. Time period: 1350–1521 CE Object number: 1928.19.0134',
         'Aztec three-legged vessel. Probably a type of spice mortar (molcajete). Time period: 1250–1521 CE Object number: 1962.69.0002',
       ],
-      inDepthTexts: [],
+
       objectTexts: [],
     },
   ],

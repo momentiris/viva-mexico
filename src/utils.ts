@@ -1,6 +1,9 @@
 import { themes } from './content/themes/index';
+import { inDepthTexts } from './content/in-depth-texts';
 
 export const utils = {
+  getInDepthTextBySlug: (slug?: string) =>
+    inDepthTexts.find((post) => post.slug === slug),
   getObjectText: (slug?: string) => {
     return themes
       .flatMap((theme) =>
@@ -12,12 +15,7 @@ export const utils = {
     themes
       .flatMap((theme) => theme.content.flatMap((content) => content.timeline))
       .find((instance) => instance.slug === slug),
-  getInDepthText: (inDepthTextSlug?: string) =>
-    themes
-      .flatMap((theme) =>
-        theme.content.flatMap((content) => content.inDepthTexts)
-      )
-      .find((inDepthText) => inDepthText.slug === inDepthTextSlug),
+
   getThemeByThemeName: (themeName?: string) =>
     themes.find((theme) => theme.name === themeName),
   getNextAndPreviousPost: (

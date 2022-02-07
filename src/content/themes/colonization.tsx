@@ -238,7 +238,6 @@ export const colonization: Theme = {
         laVirgeGuadalupeTheFirstMexican,
       ],
       labels: [],
-      inDepthTexts: [],
       objectTexts: [],
     },
   ],

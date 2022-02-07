@@ -113,7 +113,6 @@ export const creationMyths: Theme = {
           </span>,
         ],
       },
-      inDepthTexts: [],
       timeline: [theSunStone, theNewFireCeremony],
       labels: [],
       objectTexts: [

@@ -127,7 +127,6 @@ export const diaDeMuertos: Theme = {
         'Silhouette figures in amate paper from the Otomi ethnic group. The paper was made from the bark of fig trees and then cut into silhouette figures or dolls. They were used in sacred rites. Common motifs are animals, gods, the devil and demons. 1968.16.0102, 1968.16.0057, 1968.16.0059, 1968.16.0060, 1968.16.0061, 1968.16.0062, 1968.16.0063, 1968.16.0064, 1968.16.0066 and 1945.11.0001',
         'Silhouette figures in tissue paper from the Otomi ethnic group. They have been used in sacred rites. 1968.16.0101, 1968.16.0102,1968.16.0103, 1968.16.0104, 1968.16.0105, 1968.16.0110, 1968.16.0095 and 1968.16.0098',
       ],
-      inDepthTexts: [],
       objectTexts: [
         {
           slug: 'flower-of-the-dead',

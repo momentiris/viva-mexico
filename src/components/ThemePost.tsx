@@ -1,7 +1,7 @@
 import { Navigate, useParams } from 'react-router-dom';
+
 import { utils } from '../utils';
 import { Article } from './Article';
-
 import { NextPost } from './NextPost';
 import { Page } from './Page';
 

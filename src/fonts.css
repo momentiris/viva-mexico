@@ -2,7 +2,7 @@
   font-family: 'National';
   src: url(/National-Book.woff2) format('woff2');
   font-style: normal;
-  font-display: optional;
+  font-display: swap;
   font-weight: 400;
 }
 
@@ -10,7 +10,7 @@
   font-family: 'National';
   src: url(/National-Medium.woff2) format('woff2');
   font-style: normal;
-  font-display: optional;
+  font-display: swap;
   font-weight: 500;
 }
 
@@ -18,7 +18,7 @@
   font-family: 'National';
   src: url(/National-Semibold.woff2) format('woff2');
   font-style: normal;
-  font-display: optional;
+  font-display: swap;
   font-weight: 600;
 }
 
@@ -26,7 +26,7 @@
   font-family: 'National';
   src: url(/National-Bold.woff2) format('woff2');
   font-style: normal;
-  font-display: optional;
+  font-display: swap;
   font-weight: 700;
 }
 
@@ -34,6 +34,6 @@
   font-family: 'National';
   src: url(/National-Black.woff2) format('woff2');
   font-style: normal;
-  font-display: optional;
+  font-display: swap;
   font-weight: 900;
 }

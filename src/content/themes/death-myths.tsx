@@ -82,7 +82,6 @@ export const deathMyths: Theme = {
           </span>,
         ],
       },
-      inDepthTexts: [],
       timeline: [rebirthAndSacrifice, theMictlanRealm],
       labels: [
         'A miniature of the sacrificial stone Piedra de Tizoc, which was found in Templo Mayor in Tenochtitlán. The heart of the victim was placed on this stone. The victim was usually a warrior from another ethnic group. A furrow runs from the center to the edge, where the blood of the victim’s heart would run out. The original stone is from the 15th century. Object number: 1936.06.0002',

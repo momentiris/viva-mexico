@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { HiMenu } from 'react-icons/hi';
 import { NavLink } from 'react-router-dom';
 
@@ -26,7 +25,7 @@ type NavLinksProps = {
 
 const NavLinks = ({ onClick }: NavLinksProps) => {
   return (
-    <ul className="text-gray-200 font-bold text-3xl flex flex-col gap-4">
+    <ul className="text-gray-200 font-bold text-3xl flex flex-col gap-2">
       <li className="hover:bg-gray-200 active:bg-gray-200 hover:text-gray-800 active:text-gray-800 p-2 w-max transition-colors duration-150">
         <NavLink onClick={onClick} to="/">
           Start
@@ -42,10 +41,31 @@ const NavLinks = ({ onClick }: NavLinksProps) => {
           3D - Objects
         </NavLink>
       </li>
-      <li className="hover:bg-gray-200 hover:text-gray-800 p-2 w-max transition-colors duration-150">
-        <NavLink onClick={onClick} to="/in-depth">
-          In-depth texts
+      <li className="">
+        <NavLink
+          onClick={onClick}
+          to="/in-depth"
+          className="hover:bg-gray-200 hover:text-gray-800 p-2 w-max transition-colors duration-150 block mb-2"
+        >
+          In-depth texts / Lee mas
         </NavLink>
+        <ul className="flex flex-col gap-2">
+          <li className="hover:bg-gray-200 hover:text-gray-800 p-1 ml-8 w-max transition-colors duration-150 text-2xl">
+            <NavLink onClick={onClick} to="/in-depth?lang=en">
+              - English
+            </NavLink>
+          </li>
+          <li className="hover:bg-gray-200 hover:text-gray-800 p-1 ml-8 w-max transition-colors duration-150 text-2xl">
+            <NavLink onClick={onClick} to="/in-depth?lang=sv">
+              - Svenska
+            </NavLink>
+          </li>
+          <li className="hover:bg-gray-200 hover:text-gray-800 p-1 ml-8 w-max transition-colors duration-150 text-2xl">
+            <NavLink onClick={onClick} to="/in-depth?lang=mx">
+              - Español
+            </NavLink>
+          </li>
+        </ul>
       </li>
       <li className="hover:bg-gray-200 hover:text-gray-800 p-2 w-max transition-colors duration-150">
         <NavLink onClick={onClick} to="/map">

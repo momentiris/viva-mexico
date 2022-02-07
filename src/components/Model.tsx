@@ -1,7 +1,6 @@
 import { Navigate, useParams } from 'react-router-dom';
 
 import { PresentationalScene } from './PresentationalScene';
-
 import { models } from '../models/index';
 
 export const Model = () => {
