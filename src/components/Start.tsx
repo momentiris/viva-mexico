@@ -6,7 +6,7 @@ import { Page } from './Page';
 export const Start = () => (
   <Page>
     <div className="w-full h-full bg-lightGrey flex flex-col items-center justify-center">
-      <div className="flex items-center justify-center bg-start bg-contain bg-no-repeat bg-top w-full max-w-xs md:max-w-xl ">
+      <div className="flex items-center justify-center w-full max-w-xs md:max-w-xl">
         <BgStart />
       </div>
 
