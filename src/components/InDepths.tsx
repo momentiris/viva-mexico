@@ -12,7 +12,7 @@ export const InDepths = () => {
   return (
     <Page>
       <div className="flex flex-col gap-8 items-center">
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-12">
           {Object.entries(
             inDepthTexts.reduce(asLocaleMap, { sv: [], en: [], mx: [] })
           )
@@ -40,7 +40,7 @@ type SectionProps = {
 const Section = ({ label, posts }: SectionProps) => (
   <div>
     <h2 className="heading-2">{label}</h2>
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-4">
       {posts.map((post) => (
         <Link
           key={post.slug}
