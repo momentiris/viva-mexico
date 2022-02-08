@@ -7,7 +7,7 @@ import { Page } from './Page';
 
 export const ThemePost = () => {
   const params = useParams<'post'>();
-  const post = utils.getPost(params.post);
+  const post = utils.getInDepthTextBySlug(params.post);
 
   if (!post) {
     return <Navigate to="/" />;

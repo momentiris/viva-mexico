@@ -6,7 +6,7 @@ import { Page } from './Page';
 
 export const ThemeObjectText = () => {
   const params = useParams<'post'>();
-  const post = utils.getObjectText(params.post);
+  const post = utils.getObjectTextBySlug(params.post);
 
   if (!post) {
     console.warn('no object text found for slug: ', post);
