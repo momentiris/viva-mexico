@@ -11,11 +11,11 @@ export const Themes = () => {
         <h1 className="text-4xl font-black text-gray-800 mx-auto text-center">
           Viva México!
         </h1>
-        <div className="flex flex-grow flex-col gap-4 items-center justify-center text-white">
+        <div className="flex flex-grow flex-col gap-4 items-center justify-center text-white max-w-md mx-auto">
           <ThemeColor key={'intro'} themeName={'intro'}>
             <Link
               to="/intro"
-              className="text-2xl md:text-3xl text-center font-black no-underline py-2 px-4"
+              className="text-2xl md:text-3xl text-center font-black py-2 px-4"
             >
               Intro /
             </Link>
@@ -24,12 +24,20 @@ export const Themes = () => {
             <ThemeColor key={theme.name} themeName={theme.name}>
               <Link
                 to={`${theme.name}`}
-                className="text-2xl md:text-3xl text-center font-black no-underline py-2 px-4"
+                className="text-2xl md:text-3xl text-center font-black py-2 px-4"
               >
                 {theme.label} / {theme.labelTranslation}
               </Link>
             </ThemeColor>
           ))}
+          <ThemeColor key={'huacal'} themeName={'Huacal wall'}>
+            <Link
+              to="/huacal-wall"
+              className="text-2xl md:text-3xl text-center bg-black text-white w-full border-4 font-black py-2 px-4"
+            >
+              Huacal wall /
+            </Link>
+          </ThemeColor>
         </div>
       </div>
     </Page>
@@ -45,6 +53,8 @@ const ThemeColor = ({ children, themeName }: ThemeColorProps) => {
   const bg = utils.deriveBgFromThemeName(themeName);
 
   return (
-    <div className={`${bg} flex items-center justify-center`}>{children}</div>
+    <div className={`${bg} flex items-center justify-center w-full`}>
+      {children}
+    </div>
   );
 };

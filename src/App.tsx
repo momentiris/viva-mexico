@@ -15,6 +15,7 @@ import {
   Models,
   Model,
 } from './components';
+import { HuacalWall } from './HuacalWall';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ const Router = () => {
       <Route path="/" element={<Layout />}>
         <Route index element={<Start />} />
         <Route path="intro" element={<Intro />} />
+        <Route path="huacal-wall" element={<HuacalWall />} />
         <Route path="themes" element={<Themes />} />
         <Route path="themes/:theme" element={<Theme />} />
         <Route path="themes/:theme/posts/:post" element={<ThemePost />} />
