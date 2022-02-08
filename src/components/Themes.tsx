@@ -8,8 +8,8 @@ export const Themes = () => {
   return (
     <Page>
       <div className="w-full h-full flex flex-col">
-        <h1 className="text-4xl font-black text-gray-800 mx-auto text-center">
-          Viva México!
+        <h1 className="heading-1 font-black text-gray-800 mx-auto text-center">
+          Viva México! / themes
         </h1>
         <div className="flex flex-grow flex-col gap-4 items-center justify-center text-white max-w-md mx-auto">
           <ThemeColor key={'intro'} themeName={'intro'}>

@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import { ScreenOne, ScreenTwo } from './screens';
 import { Intro } from './Intro';
+import { HuacalWall } from './HuacalWall';
 import {
   ScrollToTop,
   Layout,
@@ -15,7 +16,6 @@ import {
   Models,
   Model,
 } from './components';
-import { HuacalWall } from './HuacalWall';
 
 function App() {
   return (

@@ -21,7 +21,7 @@ const article: PostContent = {
       into a sort of recycling center. Many people work here day and night to
       scrape together a decent wage.
     </p>,
-    <p key="2">
+    <p key="3">
       These two places made scenic designer Diblik Rabia think about the Mexican
       society and its cultural identity. Here, the Mesoamerican roots exist side
       by side with the global present and its tough working conditions. The
