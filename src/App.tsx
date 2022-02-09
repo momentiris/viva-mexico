@@ -43,10 +43,10 @@ const Router = () => {
         <Route path="in-depth" element={<InDepths />} />
         <Route path="in-depth/:slug" element={<InDepth />} />
         <Route path="models" element={<Models />} />
+        <Route path="/models/:model" element={<Model />} />
       </Route>
       <Route path="/screen/one" element={<ScreenOne />} />
       <Route path="/screen/two" element={<ScreenTwo />} />
-      <Route path="/models/:model" element={<Model />} />
     </Routes>
   );
 };

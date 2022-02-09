@@ -15,7 +15,7 @@ export const ThemePost = () => {
 
   return (
     <Page>
-      <div className="flex flex-grow flex-col h-full bg-lightGrey">
+      <div className="flex flex-grow flex-col h-full">
         <Article article={post} />
         <div className="flex flex-grow " />
         <NextPost />

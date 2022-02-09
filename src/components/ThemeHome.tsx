@@ -10,9 +10,11 @@ type ThemeHomeProps = {
 export const ThemeHome = ({ theme }: ThemeHomeProps) => {
   return (
     <Page>
-      <div className="flex flex-col items-center bg-lightGrey h-full">
+      <div className="flex flex-col items-center h-full">
         <div className="max-w-xl">
-          <div className="italic mb-4 text-sm">{theme.labelTranslation}</div>
+          <div className="italic mb-4 pt-4 text-sm">
+            {theme.labelTranslation}
+          </div>
           {theme.content.map((content, index) => (
             <ThemeContent content={content} key={index} />
           ))}

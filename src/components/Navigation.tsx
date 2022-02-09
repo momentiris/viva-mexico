@@ -13,9 +13,9 @@ const Hamburger = ({
     onClick={onClick}
     className={`${
       isActive ? 'bg-gray-100 text-black' : 'bg-gray-800 text-gray-100'
-    } p-4 w-max rounded-full flex items-center justify-center drop-shadow-lg shadow-black`}
+    } p-2 w-max rounded-full flex items-center justify-center drop-shadow-lg shadow-black`}
   >
-    <HiMenu size="24" />
+    <HiMenu size="20" />
   </button>
 );
 
@@ -67,11 +67,6 @@ const NavLinks = ({ onClick }: NavLinksProps) => {
           </li>
         </ul>
       </li>
-      <li className="hover:bg-gray-200 hover:text-gray-800 p-2 w-max transition-colors duration-150">
-        <NavLink onClick={onClick} to="/map">
-          Map
-        </NavLink>
-      </li>
     </ul>
   );
 };
@@ -90,7 +85,18 @@ export const Navigation = () => {
           <NavLinks onClick={() => setOpen(false)} />
         </div>
       </div>
-      <div className="fixed top-5 right-5 z-50">
+      <div
+        className={`${
+          !open ? 'bg-white  border-gray-800 border-b-4' : ''
+        } fixed top-0 left-0 w-full flex items-center justify-between z-50 pt-4 pb-2 px-4`}
+      >
+        <div
+          className={`${
+            open ? 'text-lightGrey' : 'text-gray-800'
+          } text-xl font-black`}
+        >
+          ¡VIVA MÉXICO!
+        </div>
         <Hamburger isActive={open} onClick={() => setOpen((open) => !open)} />
       </div>
     </>

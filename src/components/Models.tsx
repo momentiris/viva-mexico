@@ -8,7 +8,7 @@ import { Page } from './Page';
 export const Models = () => (
   <Page>
     <div className="flex flex-col items-center max-w-2xl mx-auto">
-      <div className="flex flex-col gap-8 max-w-md items-center text-center">
+      <div className="flex flex-col gap-8 max-w-md items-center text-center pt-8">
         {Object.entries(models.reduce(asThemeMap, {})).map(
           ([theme, models]) => (
             <div

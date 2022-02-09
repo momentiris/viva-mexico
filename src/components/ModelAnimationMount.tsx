@@ -12,6 +12,7 @@ export const ModelAnimationMount = ({ children }: ModelAnimationMountProps) => {
       animate={{ rotateY: 0, scale: 1 }}
       transition={{ type: 'spring', duration: 6 }}
     >
+      <group></group>
       {children}
     </motion.group>
   );

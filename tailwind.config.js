@@ -24,6 +24,7 @@ module.exports = {
       },
       backgroundImage: {
         start: "url('/bg-start.svg')",
+        fade: 'linear-gradient(180deg, rgba(255,255,255,1) 74%, rgba(255,255,255,0) 100%)',
       },
     },
   },

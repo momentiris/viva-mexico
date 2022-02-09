@@ -11,7 +11,7 @@ export const InDepths = () => {
 
   return (
     <Page>
-      <div className="flex flex-col gap-8 items-center">
+      <div className="flex flex-col gap-8 items-center pt-8">
         <div className="flex flex-col gap-12">
           {Object.entries(
             inDepthTexts.reduce(asLocaleMap, { sv: [], en: [], mx: [] })
