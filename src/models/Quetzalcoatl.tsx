@@ -19,7 +19,7 @@ type GLTFResult = GLTF & {
 const Quetzalcoatl = ({ ...props }: JSX.IntrinsicElements['group']) => {
   const group = useRef<THREE.Group>();
   const { nodes, materials } = useGLTF(
-    '/quetzalcoatl-transformed.glb'
+    '/quetzalcoatl-2-transformed.glb'
   ) as GLTFResult;
 
   return (
@@ -29,6 +29,7 @@ const Quetzalcoatl = ({ ...props }: JSX.IntrinsicElements['group']) => {
         geometry={nodes['1911070002'].geometry}
         material={materials['Material #25']}
         scale={0.01}
+        position={[0, -1.6, 0]}
       />
     </group>
   );
@@ -36,4 +37,4 @@ const Quetzalcoatl = ({ ...props }: JSX.IntrinsicElements['group']) => {
 
 export default Quetzalcoatl;
 
-useGLTF.preload('/quetzalcoatl-transformed.glb');
+useGLTF.preload('/quetzalcoatl-2-transformed.glb');
