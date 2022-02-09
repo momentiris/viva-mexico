@@ -8,16 +8,19 @@ export const Themes = () => {
   return (
     <Page>
       <div className="w-full h-full flex flex-col">
-        <h1 className="heading-1 font-black text-gray-800 mx-auto text-center">
-          Viva México! / themes
+        <h1 className="text-3xl font-black text-gray-800 mx-auto text-center">
+          ¡Viva México!
         </h1>
+        <h2 className="mt-4 my-8 text-grey text-2xl font-bold mx-auto">
+          Themes
+        </h2>
         <div className="flex flex-grow flex-col gap-4 items-center justify-center text-white max-w-md mx-auto">
           <ThemeColor key={'intro'} themeName={'intro'}>
             <Link
               to="/intro"
               className="text-2xl md:text-3xl text-center font-black py-2 px-4"
             >
-              Intro /
+              Intro
             </Link>
           </ThemeColor>
           {themes.map((theme) => (
@@ -26,16 +29,17 @@ export const Themes = () => {
                 to={`${theme.name}`}
                 className="text-2xl md:text-3xl text-center font-black py-2 px-4"
               >
-                {theme.label} / {theme.labelTranslation}
+                {theme.label}
+                {theme.labelTranslation && ' / ' + theme.labelTranslation}
               </Link>
             </ThemeColor>
           ))}
           <ThemeColor key={'huacal'} themeName={'Huacal wall'}>
             <Link
               to="/huacal-wall"
-              className="text-2xl md:text-3xl text-center bg-black text-white w-full border-4 font-black py-2 px-4"
+              className="text-2xl md:text-3xl text-center bg-black text-white w-full font-black py-2 px-4"
             >
-              Huacal wall /
+              Huacal wall
             </Link>
           </ThemeColor>
         </div>

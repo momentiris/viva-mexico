@@ -43,7 +43,7 @@ const ThemeContent = ({ content }: ThemeContentProps) => {
           <div key={timelineInstance.slug} className="mb-2">
             <Link
               to={`posts/${timelineInstance.slug}`}
-              className="text-xl underline"
+              className="text-xl underline underline-offset-1"
             >
               {timelineInstance.heading}
             </Link>
@@ -56,7 +56,10 @@ const ThemeContent = ({ content }: ThemeContentProps) => {
         )}
         {content.objectTexts.map((post) => (
           <div key={post.slug} className="mb-2 ">
-            <Link to={`object-text/${post.slug}`} className="text-xl underline">
+            <Link
+              to={`object-text/${post.slug}`}
+              className="text-xl underline underline-offset-1"
+            >
               {post.heading}
             </Link>
           </div>

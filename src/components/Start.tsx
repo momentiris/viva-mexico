@@ -13,7 +13,7 @@ export const Start = () => (
       meets death.
     </p>
     <Link
-      className="py-1 px-4 border-4 bg-blue text-white rounded-xl border-darkGrey text-3xl font-bold"
+      className="py-1 px-4 border-4 text-darkGrey rounded-xl border-darkGrey text-3xl font-bold"
       to="themes"
     >
       Explore!
