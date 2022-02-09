@@ -28,7 +28,7 @@ const Mictlantecutli = ({ ...props }: JSX.IntrinsicElements['group']) => {
         geometry={nodes['1949030001_(mictlantecutli)'].geometry}
         material={materials['Material #43']}
         scale={0.011}
-        position={[0, -1.2, 0]}
+        position={[0, -1.7, 0]}
       />
     </group>
   );

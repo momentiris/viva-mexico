@@ -26,7 +26,7 @@ const Maya = ({ ...props }: JSX.IntrinsicElements['group']) => {
       <mesh
         geometry={nodes['1923060589_(maya-figur)'].geometry}
         material={materials['Material #31']}
-        position={[0, -1.5, 0]}
+        position={[0, -1.7, 0]}
         scale={0.02}
       />
     </group>

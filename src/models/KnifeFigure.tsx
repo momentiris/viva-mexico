@@ -27,7 +27,8 @@ const KnifeFigure = ({ ...props }: JSX.IntrinsicElements['group']) => {
       <mesh
         geometry={nodes['1944020034_(knivfigur)'].geometry}
         material={materials['Material #44']}
-        scale={0.017}
+        position={[0, -0.6, 0]}
+        scale={0.015}
       />
     </group>
   );

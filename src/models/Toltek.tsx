@@ -25,7 +25,7 @@ const Toltek = ({ ...props }) => {
       <mesh
         geometry={nodes['1962690010_(toltek-figur)'].geometry}
         material={materials['Material #25.001']}
-        position={[0.02, -0.9, 0.01]}
+        position={[0.02, -1.4, 0.1]}
         scale={0.04}
       />
     </group>

@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 import { ScreenOne, ScreenTwo } from './screens';
 import { Intro } from './Intro';
@@ -47,6 +47,7 @@ const Router = () => {
       </Route>
       <Route path="/screen/one" element={<ScreenOne />} />
       <Route path="/screen/two" element={<ScreenTwo />} />
+      <Route path="*" element={<Navigate to="/" />} />
     </Routes>
   );
 };

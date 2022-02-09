@@ -24,7 +24,7 @@ const Xolo = ({ ...props }: JSX.IntrinsicElements['group']) => {
       <mesh
         geometry={nodes['1923060545_(xolo)'].geometry}
         material={materials['Material #27']}
-        position={[0, -0.5, 0]}
+        position={[0, -1, 0]}
         scale={0.007}
       />
     </group>

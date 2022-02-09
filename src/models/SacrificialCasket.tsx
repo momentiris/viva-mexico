@@ -25,7 +25,7 @@ const SacrificialCasket = ({ ...props }: JSX.IntrinsicElements['group']) => {
   ) as GLTFResult;
   return (
     <group ref={group} {...props} dispose={null}>
-      <group position={[0, 0, 0]} scale={0.008} rotation={[0.3, 1, 0]}>
+      <group position={[0, 0, 0]} scale={0.007} rotation={[0.3, 1, 0]}>
         <mesh
           geometry={nodes.Mesh001.geometry}
           material={materials['Material #26']}

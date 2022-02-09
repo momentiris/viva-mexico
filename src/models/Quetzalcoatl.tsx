@@ -29,7 +29,7 @@ const Quetzalcoatl = ({ ...props }: JSX.IntrinsicElements['group']) => {
         geometry={nodes['1911070002'].geometry}
         material={materials['Material #25']}
         scale={0.01}
-        position={[0, -1.6, 0]}
+        position={[0, -1.8, 0]}
       />
     </group>
   );

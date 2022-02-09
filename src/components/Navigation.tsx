@@ -13,7 +13,7 @@ const Hamburger = ({
     onClick={onClick}
     className={`${
       isActive ? 'bg-gray-100 text-black' : 'bg-gray-800 text-gray-100'
-    } p-2 w-max rounded-full flex items-center justify-center drop-shadow-lg shadow-black`}
+    } p-2 w-max rounded-full flex items-center justify-center drop-shadow-md shadow-black`}
   >
     <HiMenu size="20" />
   </button>
