@@ -1,6 +1,6 @@
 import React from 'react';
 import { HiMenu } from 'react-icons/hi';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 const Hamburger = ({
   onClick,
@@ -73,6 +73,8 @@ const NavLinks = ({ onClick }: NavLinksProps) => {
 
 export const Navigation = () => {
   const [open, setOpen] = React.useState(false);
+  const location = useLocation();
+  const isHome = location.pathname === '/';
 
   return (
     <>
@@ -86,8 +88,8 @@ export const Navigation = () => {
         </div>
       </div>
       <div
-        className={`${
-          !open ? 'bg-white  border-gray-800 border-b-4' : ''
+        className={`${!open ? 'bg-white' : ''} ${
+          !isHome ? 'border-b-4 border-gray-800' : ''
         } fixed top-0 left-0 w-full flex items-center justify-between z-50 pt-4 pb-2 px-4`}
       >
         <div

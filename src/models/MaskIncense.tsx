@@ -28,7 +28,7 @@ const MaskIncense = ({ ...props }: JSX.IntrinsicElements['group']) => {
         name="1935082774_(maskskärva)"
         geometry={nodes['1935082774_(maskskärva)'].geometry}
         material={materials['Material #29']}
-        position={[0, -4, -0.3]}
+        position={[0, 0.1, -0.3]}
         rotation={[Math.PI / 2, 0, 0]}
         scale={0.02}
       />

@@ -21,7 +21,12 @@ export const PresentationalScene = ({ children }: ModelWrapperProps) => (
           castShadow
         />
 
-        <OrbitControls autoRotate={true} autoRotateSpeed={1} />
+        <OrbitControls
+          autoRotate={true}
+          autoRotateSpeed={1}
+          maxDistance={5}
+          minDistance={0}
+        />
         <Float speed={2} rotationIntensity={1} floatIntensity={2}>
           <ModelAnimationMount>{children}</ModelAnimationMount>
         </Float>
