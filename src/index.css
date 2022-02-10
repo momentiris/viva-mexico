@@ -8,25 +8,24 @@
 }
 
 body {
-  min-height: 100vh;
-}
-
-#root {
-  height: 100%;
-}
-
-body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+html {
+  min-height: 100%;
+  display: flex;
+  flex-grow: 1;
 }
 
 @layer components {
   body {
-    @apply bg-white;
+    @apply bg-white pt-16 flex flex-col flex-grow;
   }
+
   #root {
-    @apply flex;
+    @apply flex flex-grow;
   }
+
   .heading-1 {
     @apply text-3xl tracking-wide font-bold mb-12 max-w-xl;
   }

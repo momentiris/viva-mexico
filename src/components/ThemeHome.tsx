@@ -10,7 +10,7 @@ type ThemeHomeProps = {
 export const ThemeHome = ({ theme }: ThemeHomeProps) => {
   return (
     <Page>
-      <div className="flex flex-col items-center h-full">
+      <div className="flex flex-col items-center">
         <div className="max-w-xl">
           <div className="italic mb-4 pt-4 text-sm">
             {theme.labelTranslation}

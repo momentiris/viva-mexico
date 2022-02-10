@@ -12,7 +12,7 @@ export const NextPost = () => {
   );
 
   return (
-    <div className="mx-auto max-w-sm w-full flex justify-between text-xl pt-12 font-medium  underline">
+    <div className="w-full flex justify-center gap-32 text-xl pt-12 font-medium underline mt-auto">
       <div>
         <Link
           className={

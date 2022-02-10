@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { BgStart } from '../assets/bg-start';
 
 export const Start = () => (
-  <div className="w-full h-full p-4 flex flex-col items-center justify-center">
+  <div className="w-full p-4 flex flex-col items-center justify-center pt-20">
     <div className="flex items-center justify-center w-full max-w-xs md:max-w-xl h-1/3 md:h-1/2">
       <BgStart />
     </div>

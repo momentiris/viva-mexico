@@ -1,6 +1,6 @@
 import React from 'react';
 import { HiMenu } from 'react-icons/hi';
-import { NavLink, useLocation } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 
 const Hamburger = ({
   onClick,
@@ -97,7 +97,7 @@ export const Navigation = () => {
             open ? 'text-lightGrey' : 'text-gray-800'
           } text-xl font-black`}
         >
-          ¡VIVA MÉXICO!
+          <Link to="/">¡VIVA MÉXICO!</Link>
         </div>
         <Hamburger isActive={open} onClick={() => setOpen((open) => !open)} />
       </div>

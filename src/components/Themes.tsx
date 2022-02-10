@@ -7,38 +7,38 @@ import { Page } from './Page';
 export const Themes = () => {
   return (
     <Page>
-      <div className="w-full h-full flex flex-col">
+      <div className="w-full flex flex-col items-center">
         <h2 className="mt-4 my-8 text-gray-800 text-2xl font-bold mx-auto">
           Themes
         </h2>
-        <div className="flex flex-grow flex-col gap-4 items-center justify-center text-white max-w-md mx-auto">
-          <ThemeColor key={'intro'} themeName={'intro'}>
-            <Link
-              to="/intro"
-              className="text-2xl md:text-3xl text-center font-black py-2 px-4"
-            >
-              Intro
-            </Link>
-          </ThemeColor>
+        <div className="flex flex-grow flex-col gap-4 items-center text-white max-w-md mx-auto">
+          <Link
+            to="/intro"
+            className={`${utils.deriveBgFromThemeName(
+              'intro'
+            )} text-2xl md:text-3xl text-center font-black py-2 px-4 w-full`}
+          >
+            Intro
+          </Link>
           {themes.map((theme) => (
             <ThemeColor key={theme.name} themeName={theme.name}>
               <Link
                 to={`${theme.name}`}
-                className="text-2xl md:text-3xl text-center font-black py-2 px-4"
+                className={`${utils.deriveBgFromThemeName(
+                  theme.name
+                )} text-2xl md:text-3xl text-center font-black py-2 px-4 w-full`}
               >
                 {theme.label}
                 {theme.labelTranslation && ' / ' + theme.labelTranslation}
               </Link>
             </ThemeColor>
           ))}
-          <ThemeColor key={'huacal'} themeName={'Huacal wall'}>
-            <Link
-              to="/huacal-wall"
-              className="text-2xl md:text-3xl text-center bg-black text-white w-full font-black py-2 px-4"
-            >
-              Huacal wall
-            </Link>
-          </ThemeColor>
+          <Link
+            to="/huacal-wall"
+            className="text-2xl md:text-3xl text-center bg-black text-white w-full font-black py-2 px-4"
+          >
+            Huacal wall
+          </Link>
         </div>
       </div>
     </Page>
