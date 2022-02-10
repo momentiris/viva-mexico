@@ -11,7 +11,7 @@ type ModelWrapperProps = {
 export const PresentationalScene = ({ children }: ModelWrapperProps) => (
   <div className="w-full h-full">
     <React.Suspense fallback={<Spinner />}>
-      <Canvas>
+      <Canvas className="w-full h-full">
         <ambientLight intensity={0.6} color="white" />
         <spotLight
           intensity={0.6}
@@ -24,8 +24,9 @@ export const PresentationalScene = ({ children }: ModelWrapperProps) => (
         <OrbitControls
           autoRotate={true}
           autoRotateSpeed={1}
-          maxDistance={5}
+          maxDistance={6}
           minDistance={0}
+          enablePan={false}
         />
         <Float speed={2} rotationIntensity={1} floatIntensity={2}>
           <ModelAnimationMount>{children}</ModelAnimationMount>

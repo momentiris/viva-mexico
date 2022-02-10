@@ -25,7 +25,7 @@ const Skarva = ({ ...props }: JSX.IntrinsicElements['group']) => {
         geometry={nodes['1923080684_(skärva)'].geometry}
         material={materials['Material #39']}
         scale={0.025}
-        position={[0, -0.5, 0]}
+        position={[0, -1.5, 0]}
       />
     </group>
   );

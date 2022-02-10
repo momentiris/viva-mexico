@@ -4,7 +4,7 @@ import { Navigation } from './Navigation';
 
 export const Layout = () => {
   return (
-    <div className="w-full flex pt-8">
+    <div className="w-full h-full">
       <Navigation />
       <Outlet />
     </div>

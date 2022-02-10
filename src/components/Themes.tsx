@@ -7,11 +7,11 @@ import { Page } from './Page';
 export const Themes = () => {
   return (
     <Page>
-      <div className="w-full flex flex-col items-center">
+      <div className="w-full flex flex-col items-center md:justify-center flex-grow">
         <h2 className="mt-4 my-8 text-gray-800 text-2xl font-bold mx-auto">
           Themes
         </h2>
-        <div className="flex flex-grow flex-col gap-4 items-center text-white max-w-md mx-auto">
+        <div className="flex  flex-col gap-4 items-center text-white max-w-md ">
           <Link
             to="/intro"
             className={`${utils.deriveBgFromThemeName(

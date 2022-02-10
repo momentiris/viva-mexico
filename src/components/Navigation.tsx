@@ -13,9 +13,9 @@ const Hamburger = ({
     onClick={onClick}
     className={`${
       isActive ? 'bg-gray-100 text-black' : 'bg-gray-800 text-gray-100'
-    } p-2 w-max rounded-full flex items-center justify-center drop-shadow-md shadow-black`}
+    } w-10 h-10 rounded-full flex items-center justify-center drop-shadow-md shadow-black`}
   >
-    <HiMenu size="20" />
+    <HiMenu size="24" />
   </button>
 );
 
@@ -81,7 +81,7 @@ export const Navigation = () => {
       <div
         className={`${
           open ? 'translate-x-0' : 'translate-x-full'
-        } fixed w-screen h-screen top-0 left-0 bg-gray-800 z-10`}
+        } fixed w-screen h-full top-0 left-0 bg-gray-800 z-10`}
       >
         <div className="flex h-full items-center justify-center">
           <NavLinks onClick={() => setOpen(false)} />
@@ -90,14 +90,17 @@ export const Navigation = () => {
       <div
         className={`${!open ? 'bg-white' : ''} ${
           !isHome ? 'border-b-4 border-gray-800' : ''
-        } fixed top-0 left-0 w-full flex items-center justify-between z-50 pt-4 pb-2 px-4`}
+        } fixed top-0 left-0 w-full flex items-center justify-between pt-4 pb-4 px-4`}
+        style={{ zIndex: '9999' }}
       >
         <div
           className={`${
             open ? 'text-lightGrey' : 'text-gray-800'
           } text-xl font-black`}
         >
-          <Link to="/">¡VIVA MÉXICO!</Link>
+          <Link onClick={() => setOpen(false)} to="/">
+            ¡VIVA MÉXICO!
+          </Link>
         </div>
         <Hamburger isActive={open} onClick={() => setOpen((open) => !open)} />
       </div>

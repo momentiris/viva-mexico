@@ -12,7 +12,7 @@ export const Model = () => {
   }
 
   return (
-    <div className="bg-gradient-to-bl from-gray-900 to-gray-600 w-full h-screen">
+    <div className="bg-gradient-to-bl from-gray-900 to-gray-600 h-full pt-20">
       <PresentationalScene>{model.element}</PresentationalScene>
     </div>
   );

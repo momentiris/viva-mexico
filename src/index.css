@@ -19,7 +19,7 @@ html {
 
 @layer components {
   body {
-    @apply bg-white pt-16 flex flex-col flex-grow;
+    @apply bg-white flex flex-col flex-grow;
   }
 
   #root {

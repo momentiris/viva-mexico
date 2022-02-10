@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import { BgStart } from '../assets/bg-start';
 
 export const Start = () => (
-  <div className="w-full p-4 flex flex-col items-center justify-center pt-20">
-    <div className="flex items-center justify-center w-full max-w-xs md:max-w-xl h-1/3 md:h-1/2">
+  <div className="w-full p-4 flex flex-col items-center justify-center h-full pt-20 md:pt-4">
+    <div className="flex items-center justify-center w-full max-w-xs md:max-w-xl h-44 md:h-1/2">
       <BgStart />
     </div>
 
@@ -12,6 +12,7 @@ export const Start = () => (
       A journey through the Mexico of traditions – where then meets now and life
       meets death.
     </p>
+
     <Link
       className="py-1 px-4 border-4 text-darkGrey border-darkGrey text-3xl font-bold"
       to="themes"
