@@ -94,8 +94,8 @@ export const models: Model[] = [
   },
   { slug: 'xolo', label: 'Xolo', element: <Xolo />, theme: 'death-myths' },
   {
-    slug: 'skarva',
-    label: 'Skarva',
+    slug: 'fragment',
+    label: 'Fragment',
     element: <Skarva />,
     theme: 'death-myths',
   },
