@@ -15,9 +15,11 @@ export const ThemeHome = ({ theme }: ThemeHomeProps) => {
           <div className="italic mb-4 pt-4 text-sm">
             {theme.labelTranslation}
           </div>
-          {theme.content.map((content, index) => (
-            <ThemeContent content={content} key={index} />
-          ))}
+          <div className="flex flex-col gap-16">
+            {theme.content.map((content, index) => (
+              <ThemeContent content={content} key={index} />
+            ))}
+          </div>
         </div>
       </div>
     </Page>

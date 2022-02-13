@@ -35,8 +35,7 @@ function getNextAndPreviousPost(
 function deriveBgFromThemeName(themeName: string) {
   return {
     intro: 'bg-red',
-    'creation-myths': 'bg-beige',
-    'death-myths': 'bg-beige',
+    myths: 'bg-beige',
     origin: 'bg-red',
     independence: 'bg-blue',
     colonization: 'bg-orange',

@@ -34,7 +34,7 @@ const theRevolutionAndTheSearchForCulturalGoods: Post = {
 
 const tehuanaWomensParadesAndFestivals: Post = {
   slug: 'tehuana-womens-parades-and-festivals',
-  heading: <span>TEHUANA WOMEN’S PARADES AND FESTIVALS</span>,
+  heading: <span>Tehuana women’s parades and festivals</span>,
   body: [
     <span key="0">
       The women from Tehuantepec in Oaxaca are known for their annual{' '}

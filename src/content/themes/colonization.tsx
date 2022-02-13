@@ -40,17 +40,17 @@ const laMalincheTheSlaveGirlWhoBecameADiplomat: Post = {
       Malinche “more than freedom” if she helped him, and she soon proved to be
       a skilled diplomat. When she discovered the Aztecs’ plan to defeat the
       Spaniards, she acted quickly. The Spaniards escaped and it was the
-      beginning of the end for the Aztec Empire. Malinche and Cortés worked
-      together for a long time and even had a child together.
+      beginning of the end for the Aztec Empire. Malinche and Cortés
+      collaborated for a long time and even had a child together.
     </span>,
     <span key="1">
-      La Malinche can be viewed as a traitor, something that has led to the
-      emergence of the term <i>Malinchismo</i>, which is used for someone who
-      prefers the foreign over the Mexican. But she has also been described as
-      an intelligent individual in the center of a historically decisive event.
-      Yet regardless of how she is viewed, she is still one of the most
-      significant women in Mexico’s history. La Malinche is portrayed in several
-      dances, including <i>Danza de la Pluma</i> and <i>Danza de Malinche.</i>
+      La Malinche can be viewed as a traitor, and this has led to the emergence
+      of the term <i>Malinchismo</i>, used for someone who prefers the foreign
+      over the Mexican. But she has also been described as an intelligent
+      individual in the center of a historically decisive event. Yet regardless
+      of how she is viewed, she is still one of the most significant women in
+      Mexico’s history. La Malinche is portrayed in several dances, including
+      <i>Danza de la Pluma</i> and <i>Danza de Malinche</i>.
     </span>,
   ],
   labelTexts: [],
@@ -71,10 +71,9 @@ const newSpainNewBorders: Post = {
       Later, during the Mexican–American War (1846–1848), these states were lost
       to the US and Mexico’s landholdings decreased by more than half. The Rio
       Grande River marked the new border, which still exists today between Texas
-      and Mexico. The border between Mexico and the US has become increasingly
-      severe over the years. Many people try every day to flee from Mexico to
-      the US. An escape that involves a lot of risks and in the worst case,
-      death.
+      and Mexico. The border has become increasingly severe over the years. Many
+      people try every day to flee from Mexico to the US. An escape that
+      involves a lot of risks and in the worst case, death.
     </span>,
   ],
   labelTexts: [
@@ -125,9 +124,10 @@ const danceMasks: Post = {
   labelTexts: [
     <span key="0">
       The Museum of World Culture has a large collection of masks, many of which
-      have been used in the <i>Danza de los Santiagueros.</i> The Spaniards are
+      have been used in the <i>Danza de los Santiagueros</i>. The Spaniards are
       portrayed with red faces, while the Muslims have white faces and
-      mustaches. Many of the masks come from Veracruz or Guerrero.
+      mustaches. Many of the masks come from Veracruz or Guerrero. Part of
+      collection 1980.11.
     </span>,
   ],
 };
@@ -139,9 +139,9 @@ const zapotecDanceOfTheFeatherAboutTheSpanishConquest: Post = {
   ),
   body: [
     <span key="0">
-      <i>Danza de la Pluma</i>, the Dance of the Feather, is a play performed in
-      May every year telling the story of the Spanish conquest. The tradition is
-      different in different places in Mexico, but the main characters are
+      <i>Danza de la Pluma</i> , the Dance of the Feather, is a play performed
+      in May every year telling the story of the Spanish conquest. The tradition
+      is different in different places in Mexico, but the main characters are
       always the Spanish conquistador Hernán Cortés and the Aztecs’ last ruler,
       Moctezuma II. La Malinche, Cortés’s interpreter, also has an important
       role.
@@ -173,24 +173,23 @@ const laVirgeGuadalupeTheFirstMexican: Post = {
   ),
   body: [
     <span key="0">
-      The <i>La Virgen Guadalupe</i> Madonna is, for many people, a symbol of
-      the birth of the nation of Mexico as a result of the Spanish colonization.
-      The image is said to have originated from a revelation a priest had in
-      1531 on a hill near Mexico City. The priest was named Juan Diego
-      Cuauhtlatoatzin and he was a member of the indigenous Chichimeca culture.
-      He met a girl, a vision of the Virgin Mary, who spoke his language,
-      Nahuatl. She asked him to build a church in her honor. Images of this
-      dark-skinned young woman have been used to unite Mexico, because she
-      represents both Christianity and origin. She is sometimes called the first
-      Mexican.
+      The Madonna image <i>La Virgen Guadalupe</i> is, for many people, a symbol
+      of the birth of the nation of Mexico. The image is said to have originated
+      from a revelation a man had in 1531 on a hill near Mexico City. The man
+      was Juan Diego Cuauhtlatoatzin, a member of the indigenous Chichimeca
+      culture and a devout Christian. He met a girl, a vision of the Virgin
+      Mary, who spoke his language, Nahuatl. She asked him to build a church in
+      her honor. Images of this dark-skinned young woman have been used to unite
+      Mexico, because she represents both Christianity and origin. She is
+      sometimes called the first Mexican.
     </span>,
     <span key="1">
       Every year in December, thousands of people make a pilgrimage to the
       Basilica of Guadalupe, which was built on Tepeyac Hill. It is one of the
       most-visited Catholic pilgrimage destinations in the world. Nobel Laureate
-      Octavio Paz once wrote that when Mexicans have lost faith in nearly
-      everything else, only faith in the National Lottery and Our Lady of
-      Guadalupe remain.
+      Octavio Paz once wrote that “the Mexican people, after more than two
+      centuries of experiments and defeats, have faith only in the Virgin of
+      Guadalupe and the National Lottery.”
     </span>,
   ],
   labelTexts: [
@@ -212,12 +211,13 @@ export const colonization: Theme = {
         heading: <span>A CLASH BETWEEN WORLDS</span>,
         body: [
           <span key="0">
-            To colonize means to take power over an area. The Spanish
-            colonization of North and Central America was a violent story of
-            upheaval, with huge consequences. The country of Mexico arose
-            through this power struggle, with turbulence and tragedy as a
-            result. Communities were shattered and a large portion of the
-            indigenous population died.
+            The artist Frida Kahlo often addressed death in her art. In this
+            painting, we see a little girl with a skull mask. Many believe this
+            was a self-portrait. The girl is holding a yellow marigold, like
+            those laid on graves on the Day of the Dead. On the ground beside
+            her, we see another mask, this one representing a tiger. Frida
+            Kahlo’s life was fraught with accidents, illness and chronic pain.
+            The masks in the painting can be seen as symbols of her fate.
           </span>,
           <span key="1">
             People had lived here for thousands of years, in large societies and

@@ -96,9 +96,9 @@ export const Navigation = () => {
         <div
           className={`${
             open ? 'text-lightGrey' : 'text-gray-800'
-          } text-xl font-black`}
+          } text-2xl font-black`}
         >
-          <Link onClick={() => setOpen(false)} to="/">
+          <Link onClick={() => setOpen(false)} to="/themes">
             ¡VIVA MÉXICO!
           </Link>
         </div>
