@@ -16,7 +16,7 @@ export const Themes = () => {
             to="/intro"
             className={`${utils.deriveBgFromThemeName(
               'intro'
-            )} text-2xl md:text-3xl text-center font-black py-2 px-4 w-full`}
+            )} text-2xl md:text-3xl text-center font-bold py-2 px-4 w-full`}
           >
             Intro
           </Link>
@@ -26,7 +26,7 @@ export const Themes = () => {
                 to={`${theme.name}`}
                 className={`${utils.deriveBgFromThemeName(
                   theme.name
-                )} text-2xl md:text-3xl text-center font-black py-2 px-4 w-full`}
+                )} text-2xl md:text-3xl text-center font-bold py-2 px-4 w-full`}
               >
                 {theme.label}
                 {theme.labelTranslation && ' / ' + theme.labelTranslation}
@@ -35,7 +35,7 @@ export const Themes = () => {
           ))}
           <Link
             to="/huacal-wall"
-            className="text-2xl md:text-3xl text-center bg-black text-white w-full font-black py-2 px-4"
+            className="text-2xl md:text-3xl text-center bg-black text-white w-full font-bold py-2 px-4"
           >
             Huacal wall
           </Link>

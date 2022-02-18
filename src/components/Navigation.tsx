@@ -80,7 +80,7 @@ export const Navigation = () => {
     <>
       <div
         className={`${
-          open ? 'translate-x-0' : 'translate-x-full'
+          open ? 'translate-x-0 block ' : 'translate-x-full hidden'
         } fixed w-screen h-full top-0 left-0 bg-gray-800 z-10`}
       >
         <div className="flex h-full items-center justify-center">
