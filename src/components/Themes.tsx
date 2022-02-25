@@ -21,17 +21,16 @@ export const Themes = () => {
             Intro
           </Link>
           {themes.map((theme) => (
-            <ThemeColor key={theme.name} themeName={theme.name}>
-              <Link
-                to={`${theme.name}`}
-                className={`${utils.deriveBgFromThemeName(
-                  theme.name
-                )} text-2xl md:text-3xl text-center font-bold py-2 px-4 w-full`}
-              >
-                {theme.label}
-                {theme.labelTranslation && ' / ' + theme.labelTranslation}
-              </Link>
-            </ThemeColor>
+            <Link
+              key={theme.name}
+              to={`${theme.name}`}
+              className={`${utils.deriveBgFromThemeName(
+                theme.name
+              )} text-2xl md:text-3xl text-center font-bold py-2 px-4 w-full`}
+            >
+              {theme.label}
+              {theme.labelTranslation && ' / ' + theme.labelTranslation}
+            </Link>
           ))}
           <Link
             to="/huacal-wall"
@@ -42,20 +41,5 @@ export const Themes = () => {
         </div>
       </div>
     </Page>
-  );
-};
-
-type ThemeColorProps = {
-  children: React.ReactNode;
-  themeName: string;
-};
-
-const ThemeColor = ({ children, themeName }: ThemeColorProps) => {
-  const bg = utils.deriveBgFromThemeName(themeName);
-
-  return (
-    <div className={`${bg} flex items-center justify-center w-full`}>
-      {children}
-    </div>
   );
 };

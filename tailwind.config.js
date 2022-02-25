@@ -20,7 +20,7 @@ module.exports = {
         darkGrey: '#2F3738',
         lightGrey: '#E8E8E7',
         orange: '#FF7E33',
-        beige: '#BDB199',
+        beige: '#7C7050',
       },
       backgroundImage: {
         start: "url('/bg-start.svg')",
