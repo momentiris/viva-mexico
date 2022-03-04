@@ -16,10 +16,10 @@ module.exports = {
         blue: '#016499',
         yellow: '#CE982A',
         red: '#C42F28',
-        grey: '#818A8F',
+        grey: '#6E7579',
         darkGrey: '#2F3738',
         lightGrey: '#E8E8E7',
-        orange: '#FF7E33',
+        orange: '#CC4B00',
         beige: '#7C7050',
       },
       backgroundImage: {
