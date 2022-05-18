@@ -173,36 +173,7 @@ export const inDepthTexts: InDepthText[] = [
       </span>,
     ],
   },
-  {
-    locale: 'en',
-    slug: 'an-instable-century',
-    name: 'An instable century',
-    heading: <span>An instable century</span>,
-    body: [
-      <span key="0">
-        After independence in 1821, Mexico went through a difficult, long and
-        bloody process. A state with its own institutions, principles and laws
-        had to be designed. Mexico also needed to strengthen its territorial
-        borders, which were threatened by two foreign powers, the US (1846–48)
-        and the French (1863–1867). During this process, the country also
-        experienced internal bloody conflicts and civil war between proponents
-        of conservative versus liberal principles and values. In these
-        conflicts, the Catholic Church took the conservative side. The Church
-        got involved in projects to establish a Mexican empire led by a prince
-        from Austria, under the protection of Napoleon III of France. Even
-        before the liberals’ victory over the conservatives and their imperial
-        project, the Catholic Church had already seen its material assets shrink
-        due to the nationalization of the Church’s land by the liberal
-        government. The nationalization also affected the collective
-        landholdings of the indigenous peoples. The victory against the French
-        intervention in 1867 secured the secular state of Mexico. The Catholic
-        Church was no longer allowed to interfere in politics or other
-        government activities. These experiences distinguish Mexico from the
-        rest of Latin America, where the Catholic Church maintained some of its
-        political power throughout the 20th century.
-      </span>,
-    ],
-  },
+
   {
     locale: 'en',
     slug: 'why-are-the-things-here',
@@ -255,6 +226,36 @@ export const inDepthTexts: InDepthText[] = [
         stolen, but they are so important to the Yaqui that they should be
         returned. In May 2022, the government decided that the objects can be
         returned to the Yaqui in Mexico, and this will happen during the year.
+      </span>,
+    ],
+  },
+  {
+    locale: 'en',
+    slug: 'an-instable-century',
+    name: 'An instable century',
+    heading: <span>An instable century</span>,
+    body: [
+      <span key="0">
+        After independence in 1821, Mexico went through a difficult, long and
+        bloody process. A state with its own institutions, principles and laws
+        had to be designed. Mexico also needed to strengthen its territorial
+        borders, which were threatened by two foreign powers, the US (1846–48)
+        and the French (1863–1867). During this process, the country also
+        experienced internal bloody conflicts and civil war between proponents
+        of conservative versus liberal principles and values. In these
+        conflicts, the Catholic Church took the conservative side. The Church
+        got involved in projects to establish a Mexican empire led by a prince
+        from Austria, under the protection of Napoleon III of France. Even
+        before the liberals’ victory over the conservatives and their imperial
+        project, the Catholic Church had already seen its material assets shrink
+        due to the nationalization of the Church’s land by the liberal
+        government. The nationalization also affected the collective
+        landholdings of the indigenous peoples. The victory against the French
+        intervention in 1867 secured the secular state of Mexico. The Catholic
+        Church was no longer allowed to interfere in politics or other
+        government activities. These experiences distinguish Mexico from the
+        rest of Latin America, where the Catholic Church maintained some of its
+        political power throughout the 20th century.
       </span>,
     ],
   },
