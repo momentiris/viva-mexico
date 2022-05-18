@@ -40,25 +40,20 @@ export const inDepthTexts: InDepthText[] = [
     body: [
       <span key="0">
         Under flera år har Världskulturmuseerna haft kontakt med ett
-        ursprungsfolk i Mexiko som heter Yaqui. Det började med att en
-        Yaqui-medlem ställde ett krav om att ett heligt föremål, som finns på
+        ursprungsfolk i Mexiko som heter yaqui. Yaqui kämpar hårt för att bevara
+        sin identitet och sina traditioner. Kontakterna började med att en
+        yaqui-medlem ställde ett krav om att ett heligt föremål, som finns på
         Etnografiska museet i Stockholm, skulle lämnas tillbaka. Det var en så
-        kallad <i>Maaso kova</i>, som bärs av dansare under en ceremoniell dans
-        och är tillverkat av ett uppstoppat hjorthuvud.
+        kallad <i>Maaso Kova</i>, som bärs av dansare under en ceremoniell dans
+        och är tillverkat av ett hjorthuvud.
       </span>,
       <span key="1">
-        Efter att ha utrett frågan noggrant och haft mycket dialog med Yaqui, så
-        lämnade Världskulturmuseerna i maj 2021 in ett förslag till Sveriges
-        regering om att få lämna tillbaka detta föremål och 23 andra saker till
-        Yaqui. De här föremålen är inte stulna men efter undersökningar och
-        dialog har vi kommit fram till att de är så viktiga för Yaqui att de bör
-        lämnas tillbaka till dem. Yaqui är ett ursprungsfolk som kämpar hårt för
-        att bevara sin identitet och sina traditioner.
-      </span>,
-      <span key="2">
-        Vi måste vänta på regeringens beslut för att kunna lämna tillbaka något
-        utanför Sveriges gränser. När vi får ett beslut kommer vi att berätta
-        det här.
+        Efter att ha utrett frågan noggrant och haft dialog med yaqui, bad
+        Världskulturmuseerna om tillåtelse från Sveriges regering om att få
+        lämna tillbaka <i>Maaso Kova</i> och 23 andra föremål till yaqui. De här
+        föremålen är inte stulna men de är så viktiga för yaqui att de bör
+        lämnas tillbaka. I maj 2022 beslutade regeringen att föremålen får
+        lämnas till yaqui i Mexiko, och det kommer att ske under året.
       </span>,
     ],
   },
@@ -130,26 +125,20 @@ export const inDepthTexts: InDepthText[] = [
     heading: <span>Devolución de objetos a Yaqui en México</span>,
     body: [
       <span key="0">
-        Desde hace varios años, los Museos de la Cultura Mundial están en
-        contacto con un pueblo indígena de México llamado Yaqui. Comenzó cuando
-        un miembro de los yaquis reclamó la devolución de un objeto sagrado que
-        se encontraba en el Museo Etnográfico de Estocolmo. Se trata de la
-        llamada Maaso kova, que llevan los bailarines durante una danza
-        ceremonial y que está hecha de una cabeza de ciervo.
+        Desde hace varios años, el museo está en contacto con un pueblo indígena
+        de México llamado Yaqui. Los yaquis luchan por preservar su identidad y
+        sus tradiciones. Los contactos comenzaron cuando un miembro yaqui
+        reclamó la devolución de un objeto sagrado que se encontraba en el Museo
+        Etnográfico de Estocolmo. Era el llamado <i>Maaso Kova</i>, que se lleva
+        durante una danza ceremonial y que está hecho con una cabeza de ciervo.
       </span>,
       <span key="1">
-        Tras una cuidadosa investigación y mucho diálogo con los yaquis, en mayo
-        de 2021 los Museos Culturales del Mundo presentaron una propuesta al
-        gobierno sueco para devolver este objeto y otros 23 objetos a los
-        yaquis. Estos objetos no son robados, pero tras la investigación y el
-        diálogo, hemos llegado a la conclusión de que son tan importantes para
-        los yaquis que deberían serles devueltos. Los yaquis son un pueblo
-        indígena que lucha por preservar su identidad y sus tradiciones.
-      </span>,
-      <span key="2">
-        Tenemos que esperar la decisión del gobierno antes de poder devolver
-        algo fuera de las fronteras suecas. Cuando tengamos una decisión, se lo
-        diremos aquí.
+        Tras una cuidadosa investigación y un diálogo con los yaquis, los Museos
+        de las Culturas del Mundo solicitaron permiso al gobierno sueco para
+        devolver <i>Maaso Kova</i> y otras 23 piezas a los yaquis. Estos objetos
+        no son robados, pero son tan importantes para los yaquis que deben ser
+        devueltos. En mayo de 2022, el gobierno decidió que los objetos pueden
+        ser devueltos a los yaquis en México, y esto ocurrirá este año.
       </span>,
     ],
   },
@@ -216,32 +205,6 @@ export const inDepthTexts: InDepthText[] = [
   },
   {
     locale: 'en',
-    slug: 'zapatista-movement-in-chiapas',
-    name: 'Zapatista movement in Chiapas',
-    heading: <span>Zapatista movement in Chiapas</span>,
-    body: [
-      <span key="0">
-        In January 1994, the Zapatistas led an uprising in the state of Chiapas
-        in southern Mexico. It was an armed conflict that lasted two weeks, with
-        demands for equality, justice and democracy for all of Mexico. The
-        Zapatistas’ revolutionary movement began in the countryside, by people
-        who belonged to the Mayan indigenous people. The 1994 uprising was not
-        the first in Chiapas but, with the help of the Internet, the event
-        received a lot of international attention. The Zapatistas have created
-        their own society, with their own schools, cooperatives, hospitals,
-        courts, etc. The Zapatista dolls document this historical event. The
-        first dolls appeared in 1995 and were popular souvenirs for many years.
-      </span>,
-      <span key="1">
-        The Zapatistas’ struggle for indigenous peoples’ rights continues. In
-        2021, a group of Zapatistas traveled from Mexico to Europe to make a
-        reverse journey in the tracks of colonization. The project is called
-        “Journey for Life – Europe Chapter.”
-      </span>,
-    ],
-  },
-  {
-    locale: 'en',
     slug: 'why-are-the-things-here',
     name: 'Why are the things here?',
     heading: <span>Why are the things here?</span>,
@@ -278,25 +241,20 @@ export const inDepthTexts: InDepthText[] = [
     heading: <span>Return of items to Yaqui in Mexico</span>,
     body: [
       <span key="0">
-        For several years, the World Culture Museums have been in contact with
-        an indigenous people in Mexico called the Yaqui. It began when a Yaqui
-        member made a demand for the return of a sacred object held at the
-        Ethnographic Museum in Stockholm. It was a so-called Maaso Kova, worn by
-        dancers during a ceremonial dance and made from a deer head.
+        For several years, the Museums of World Culture have been in contact
+        with an indigenous people in Mexico called the Yaqui. The Yaqui are
+        fighting hard to preserve their identity and traditions. The contact
+        began when a Yaqui member demanded the return of a sacred object held at
+        the Ethnographic Museum in Stockholm. It was a so-called Maaso Kova,
+        worn by dancers during a ceremonial dance and made from a deer head.
       </span>,
       <span key="1">
-        After careful investigation and much dialogue with Yaqui, in May 2021
-        the World Cultural Museums submitted a proposal to the Swedish
-        government to return this object and 23 other items to Yaqui. These
-        objects are not stolen, but after investigation and dialogue, we have
-        concluded that they are so important to Yaqui that they should be
-        returned to them. The Yaqui are an indigenous people who are fighting
-        hard to preserve their identity and traditions
-      </span>,
-      <span key="2">
-        We have to wait for the government&apos;s decision before we can return
-        anything outside Sweden&apos;s borders. When we get a decision, we will
-        tell you here.
+        After careful investigation and dialogue with the Yaqui, the Museums of
+        World Culture requested permission from the Swedish government to return
+        the Maaso Kova and 23 other objects to the Yaqui. These objects are not
+        stolen, but they are so important to the Yaqui that they should be
+        returned. In May 2022, the government decided that the objects can be
+        returned to the Yaqui in Mexico, and this will happen during the year.
       </span>,
     ],
   },
