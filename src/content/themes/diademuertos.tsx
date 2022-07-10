@@ -99,7 +99,7 @@ export const diaDeMuertos: Theme = {
       introduction: {
         heading: <span>Day of the Dead – the most important celebration?</span>,
         body: [
-          <span key="0">
+          <p className="paragraph" key="0">
             <i>Día de Muertos</i>, the Day of the Dead, is a very big holiday in
             Mexico. It honors the memory of all of those who are no longer with
             us. The celebration is a mixture of ancient Mesoamerican harvest and
@@ -107,15 +107,15 @@ export const diaDeMuertos: Theme = {
             rule. The celebrations are different in different parts of Mexico,
             but they all share a common view of life and death. The souls of the
             dead return during these days to the world of the living.
-          </span>,
-          <span key="1">
+          </p>,
+          <p className="paragraph" key="1">
             <i>Día de Muertos</i> has become an important part of Mexico’s
             identity, particularly following independence. The tradition
             continues to grow and develop and it has become popular outside
             Mexico’s borders, such as here at the Museum of World Culture.{' '}
             <i>Día de Muertos</i> is on the UNESCO List of the Intangible
             Cultural Heritage of Humanity.
-          </span>,
+          </p>,
         ],
       },
       timeline: [

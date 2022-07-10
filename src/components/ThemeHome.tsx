@@ -36,9 +36,7 @@ const ThemeContent = ({ content }: ThemeContentProps) => {
       <h1 className="heading-1">{content.introduction.heading}</h1>
       <div>
         {content.introduction.body.map((textElement) => (
-          <p key={textElement.key} className="paragraph">
-            {textElement}
-          </p>
+          <div key={textElement.key}>{textElement}</div>
         ))}
       </div>
       <div className="pt-8">

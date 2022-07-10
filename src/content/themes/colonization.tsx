@@ -210,7 +210,7 @@ export const colonization: Theme = {
       introduction: {
         heading: <span>A CLASH BETWEEN WORLDS</span>,
         body: [
-          <span key="0">
+          <p className="paragraph" key="0">
             The artist Frida Kahlo often addressed death in her art. In this
             painting, we see a little girl with a skull mask. Many believe this
             was a self-portrait. The girl is holding a yellow marigold, like
@@ -218,15 +218,15 @@ export const colonization: Theme = {
             her, we see another mask, this one representing a tiger. Frida
             Kahlo’s life was fraught with accidents, illness and chronic pain.
             The masks in the painting can be seen as symbols of her fate.
-          </span>,
-          <span key="1">
+          </p>,
+          <p className="paragraph" key="1">
             People had lived here for thousands of years, in large societies and
             cultures. Wars and struggles had taken place between them, and the
             cultures influenced one another. The indigenous religions were
             suppressed by the Spaniards but could not be wiped out completely.
             The traditions proved resilient. They continued to change and mix
             with the Spanish. And are still changing.
-          </span>,
+          </p>,
         ],
       },
       timeline: [

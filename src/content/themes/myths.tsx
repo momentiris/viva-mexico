@@ -148,22 +148,22 @@ export const myths: Theme = {
       introduction: {
         heading: <span>HOW WAS THE WORLD CREATED?</span>,
         body: [
-          <span key="0">
+          <p className="paragraph" key="0">
             The Aztecs had a number of myths about how the world was created.
             They were inspired by creation myths from other Mesoamerican
             cultures. The Aztecs thought that the world had been created and
             destroyed in several cycles. According to the myths, the world was
             in its fifth cycle when the Spaniards came and conquered Mesoamerica
             in the 16th century.
-          </span>,
-          <span key="1">
+          </p>,
+          <p className="paragraph" key="1">
             Each world was controlled by different gods using the four elements:
             earth, water, wind or fire. The gods had the ability to both destroy
             and create a new world. Each world was called a sun, and for a new
             sun to be formed, at least one god must sacrifice him- or herself.
             The belief that something must be sacrificed for something new to be
             born is a cornerstone of Aztec faith.
-          </span>,
+          </p>,
         ],
       },
       timeline: [theSunStone, theNewFireCeremony],

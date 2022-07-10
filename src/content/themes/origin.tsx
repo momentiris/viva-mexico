@@ -131,7 +131,7 @@ export const origin: Theme = {
       introduction: {
         heading: <span>What existed before Mexico?</span>,
         body: [
-          <span key="0">
+          <p className="paragraph" key="0">
             Mesoamerica is the name of the large area that covered Mexico and
             large portions of Central America before the current countries
             existed. Many powerful cultures flourished here. The first people
@@ -143,7 +143,21 @@ export const origin: Theme = {
             agriculture, irrigation, architecture and calendars. In their world
             views and religions were similar ideas about gods, myths, and over-
             and underworlds.
-          </span>,
+          </p>,
+          <h2 className="heading-2 mt-8" key="1">
+            Corn - the beginning of everything
+          </h2>,
+          <p className="paragraph" key="2">
+            Mesoamerica was the first place on earth where maize, or corn, began
+            to be grown, probably more than 6000 years ago. Maize played an
+            important role in the settlement of the area, and in the societies
+            that developed here. It was often grown alongside squash and beans,
+            a practice known as the 'three sisters'. The importance of maize is
+            reflected in religion, with all Mesoamerican cultures having a maize
+            god. The Spanish brought the crop to Europe in the early 16th
+            century, where it became very popular. Today, maize is grown all
+            over the world, and in Mexico there are over 60 different varieties.
+          </p>,
         ],
       },
       timeline: [olmec, zapotec, maya, teotihuacan, toltec, theAztecEmpire],

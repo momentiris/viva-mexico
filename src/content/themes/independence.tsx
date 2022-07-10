@@ -104,14 +104,14 @@ export const independence: Theme = {
       introduction: {
         heading: <span>¡VIVA MÉXICO! – TOWARD INDEPENDENCE</span>,
         body: [
-          <span key="0">
+          <p className="paragraph" key="0">
             In the early 1800s, ideas about equality and freedom were spreading
             throughout the world. Many countries in North, Central and South
             America wanted to free themselves from colonial rule, and the fact
             that Europe had the power. Large parts of America became more or
             less independent.
-          </span>,
-          <span key="1">
+          </p>,
+          <p className="paragraph" key="1">
             The Mexican War of Independence was started in 1810 by the priest
             Miguel Hidalgo y Costilla. And after many years of fighting, Mexico
             finally won its independence in 1821, 300 years after Spanish
@@ -122,7 +122,7 @@ export const independence: Theme = {
             all for thousands of years, in large societies and cultures, before
             the Spanish came. This cultural heritage played a major role in
             Mexico’s new, independent identity.
-          </span>,
+          </p>,
         ],
       },
       objectTexts: [
