@@ -9,7 +9,7 @@ export const Start = () => (
     </div>
 
     <p className="max-w-sm text-xl md:text-2xl text-center text-darkGrey py-12">
-      A journey through the Mexico of traditions – where then meets now and life
+      A journey through Mexico of traditions – where then meets now and life
       meets death.
     </p>
 
