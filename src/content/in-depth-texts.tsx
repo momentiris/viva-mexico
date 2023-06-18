@@ -40,9 +40,12 @@ export const inDepthTexts: InDepthText[] = [
         Yaqui har skildrats i film och digital utställning.
       </span>,
       <span key="4">
+        Klicka
         <a href="https://www.varldskulturmuseerna.se/samlingarna/aterlamnande-av-foremal-ur-samlingarna/fallet-yaqui/">
-          Här kan du läsa mer på vår hemsida.
+          {' '}
+          <span className="underline cursor-default">här</span>{' '}
         </a>
+        om du vill läsa mer på vår hemsida.
       </span>,
     ],
   },
@@ -187,9 +190,12 @@ export const inDepthTexts: InDepthText[] = [
         of the Yaqui case has been told in a film and digital exhibition.
       </span>,
       <span key="4">
+        If you'd like to read more,
         <a href="https://www.varldskulturmuseerna.se/samlingarna/aterlamnande-av-foremal-ur-samlingarna/fallet-yaqui/">
-          If you'd like to read more, here is a link to our website.
+          {' '}
+          <span className="underline cursor-default">here</span>{' '}
         </a>
+        is a link to our website.
       </span>,
     ],
   },
