@@ -144,92 +144,108 @@ export const mictlan: Theme = {
   labelTranslation: 'Journey to Mictlán',
   content: [
     {
-      label: 'MYTHS BETWEEN LIFE AND DEATH - I',
+      label: 'Journey to Mictlán',
       introduction: {
-        heading: <span>HOW WAS THE WORLD CREATED?</span>,
+        heading: <span>Journey to Mictlán</span>,
         body: [
           <p className="paragraph" key="0">
-            The Aztecs had a number of myths about how the world was created.
-            They were inspired by creation myths from other Mesoamerican
-            cultures. The Aztecs thought that the world had been created and
-            destroyed in several cycles. According to the myths, the world was
-            in its fifth cycle when the Spaniards came and conquered Mesoamerica
-            in the 16th century.
-          </p>,
-          <p className="paragraph" key="1">
-            Each world was controlled by different gods using the four elements:
-            earth, water, wind or fire. The gods had the ability to both destroy
-            and create a new world. Each world was called a sun, and for a new
-            sun to be formed, at least one god must sacrifice him- or herself.
-            The belief that something must be sacrificed for something new to be
-            born is a cornerstone of Aztec faith.
+            The Mexican artists' collective DÄ has chosen to take as its
+            starting point from the original beliefs and stories of life and
+            death that existed before the Spanish colonization. In their art,
+            they highlight some of the central symbols, deities and gods, and
+            especially the unique approach to death. Mictlán is one of the many
+            realms of death they tell us about, and where most of the dead go.
+            By highlighting the theme, the artists want to preserve and respect
+            their respect their cultural heritage. "We want to tell the story of
+            a more just, global and inclusive world that allows for human
+            diversity. This has been denied all the original peoples of the
+            Americas. We share the struggle for life and liberty. They never
+            conquered us, our traditions live and permeate our way of looking at
+            life and death."
           </p>,
         ],
       },
-      timeline: [theSunStone, theNewFireCeremony],
+      timeline: [],
       labels: [],
       objectTexts: [
         {
-          slug: 'dance-of-the-flyers',
-          heading: <span>Dance of the Flyers</span>,
+          slug: 'sjalens-raddning',
+          heading: <span>Själens räddning</span>,
           body: [
             <span key="0">
-              <i>Danza de los Voladores</i>, or the Dance of the Flyers, is an
-              old ceremony that is today mostly performed in the state of
-              Veracruz. The original aim of the tradition was to ensure good
-              harvests. The ritual consists of five dancers climbing up a
-              30-meter (98.4-ft) pole, from which four of the dancers then hang
-              and spin from ropes. In the beginning, the pole was a tree. The
-              fifth person remains on top of the pole, playing a flute and
-              drums. The dancers spin around the pole 13 times each, for a total
-              of 52 times – an important number in Mesoamerican calendars. The
-              dancers symbolize the four directions and the four elements:
-              earth, air, fire and water. The person remaining on top of the
-              pole represents the fifth sun. The ritual is recognized by UNESCO
-              as an intangible cultural heritage, a tradition to be protected.
+              Itzcuintlan är platsen där de dödas själar korsar floden
+              Apanohuacalhuia. Hunden Xolo, Xoloitzcuintle, hjälper den döde
+              över till dödsriket Mictlán.
+            </span>,
+          ],
+        },
+        {
+          slug: 'xolotl-solen-och-manniskans-vagvisare',
+          heading: (
+            <span>Xolotl – solen och människans vägvisare (XOLO mask) </span>
+          ),
+          body: [
+            <span key="0">
+              En gud som visar sig i skepnad av en hund. Xolotl vägleder
+              människor på deras väg i dödsriket. Den vägleder också solen när
+              den går ner i havet och på dess väg genom underjorden innan den på
+              nytt går upp. Hunden Dante i filmen Coco är inspirerad av guden
+              Xolotl.
+            </span>,
+            <h2>De dödas ben är frön</h2>,
+            <span key="1">
+              Enligt många ursprungsbefolkningar än idag krävs ett symboliskt
+              samarbete mellan levande och döda för att majsen ska växa.
+              <i>Dräkten är skapad med majsblad av Roberto Jiménez.</i>
+            </span>,
+          ],
+        },
+        {
+          slug: 'xipe-totec-gud-over-krig-och-odling',
+          heading: <span>Xipe Tòtec – gud över krig och odling</span>,
+          body: [
+            <span key="0">
+              Xipe Tòtec ä ren skrämmande och kraftfull gud, med makt över både
+              krig och majsodling. Han kallas även Tezcatlipoca. Majsen var
+              människans viktigaste föda och odlingens cykler var tätt
+              sammankopplade med människans liv och död.
+            </span>,
+          ],
+        },
+        {
+          slug: 'vagen-till-tomheten',
+          heading: <span>Vägen till tomheten</span>,
+          body: [
+            <span key="0">
+              Att dö var inte slutdestinationen. De döda behövde klara nio
+              nivåer av prövningar för att nå Mictlán. De måste släppa allt som
+              bundit dem till livet.
+            </span>,
+          ],
+        },
+        {
+          slug: 'mictlantecuhtli-underjordens-herre',
+          heading: <span>Mictlantecuhtli – underjordens herre</span>,
+          body: [
+            <span key="0">
+              Mictlantecuhtli tog hand om dem som dött en naturlig död och
+              färdats till dödsriket Mictlán. Här fortsatte människornas själar
+              att finnas. På samma sätt som ljuset inte kan synas utan mörker,
+              kan livet inte existera utan döden.
+            </span>,
+          ],
+        },
+        {
+          slug: 'platsen-som-livet-inte-kanner-till',
+          heading: <span>Platsen som livet inte känner till</span>,
+          body: [
+            <span key="0">
+              I underjorden välkomnar dödsguden Mictlantecuhtli dem som dött en
+              naturlig död.
             </span>,
           ],
         },
       ],
-    },
-    {
-      label: 'MYTHS BETWEEN LIFE AND DEATH - II',
-      introduction: {
-        heading: <span>Without death there is no life</span>,
-        body: [
-          <span key="0">
-            Aztec art often depicted faces with one half of the face living and
-            the other half a skull. This shows that life and death are connected
-            and neither of them can exist without the other. The notion of
-            duality existed throughout Mesoamerica and was a cornerstone of
-            religious thought. Other important opposites were day and night,
-            heat and cold.
-          </span>,
-          <span key="1">
-            Skulls and skeletons are important symbols. For the Aztecs, they
-            represented important and beloved ancestors. Although the Aztecs
-            respected death, they were not afraid of the dead. Dead relatives
-            continued to play an important role in the lives of the living. The
-            Aztecs had many myths about what happened after death and there were
-            different realms of the dead.
-          </span>,
-        ],
-      },
-      timeline: [rebirthAndSacrifice, theUnderworld],
-      labels: [
-        'A miniature of the sacrificial stone Piedra de Tizoc, which was found in Templo Mayor in Tenochtitlán. The heart of the victim was placed on this stone. The victim was usually a warrior from another ethnic group. A furrow runs from the center to the edge, where the blood of the victim’s heart would run out. The original stone is from the 15th century. Object number: 1936.06.0002',
-        'Aztec sacrificial knife. Copy of object from the British Museum in London. The copy was purchased sometime around the turn of the last century. Object number: 1944.02.0034',
-        'Reproduction of Aztec chest probably used to store the sacrificial victim’s heart. On the top is the feathered serpent Quetzalcoatl and the sign for “the soul of the dead warrior.” On the bottom is the earth goddess Tlaltecuhtli.',
-        'Illustration depicting the earth goddess Tlaltecuhtli. The motif is on the bottom of the Aztec stone vessel shown in reproduction here. The original is at the Museum fur Völkerkunde in Hamburg. All of the dead must pass through the body of the earth goddess to get to the realm of death. Her name means “the one who gives and devours life."',
-        'Plaster cast from the original in the Museum fur Völkerkunde in Hamburg. Object number: 1939.32.0001',
-        'Shard with two skulls. From the state of Veracruz. Belongs to the Museum of Ethnography. Object number: 1923.08.0684',
-        'Aztec incense burner with skulls, 18 cm (7.1 in). Mexico City. Time period: 1256–1521 Object number: 1923.06.431',
-        'Mictlantecuhtli and Quetzalcoatl – the god of death and the god of wind. Illustration from Codex Borgia, a 16th- century Mesoamerican manuscript.',
-        'Xolo dog from the Tumbas de Tiro culture. Time period: 200–900 CE Object number: 1923.06.0545',
-        'Xolo dog from Colima. Time period: 200–900 CE Object number: 1962.73.19',
-      ],
-
-      objectTexts: [],
     },
   ],
 };

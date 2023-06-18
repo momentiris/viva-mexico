@@ -1,18 +1,34 @@
 import { Post, Theme } from '../../types';
 
+const maize: Post = {
+  slug: 'maize',
+  heading: <span>Maize - the beginning of everything</span>,
+  body: [
+    <span key="0">
+      Mesoamerica was the first place on Earth where maize was cultivated,
+      probably more than 6000 years ago. Maize played an important role in
+      enabling people to settle in the area, and in the communities that
+      developed there. It was often grown together with squash and beans, a
+      practice known as the 'three sisters'. The importance of corn is reflected
+      in religion, with all Mesoamerican cultures having a corn god. The Spanish
+      brought the crop to Europe in the early 16th century. Today, maize is
+      grown all over the world.
+    </span>,
+  ],
+  labelTexts: [],
+};
+
 const olmec: Post = {
   slug: 'olmec',
   heading: <span>Olmec (about 2000 to 500 years BCE)</span>,
   body: [
     <span key="0">
-      The Olmec culture was one of the first to emerge in Mesoamerica. We don’t
-      know much about the Olmecs because very little has been documented from
-      this time. The name <i>Olmec</i> was coined by 20th century
-      archaeologists. It seems that the Olmecs had a strong influence on later
-      cultures in the area, for example through their gods and their
-      architecture. The Olmecs are therefore often called Mesoamerica’s mother
-      culture. In 2006, researchers discovered an Olmec script suggesting that
-      the Olmec may have been the first civilization in the Western Hemisphere
+      The Olmecs are called the Mother Culture of Mesoamerica. They had a great
+      influence on later cultures and societies in the area. The Olmec
+      communities shared a common religion and gods, different social classes
+      and a well-developed craftsmanship. The Olmecs grew crops such as corn,
+      rubber and cocoa. In 2006, researchers discovered an Olmec script, which
+      could mean that they were the first civilization in the western hemisphere
       to develop a writing system.
     </span>,
   ],
@@ -34,7 +50,7 @@ const zapotec: Post = {
       that it is closely linked to life. The Zapotec language is spoken today by
       about half a million people. They do not usually call themselves and their
       ancestors Zapotecs, but instead sometimes use the name Ben’Zaa, which
-      means "The Cloud People".
+      means "The Cloud People"
     </span>,
   ],
   labelTexts: [],
@@ -142,23 +158,17 @@ export const origin: Theme = {
             views and religions were similar ideas about gods, myths, and over-
             and underworlds.
           </p>,
-          <h2 className="heading-2 mt-8" key="1">
-            Corn - the beginning of everything
-          </h2>,
-          <p className="paragraph" key="2">
-            Mesoamerica was the first place on earth where maize, or corn, began
-            to be grown, probably more than 6000 years ago. Maize played an
-            important role in the settlement of the area, and in the societies
-            that developed here. It was often grown alongside squash and beans,
-            a practice known as the 'three sisters'. The importance of maize is
-            reflected in religion, with all Mesoamerican cultures having a maize
-            god. The Spanish brought the crop to Europe in the early 16th
-            century, where it became very popular. Today, maize is grown all
-            over the world, and in Mexico there are over 60 different varieties.
-          </p>,
         ],
       },
-      timeline: [olmec, zapotec, maya, teotihuacan, toltec, theAztecEmpire],
+      timeline: [
+        maize,
+        olmec,
+        zapotec,
+        maya,
+        teotihuacan,
+        toltec,
+        theAztecEmpire,
+      ],
       labels: [
         'Mask with skulls from Teotihuacá. Time period: 200–650 CE Object number: 1935.08.2774',
         'Mask, probably Olmec. Veracruz. Time period: 1500–400 BCE Object number: 1996.29.0021',
