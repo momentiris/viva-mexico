@@ -17,7 +17,7 @@ type GLTFResult = GLTF & {
 };
 
 const Xochiquetzal = ({ ...props }: JSX.IntrinsicElements['group']) => {
-  const group = useRef<THREE.Group>();
+  const group = useRef<THREE.Group>(null);
   const { nodes, materials } = useGLTF(
     '/xochiquetzal-transformed.glb'
   ) as GLTFResult;

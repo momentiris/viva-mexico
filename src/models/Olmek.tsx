@@ -16,7 +16,7 @@ type GLTFResult = GLTF & {
 };
 
 const Olmek = ({ ...props }: JSX.IntrinsicElements['group']) => {
-  const group = useRef();
+  const group = useRef(null);
   const { nodes, materials } = useGLTF('/olmek-transformed.glb') as GLTFResult;
 
   return (

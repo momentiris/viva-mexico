@@ -16,7 +16,7 @@ type GLTFResult = GLTF & {
 };
 
 const Maya = ({ ...props }: JSX.IntrinsicElements['group']) => {
-  const group = useRef();
+  const group = useRef(null);
   const { nodes, materials } = useGLTF(
     '/maya-transformed.glb'
   ) as unknown as GLTFResult;

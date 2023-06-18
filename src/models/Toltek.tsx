@@ -17,7 +17,7 @@ type GLTFResult = GLTF & {
 };
 
 const Toltek = ({ ...props }) => {
-  const group = useRef();
+  const group = useRef(null);
   const { nodes, materials } = useGLTF('/toltek-transformed.glb') as GLTFResult;
 
   return (

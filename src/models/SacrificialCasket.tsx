@@ -19,7 +19,7 @@ type GLTFResult = GLTF & {
 };
 
 const SacrificialCasket = ({ ...props }: JSX.IntrinsicElements['group']) => {
-  const group = useRef<THREE.Group>();
+  const group = useRef<THREE.Group>(null);
   const { nodes, materials } = useGLTF(
     '/sacrificialcasket-transformed.glb'
   ) as GLTFResult;

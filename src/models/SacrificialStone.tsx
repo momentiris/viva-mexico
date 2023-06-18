@@ -16,7 +16,7 @@ type GLTFResult = GLTF & {
 };
 
 const SacrificalStone = ({ ...props }) => {
-  const group = useRef<THREE.Group>();
+  const group = useRef<THREE.Group>(null);
   const { nodes, materials } = useGLTF(
     '/sacrificialstone-transformed.glb'
   ) as GLTFResult;

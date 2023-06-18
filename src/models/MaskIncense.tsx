@@ -17,7 +17,7 @@ type GLTFResult = GLTF & {
 };
 
 const MaskIncense = ({ ...props }: JSX.IntrinsicElements['group']) => {
-  const group = useRef<THREE.Group>();
+  const group = useRef<THREE.Group>(null);
   const { nodes, materials } = useGLTF(
     '/maskskärva-transformed.glb'
   ) as GLTFResult;

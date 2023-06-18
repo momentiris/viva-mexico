@@ -17,7 +17,7 @@ type GLTFResult = GLTF & {
 };
 
 const KnifeFigure = ({ ...props }: JSX.IntrinsicElements['group']) => {
-  const group = useRef<THREE.Group>();
+  const group = useRef<THREE.Group>(null);
   const { nodes, materials } = useGLTF(
     '/knivfigur-transformed.glb'
   ) as GLTFResult;
