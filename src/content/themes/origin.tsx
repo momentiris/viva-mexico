@@ -1,5 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
-
 import { Post, Theme } from '../../types';
 
 const olmec: Post = {

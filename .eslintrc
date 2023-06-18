@@ -1,5 +1,15 @@
-{
-  "extends": ["@iteam/eslint-config-react/typescript", "plugin:import/recommended"],
+{  
+  "extends": ['eslint:recommended', 'plugin:@typescript-eslint/recommended', "plugin:import/recommended"],
+  "parser": '@typescript-eslint/parser',
+  "plugins": ['@typescript-eslint', 'eslint-plugin-import'],
+  "root": true,
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  },
   "rules": {
     "react/prop-types": "off",
     "@typescript-eslint/no-explicit-any": "off",
