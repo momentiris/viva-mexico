@@ -16,7 +16,7 @@ export type Theme = {
 
 export type ThemeContent = {
   label: string;
-  introduction: PostContent;
+  introduction?: PostContent;
   timeline: Post[];
   labels: string[];
   objectTexts: ObjectText[];

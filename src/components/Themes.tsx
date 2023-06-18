@@ -100,6 +100,12 @@ export const Themes = () => {
             label={diaDeMuertos.label}
             labelTranslation={diaDeMuertos.labelTranslation}
           />
+          <Link
+            to="/outro"
+            className="text-2xl md:text-3xl text-center bg-black text-white w-full font-bold py-4 px-4"
+          >
+            Outro
+          </Link>
         </div>
       </div>
     </Page>

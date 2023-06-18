@@ -33,25 +33,29 @@ type ThemeContentProps = {
 const ThemeContent = ({ content }: ThemeContentProps) => {
   return (
     <div>
-      <h1 className="heading-1">{content.introduction.heading}</h1>
+      {content.introduction?.heading && (
+        <h1 className="heading-1">{content.introduction.heading}</h1>
+      )}
       <div>
-        {content.introduction.body.map((textElement) => (
+        {content.introduction?.body.map((textElement) => (
           <div key={textElement.key}>{textElement}</div>
         ))}
       </div>
-      <div className="pt-8">
-        <h2 className="heading-2">Theme texts</h2>
-        {content.timeline.map((timelineInstance) => (
-          <div key={timelineInstance.slug} className="mb-2">
-            <Link
-              to={`posts/${timelineInstance.slug}`}
-              className="text-xl underline underline-offset-1"
-            >
-              {timelineInstance.heading}
-            </Link>
-          </div>
-        ))}
-      </div>
+      {content.timeline.length > 0 && (
+        <div className="pt-8">
+          <h2 className="heading-2">Theme texts</h2>
+          {content.timeline.map((timelineInstance) => (
+            <div key={timelineInstance.slug} className="mb-2">
+              <Link
+                to={`posts/${timelineInstance.slug}`}
+                className="text-xl underline underline-offset-1"
+              >
+                {timelineInstance.heading}
+              </Link>
+            </div>
+          ))}
+        </div>
+      )}
       <div className="pt-8">
         {Boolean(content.objectTexts.length) && (
           <h2 className="heading-2">Object texts</h2>

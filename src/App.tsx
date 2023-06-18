@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { ScreenOne, ScreenTwo } from './screens';
 import { Intro } from './Intro';
 import { HuacalWall } from './HuacalWall';
+import { Outro } from './Outro';
 import {
   ScrollToTop,
   Layout,
@@ -33,6 +34,7 @@ const Router = () => {
         <Route index element={<Start />} />
         <Route path="intro" element={<Intro />} />
         <Route path="huacal-wall" element={<HuacalWall />} />
+        <Route path="outro" element={<Outro />} />
         <Route path="themes" element={<Themes />} />
         <Route path="themes/:theme" element={<Theme />} />
         <Route path="themes/:theme/posts/:post" element={<ThemePost />} />
