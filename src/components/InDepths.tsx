@@ -64,8 +64,7 @@ const keepCurrentLangIfExistsAndIsLocale = (
 };
 
 const isLocale = (lang: string): lang is Locale => {
-  if (lang === 'sv' || lang === 'en' || lang === 'mx') return true;
-  return false;
+  return lang === 'sv' || lang === 'en' || lang === 'mx';
 };
 
 const asLocaleMap = (
