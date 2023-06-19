@@ -18,6 +18,9 @@ const article: PostContent = {
       thrive, an area that is conquered, a country that becomes independent.
       About people who live, celebrate and mourn – then as now.
     </p>,
+    <p key="2">
+      Follow the water's way into stories of life and death, light and darkness.
+    </p>,
   ],
 };
 

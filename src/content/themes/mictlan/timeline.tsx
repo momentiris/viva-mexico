@@ -1,6 +1,6 @@
-import { Post, Theme } from '../../types';
+import { Post } from '../../../types';
 
-const theUnderworld: Post = {
+export const theUnderworld: Post = {
   slug: 'the-underworld',
   heading: <span>The underworld</span>,
   body: [
@@ -31,7 +31,7 @@ const theUnderworld: Post = {
   labelTexts: [],
 };
 
-const rebirthAndSacrifice: Post = {
+export const rebirthAndSacrifice: Post = {
   slug: 'rebirth-and-sacrifice',
   heading: <span>Rebirth and sacrifice</span>,
   body: [
@@ -54,7 +54,7 @@ const rebirthAndSacrifice: Post = {
   labelTexts: [],
 };
 
-const theNewFireCeremony: Post = {
+export const theNewFireCeremony: Post = {
   slug: 'the-new-fire-ceremony',
   heading: <span>The new fire ceremony – Xiuhmolpilli</span>,
   body: [
@@ -110,7 +110,7 @@ const theNewFireCeremony: Post = {
   ],
 };
 
-const theSunStone: Post = {
+export const theSunStone: Post = {
   slug: 'the-sun-stone',
   heading: <span>The sun stone – The myth of the fifth sun</span>,
   body: [
@@ -136,116 +136,4 @@ const theSunStone: Post = {
     </span>,
   ],
   labelTexts: [],
-};
-
-export const mictlan: Theme = {
-  name: 'mictlan',
-  label: 'Mictlán',
-  labelTranslation: 'Journey to Mictlán',
-  content: [
-    {
-      label: 'Journey to Mictlán',
-      introduction: {
-        heading: <span>Journey to Mictlán</span>,
-        body: [
-          <p className="paragraph" key="0">
-            The Mexican artists' collective DÄ has chosen to take as its
-            starting point from the original beliefs and stories of life and
-            death that existed before the Spanish colonization. In their art,
-            they highlight some of the central symbols, deities and gods, and
-            especially the unique approach to death. Mictlán is one of the many
-            realms of death they tell us about, and where most of the dead go.
-            By highlighting the theme, the artists want to preserve and respect
-            their respect their cultural heritage. "We want to tell the story of
-            a more just, global and inclusive world that allows for human
-            diversity. This has been denied all the original peoples of the
-            Americas. We share the struggle for life and liberty. They never
-            conquered us, our traditions live and permeate our way of looking at
-            life and death."
-          </p>,
-        ],
-      },
-      timeline: [],
-      labels: [],
-      objectTexts: [
-        {
-          slug: 'sjalens-raddning',
-          heading: <span>Själens räddning</span>,
-          body: [
-            <span key="0">
-              Itzcuintlan är platsen där de dödas själar korsar floden
-              Apanohuacalhuia. Hunden Xolo, Xoloitzcuintle, hjälper den döde
-              över till dödsriket Mictlán.
-            </span>,
-          ],
-        },
-        {
-          slug: 'xolotl-solen-och-manniskans-vagvisare',
-          heading: (
-            <span>Xolotl – solen och människans vägvisare (XOLO mask) </span>
-          ),
-          body: [
-            <span key="0">
-              En gud som visar sig i skepnad av en hund. Xolotl vägleder
-              människor på deras väg i dödsriket. Den vägleder också solen när
-              den går ner i havet och på dess väg genom underjorden innan den på
-              nytt går upp. Hunden Dante i filmen Coco är inspirerad av guden
-              Xolotl.
-            </span>,
-            <h2>De dödas ben är frön</h2>,
-            <span key="1">
-              Enligt många ursprungsbefolkningar än idag krävs ett symboliskt
-              samarbete mellan levande och döda för att majsen ska växa.
-              <i>Dräkten är skapad med majsblad av Roberto Jiménez.</i>
-            </span>,
-          ],
-        },
-        {
-          slug: 'xipe-totec-gud-over-krig-och-odling',
-          heading: <span>Xipe Tòtec – gud över krig och odling</span>,
-          body: [
-            <span key="0">
-              Xipe Tòtec ä ren skrämmande och kraftfull gud, med makt över både
-              krig och majsodling. Han kallas även Tezcatlipoca. Majsen var
-              människans viktigaste föda och odlingens cykler var tätt
-              sammankopplade med människans liv och död.
-            </span>,
-          ],
-        },
-        {
-          slug: 'vagen-till-tomheten',
-          heading: <span>Vägen till tomheten</span>,
-          body: [
-            <span key="0">
-              Att dö var inte slutdestinationen. De döda behövde klara nio
-              nivåer av prövningar för att nå Mictlán. De måste släppa allt som
-              bundit dem till livet.
-            </span>,
-          ],
-        },
-        {
-          slug: 'mictlantecuhtli-underjordens-herre',
-          heading: <span>Mictlantecuhtli – underjordens herre</span>,
-          body: [
-            <span key="0">
-              Mictlantecuhtli tog hand om dem som dött en naturlig död och
-              färdats till dödsriket Mictlán. Här fortsatte människornas själar
-              att finnas. På samma sätt som ljuset inte kan synas utan mörker,
-              kan livet inte existera utan döden.
-            </span>,
-          ],
-        },
-        {
-          slug: 'platsen-som-livet-inte-kanner-till',
-          heading: <span>Platsen som livet inte känner till</span>,
-          body: [
-            <span key="0">
-              I underjorden välkomnar dödsguden Mictlantecuhtli dem som dött en
-              naturlig död.
-            </span>,
-          ],
-        },
-      ],
-    },
-  ],
 };
