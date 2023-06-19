@@ -37,16 +37,18 @@ export const inDepthTexts: InDepthText[] = [
       <span key="3">
         Under 2022 återlämnade Statens museer för världskultur 24 ceremoniella
         föremål till urfolket yaqui i nordvästra Mexiko. Berättelsen om Fallet
-        Yaqui har skildrats i film och digital utställning.
+        Yaqui har skildrats i film och digital utställning. Vill du veta mer
+        följ denna länk!
       </span>,
       <span key="4">
-        Klicka
-        <a href="https://www.varldskulturmuseerna.se/samlingarna/aterlamnande-av-foremal-ur-samlingarna/fallet-yaqui/">
-          {' '}
-          <span className="underline cursor-default">här</span>{' '}
+        <a
+          className="underline break-all"
+          href="https://www.varldskulturmuseerna.se/samlingarna/aterlamnande-av-foremal-ur-samlingarna/fallet-yaqui/"
+        >
+          https://www.varldskulturmuseerna.se/samlingarna/aterlamnande-av-foremal-ur-samlingarna/fallet-yaqui/
         </a>
-        om du vill läsa mer på vår hemsida.
       </span>,
+      <span key="5">Återlämnande av föremål YAQUI</span>,
     ],
   },
   {
@@ -116,7 +118,15 @@ export const inDepthTexts: InDepthText[] = [
         En 2022, los Museos Nacionales de Cultura Mundial devolvieron 24 objetos
         ceremoniales al pueblo indígena yaqui del noroeste de México. La
         historia del caso Yaqui se ha contado en una película y una exposición
-        digital.
+        digital. Para saber más, escanea el código QR.
+      </span>,
+      <span key="4">
+        <a
+          className="underline break-all"
+          href="https://www.varldskulturmuseerna.se/samlingarna/aterlamnande-av-foremal-ur-samlingarna/EL-CASO-YAQUI/"
+        >
+          https://www.varldskulturmuseerna.se/samlingarna/aterlamnande-av-foremal-ur-samlingarna/EL-CASO-YAQUI/
+        </a>
       </span>,
     ],
   },
@@ -187,15 +197,16 @@ export const inDepthTexts: InDepthText[] = [
       <span key="3">
         n 2022, the National Museums of World Culture returned 24 ceremonial
         objects to the Yaqui indigenous people of northwestern Mexico. The story
-        of the Yaqui case has been told in a film and digital exhibition.
+        of the Yaqui case has been told in a film and digital exhibition. If you
+        want to know more, follow this link!
       </span>,
       <span key="4">
-        If you'd like to read more,
-        <a href="https://www.varldskulturmuseerna.se/samlingarna/aterlamnande-av-foremal-ur-samlingarna/fallet-yaqui/">
-          {' '}
-          <span className="underline cursor-default">here</span>{' '}
+        <a
+          className="underline break-all"
+          href="https://www.varldskulturmuseerna.se/en/collections/return-of-objects-from-the-collections/the-yaqui-case/"
+        >
+          https://www.varldskulturmuseerna.se/en/collections/return-of-objects-from-the-collections/the-yaqui-case/
         </a>
-        is a link to our website.
       </span>,
     ],
   },
