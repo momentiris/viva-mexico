@@ -29,7 +29,7 @@ export const theBonesOfTheDeadAreSeeds = {
   body: [
     <span key="0">
       According to many indigenous peoples even today, a symbolic cooperation
-      between the living and dead is required for the corn to grow.
+      between the living and dead is required for the corn to grow.{' '}
       <i>The costume is created with corn leaves by Roberto Jiménez.</i>
     </span>,
   ],

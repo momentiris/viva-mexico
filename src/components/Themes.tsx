@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-import { themes, themesMap } from '../content/themes/index';
+import { themesMap } from '../content/themes/index';
 import { utils } from '../utils';
 import { Page } from './Page';
 

@@ -12,14 +12,14 @@ export const NextPost = () => {
   );
 
   return (
-    <div className="w-full flex justify-center gap-32 text-xl pt-12 font-medium underline mt-auto">
+    <div className="w-full flex justify-center gap-32 text-xl pt-12 font-medium mt-auto">
       <div>
         <Link
-          className={
+          className={`underline ${
             previousPost
               ? 'pointer-events-auto text-gray-800'
               : 'pointer-events-none text-gray-400'
-          }
+          }`}
           to={`/themes/${params.theme}/posts/${previousPost}`}
         >
           Previous post
@@ -27,11 +27,11 @@ export const NextPost = () => {
       </div>
       <div>
         <Link
-          className={
+          className={`underline ${
             nextPost
               ? 'pointer-events-auto text-gray-800'
               : 'pointer-events-none text-gray-400'
-          }
+          }`}
           to={`/themes/${params.theme}/posts/${nextPost}`}
         >
           Next post

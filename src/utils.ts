@@ -41,8 +41,8 @@ function deriveBgFromThemeName(themeName: string) {
     colonization: 'bg-orange',
     'colonization-2': 'bg-orange',
     'dia-de-muertos': 'bg-grey',
-    mictlan: 'bg-blue',
-    'mictlan-masks': 'bg-blue',
+    mictlan: 'bg-green',
+    'mictlan-masks': 'bg-green',
   }[themeName];
 }
 

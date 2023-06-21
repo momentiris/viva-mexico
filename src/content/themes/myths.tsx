@@ -197,22 +197,22 @@ export const myths: Theme = {
       introduction: {
         heading: <span>Without death there is no life</span>,
         body: [
-          <span key="0">
+          <p className="paragraph" key="0">
             Aztec art often depicted faces with one half of the face living and
             the other half a skull. This shows that life and death are connected
             and neither of them can exist without the other. The notion of
             duality existed throughout Mesoamerica and was a cornerstone of
             religious thought. Other important opposites were day and night,
             heat and cold.
-          </span>,
-          <span key="1">
+          </p>,
+          <p className="paragraph" key="1">
             Skulls and skeletons are important symbols. For the Aztecs, they
             represented important and beloved ancestors. Although the Aztecs
             respected death, they were not afraid of the dead. Dead relatives
             continued to play an important role in the lives of the living. The
             Aztecs had many myths about what happened after death and there were
             different realms of the dead.
-          </span>,
+          </p>,
         ],
       },
       timeline: [rebirthAndSacrifice, theUnderworld],

@@ -23,7 +23,7 @@ const aClashOfWorlds: Post = {
 
 const danceMasks: Post = {
   slug: 'dance-masks',
-  heading: <span>A clash of worlds</span>,
+  heading: <span>Dance masks</span>,
   body: [
     <span key="0">
       Danza de la Pluma, the feather dance, is a spectacle originating in the
