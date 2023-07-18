@@ -48,7 +48,6 @@ export const inDepthTexts: InDepthText[] = [
           https://www.varldskulturmuseerna.se/samlingarna/aterlamnande-av-foremal-ur-samlingarna/fallet-yaqui/
         </a>
       </span>,
-      <span key="5">Återlämnande av föremål YAQUI</span>,
     ],
   },
   {

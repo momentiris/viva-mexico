@@ -1,137 +1,5 @@
 import { Post, Theme } from '../../types';
 
-const theConquest: Post = {
-  slug: 'the-conquest',
-  heading: <span>The Conquest</span>,
-  body: [
-    <span key="0">
-      When the Spanish conquistador Hernán Cortés landed on the Yucatan
-      Peninsula in 1519, there was already a powerful empire there. For nearly
-      200 years, the Aztec Empire had been developing into a superpower, with
-      several million inhabitants. There were also other societies there, and
-      the Aztecs forced them to pay taxes and took people as prisoners.
-    </span>,
-    <span key="1">
-      It took two years, and one of the deadliest conflicts in history, for the
-      Spaniards to take power and finally proclaim the colony of Mexico in 1521.
-      It was not a struggle between two peoples, but instead a prolonged process
-      of both violence and negotiation between several parties. Cortés relied on
-      support from the groups that had long been oppressed by the Aztecs. Even
-      when the last Aztec ruler, Moctezuma, was killed, the battle was still not
-      won. The fact that the Spaniards were eventually able to take power is
-      largely due to the deadly diseases they brought with them, which
-      overpowered the Aztecs’ resistance and killed a majority of the indigenous
-      population.
-    </span>,
-  ],
-  labelTexts: [],
-};
-
-const laMalincheTheSlaveGirlWhoBecameADiplomat: Post = {
-  slug: 'la-malinche-the-slave-girl-who-became-a-diplomat',
-  heading: <span>La Malinche – the slave girl who became a diplomat</span>,
-  body: [
-    <span key="0">
-      Malinche was sold into slavery when she was a little girl. In 1519, she
-      was given as a gift to the Spaniards, who had just arrived in what we now
-      call Mexico. Because she spoke several languages, she became their
-      interpreter. The conquistador Hernán Cortés needed the support of various
-      ethnic groups to overthrow the ruling Aztecs. He is said to have promised
-      Malinche “more than freedom” if she helped him, and she soon proved to be
-      a skilled diplomat. When she discovered the Aztecs’ plan to defeat the
-      Spaniards, she acted quickly. The Spaniards escaped and it was the
-      beginning of the end for the Aztec Empire. Malinche and Cortés
-      collaborated for a long time and even had a child together.
-    </span>,
-    <span key="1">
-      La Malinche can be viewed as a traitor, and this has led to the emergence
-      of the term <i>Malinchismo</i>, used for someone who prefers the foreign
-      over the Mexican. But she has also been described as an intelligent
-      individual in the center of a historically decisive event. Yet regardless
-      of how she is viewed, she is still one of the most significant women in
-      Mexico’s history. La Malinche is portrayed in several dances, including
-      <i>Danza de la Pluma</i> and <i>Danza de Malinche</i>.
-    </span>,
-  ],
-  labelTexts: [],
-};
-
-const newSpainNewBorders: Post = {
-  slug: 'new-spain-new-borders',
-  heading: <span>New Spain, new borders</span>,
-  body: [
-    <span key="0">
-      Spain’s colonization not only included Mexico and Central America, but
-      also parts of what is today the United States. Eight states, including
-      California, New Mexico and Arizona, once belonged to what came to be
-      called “New Spain.” It was ruled for nearly 300 years by a Spanish viceroy
-      located in Mexico City.
-    </span>,
-    <span key="1">
-      Later, during the Mexican–American War (1846–1848), these states were lost
-      to the US and Mexico’s landholdings decreased by more than half. The Rio
-      Grande River marked the new border, which still exists today between Texas
-      and Mexico. The border has become increasingly severe over the years. Many
-      people try every day to flee from Mexico to the US. An escape that
-      involves a lot of risks and in the worst case, death.
-    </span>,
-  ],
-  labelTexts: [
-    <span key="0">
-      Shawl belonging to a woman of the Navajo indigenous people. The Navajo
-      have roots in the southwestern US – an area that belonged to Mexico for a
-      long period. 1949.15.0032
-    </span>,
-    <span key="1">
-      Blanket for chief from 1880 belonging to the Navajo indigenous people.
-      This type of blanket, with vertical stripes, was originally woven as a
-      man’s garment and was used for trade with other ethnic groups.
-      1949.15.0033
-    </span>,
-    <span key="2">
-      Objects found at the Mexican border. They belong to the work Hardship and
-      hope: Crossing the U.S. Mexico Border and are shown in their entirety in
-      the Crossroads exhibition. Artists/Archivists: Valarie James & Antonia
-      Gallegos, 2010
-    </span>,
-  ],
-};
-
-const danceMasks: Post = {
-  slug: 'dance-masks',
-  heading: <span>Dance Masks</span>,
-  body: [
-    <span key="0">
-      Masks are an old and important tradition in Mexico. Masks had been made
-      for thousands of years before the Spanish came. After the conquest, the
-      Spanish used masks as a way to spread their religion, Catholicism. Later,
-      the colonial governments tried to ban masks and dances, without success.
-      After Mexico’s independence, mask-making has continued to develop and now
-      shows a mixture of Mexican history and elements of popular culture.
-    </span>,
-    <span key="1">
-      Most of the masks here have been used in <i>Danza de los Santiagueros</i>,
-      a dance that tells the story of the Spanish Catholics’ victory over the
-      Moors in Spain in the 15th century. The main character is Santiago the
-      Apostle. In Mexico, the dance was introduced by missionaries to evoke fear
-      and respect and to show that Christianity always wins. Today, 200 years
-      later, the dance has taken on a new meaning. It now chiefly symbolizes the
-      important corn crop, and the struggle against the July and August heat
-      waves. Festivals dedicated to Santiago are held on July 25th throughout
-      Mexico.
-    </span>,
-  ],
-  labelTexts: [
-    <span key="0">
-      The Museum of World Culture has a large collection of masks, many of which
-      have been used in the <i>Danza de los Santiagueros</i>. The Spaniards are
-      portrayed with red faces, while the Muslims have white faces and
-      mustaches. Many of the masks come from Veracruz or Guerrero. Part of
-      collection 1980.11.
-    </span>,
-  ],
-};
-
 const zapotecDanceOfTheFeatherAboutTheSpanishConquest: Post = {
   slug: 'zapotec-dance-of-the-feather-about-the-spanish-conquest',
   heading: (
@@ -200,43 +68,106 @@ const laVirgeGuadalupeTheFirstMexican: Post = {
   ],
 };
 
+const danceMasks: Post = {
+  slug: 'dance-masks',
+  heading: <span>Dance Masks</span>,
+  body: [
+    <span key="0">
+      Masks are an old and important tradition in Mexico. Masks had been made
+      for thousands of years when the Spanish arrived. After the conquest, the
+      Spanish used masks as a way to spread their religion, Catholicism. Later,
+      the colonial authorities tried to ban masks and dances, without success.
+      After Mexico's independence, mask making has continued to evolve and now
+      displays a mix of Mexican history and elements of popular culture.
+    </span>,
+    <span key="1">
+      Most of the masks here have been used in the Danza de los Santiagueros,
+      the dance telling the story of the victory of the Spanish Catholics over
+      the Moors in Spain in the 15th century. The main character is the apostle
+      Santiago. In Mexico, the dance was introduced by the missionaries to
+      arouse fear and respect and to show that Christianity always wins. Today,
+      200 years later, the dance has taken on a new meaning. Now it mainly
+      symbolizes the important cultivation of corn, and the fight against the
+      heatwave in July and August. Festivities dedicated to Santiago are held on
+      July 25 throughout Mexico.
+    </span>,
+  ],
+  labelTexts: [
+    <span key="0">
+      The Museum of World Culture has a large collection of masks, many of which
+      have been used in the <i>Danza de los Santiagueros</i>. The Spaniards are
+      portrayed with red faces, while the Muslims have white faces and
+      mustaches. Many of the masks come from Veracruz or Guerrero. Part of
+      collection 1980.11.
+    </span>,
+  ],
+};
+
 export const colonizationTwo: Theme = {
   name: 'colonization-2',
   label: 'Kolonisering',
   labelTranslation: 'Colonization 2',
   content: [
     {
-      label: 'A CLASH BETWEEN WORLDS',
+      label: 'Dance masks',
       introduction: {
-        heading: <span>A CLASH BETWEEN WORLDS</span>,
+        heading: <span>Dance masks</span>,
         body: [
           <p className="paragraph" key="0">
-            The artist Frida Kahlo often addressed death in her art. In this
-            painting, we see a little girl with a skull mask. Many believe this
-            was a self-portrait. The girl is holding a yellow marigold, like
-            those laid on graves on the Day of the Dead. On the ground beside
-            her, we see another mask, this one representing a tiger. Frida
-            Kahlo’s life was fraught with accidents, illness and chronic pain.
-            The masks in the painting can be seen as symbols of her fate.
+            Masks are an old and important tradition in Mexico. Masks had been
+            made for thousands of years when the Spanish arrived. After the
+            conquest, the Spanish used masks as a way to spread their religion,
+            Catholicism. Later, the colonial authorities tried to ban masks and
+            dances, without success. After Mexico's independence, mask making
+            has continued to evolve and now displays a mix of Mexican history
+            and elements of popular culture.
           </p>,
           <p className="paragraph" key="1">
-            People had lived here for thousands of years, in large societies and
-            cultures. Wars and struggles had taken place between them, and the
-            cultures influenced one another. The indigenous religions were
-            suppressed by the Spaniards but could not be wiped out completely.
-            The traditions proved resilient. They continued to change and mix
-            with the Spanish. And are still changing.
+            Most of the masks here have been used in the Danza de los
+            Santiagueros, the dance telling the story of the victory of the
+            Spanish Catholics over the Moors in Spain in the 15th century. The
+            main character is the apostle Santiago. In Mexico, the dance was
+            introduced by the missionaries to arouse fear and respect and to
+            show that Christianity always wins. Today, 200 years later, the
+            dance has taken on a new meaning. Now it mainly symbolizes the
+            important cultivation of corn, and the fight against the heatwave in
+            July and August. Festivities dedicated to Santiago are held on July
+            25 throughout Mexico.
           </p>,
         ],
       },
-      timeline: [
-        theConquest,
-        laMalincheTheSlaveGirlWhoBecameADiplomat,
-        newSpainNewBorders,
-        danceMasks,
-        zapotecDanceOfTheFeatherAboutTheSpanishConquest,
-        laVirgeGuadalupeTheFirstMexican,
-      ],
+      timeline: [],
+      labels: [],
+      objectTexts: [],
+    },
+    {
+      label: 'La Virgen de Guadalupe',
+      introduction: {
+        heading: <span>La Virgen de Guadalupe - the first Mexican?</span>,
+        body: [
+          <p className="paragraph" key="0">
+            The image of La Virgen de Guadalupe is for many people a symbol of
+            the birth of the country of Mexico with the Spanish colonization.
+            Her image is said to originate from an apparition that a man had in
+            1531 on a hill near Mexico City. The man was Juan Diego
+            Cuauhtlatoatzin, a member of the Chichimeca indigenous culture and a
+            devout Christian. He met a girl, an apparition of the Virgin Mary,
+            who spoke his language, nahuatl. She asked him to build a church in
+            her honor. Images of this dark-skinned virgin have been used to
+            unify Mexico, as she represents both Christianity and origin. She is
+            sometimes called the first Mexican.
+          </p>,
+          <p className="paragraph" key="1">
+            Every December, thousands of people make a pilgrimage to the Church
+            of Guadalupe, built on the Tepeyac hill. It is one of the most
+            visited Catholic pilgrimage sites in the world. Nobel Prize winner
+            Octavio Paz once wrote that when Mexicans have lost faith in almost
+            everything, all that remains is faith in the National Lottery and in
+            Our Lady of Guadalupe.
+          </p>,
+        ],
+      },
+      timeline: [],
       labels: [],
       objectTexts: [],
     },

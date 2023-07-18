@@ -1,6 +1,6 @@
 export const salvationOfTheSoul = {
   slug: 'the-salvation-of-the-soul',
-  heading: <span>The salvation of the soul</span>,
+  heading: <span>1. The salvation of the soul</span>,
   body: [
     <span key="0">
       Itzcuintlan is the place where the souls of the dead cross the river
@@ -12,7 +12,7 @@ export const salvationOfTheSoul = {
 
 export const xolotl = {
   slug: 'xolotl-the-sun-and-mans-guide',
-  heading: <span>Xolotl - the sun and man's guide</span>,
+  heading: <span>2. Xolotl - the sun and man's guide</span>,
   body: [
     <span key="0">
       A god who appears in the form of a dog. Xolotl guides people on their path
@@ -25,7 +25,7 @@ export const xolotl = {
 
 export const theBonesOfTheDeadAreSeeds = {
   slug: 'the-bones-of-the-dead-are-seeds',
-  heading: <span>The bones of the dead are seeds</span>,
+  heading: <span>3. The bones of the dead are seeds</span>,
   body: [
     <span key="0">
       According to many indigenous peoples even today, a symbolic cooperation
@@ -37,7 +37,7 @@ export const theBonesOfTheDeadAreSeeds = {
 
 export const xipeTotec = {
   slug: 'xipe-totec-god-of-war-and-agriculture',
-  heading: <span>Xipe Tòtec - god of war and agriculture</span>,
+  heading: <span>4. Xipe Tòtec - god of war and agriculture</span>,
   body: [
     <span key="0">
       Xipe Tòtec is a terrifying and powerful god, with power over both war and
@@ -50,7 +50,7 @@ export const xipeTotec = {
 
 export const roadToEmptiness = {
   slug: 'the-road-to-emptiness',
-  heading: <span>The road to emptiness</span>,
+  heading: <span>5. The road to emptiness</span>,
   body: [
     <span key="0">
       Dying was not the final destination. The dead had to pass nine levels of
@@ -62,7 +62,7 @@ export const roadToEmptiness = {
 
 export const mictlantecuhtli = {
   slug: 'mictlantecuhtli-lord-of-the-underworld',
-  heading: <span>Mictlantecuhtli - Lord of the Underworld</span>,
+  heading: <span>6. Mictlantecuhtli - Lord of the Underworld</span>,
   body: [
     <span key="0">
       Mictlantecuhtli took care of those who died a natural death and traveled
@@ -75,7 +75,7 @@ export const mictlantecuhtli = {
 
 export const thePlaceThatLifeDoesNotKnow = {
   slug: 'the-place-that-life-does-not-know',
-  heading: <span>The place that life does not know</span>,
+  heading: <span>7. The place that life does not know</span>,
   body: [
     <span key="0">
       In the underworld, the god of death Mictlantecuhtli welcomes those who

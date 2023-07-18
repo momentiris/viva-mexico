@@ -138,6 +138,28 @@ const theSunStone: Post = {
   labelTexts: [],
 };
 
+const danceOfTheFlyers: Post = {
+  slug: 'dance-of-the-flyers',
+  heading: <span>Dance of the Flyers</span>,
+  labelTexts: [],
+  body: [
+    <span key="0">
+      <i>Danza de los Voladores</i>, or the Dance of the Flyers, is an old
+      ceremony that is today mostly performed in the state of Veracruz. The
+      original aim of the tradition was to ensure good harvests. The ritual
+      consists of five dancers climbing up a 30-meter (98.4-ft) pole, from which
+      four of the dancers then hang and spin from ropes. In the beginning, the
+      pole was a tree. The fifth person remains on top of the pole, playing a
+      flute and drums. The dancers spin around the pole 13 times each, for a
+      total of 52 times – an important number in Mesoamerican calendars. The
+      dancers symbolize the four directions and the four elements: earth, air,
+      fire and water. The person remaining on top of the pole represents the
+      fifth sun. The ritual is recognized by UNESCO as an intangible cultural
+      heritage, a tradition to be protected.
+    </span>,
+  ],
+};
+
 export const myths: Theme = {
   name: 'myths',
   label: 'Myter',
@@ -166,31 +188,9 @@ export const myths: Theme = {
           </p>,
         ],
       },
-      timeline: [theSunStone, theNewFireCeremony],
+      timeline: [theSunStone, theNewFireCeremony, danceOfTheFlyers],
       labels: [],
-      objectTexts: [
-        {
-          slug: 'dance-of-the-flyers',
-          heading: <span>Dance of the Flyers</span>,
-          body: [
-            <span key="0">
-              <i>Danza de los Voladores</i>, or the Dance of the Flyers, is an
-              old ceremony that is today mostly performed in the state of
-              Veracruz. The original aim of the tradition was to ensure good
-              harvests. The ritual consists of five dancers climbing up a
-              30-meter (98.4-ft) pole, from which four of the dancers then hang
-              and spin from ropes. In the beginning, the pole was a tree. The
-              fifth person remains on top of the pole, playing a flute and
-              drums. The dancers spin around the pole 13 times each, for a total
-              of 52 times – an important number in Mesoamerican calendars. The
-              dancers symbolize the four directions and the four elements:
-              earth, air, fire and water. The person remaining on top of the
-              pole represents the fifth sun. The ritual is recognized by UNESCO
-              as an intangible cultural heritage, a tradition to be protected.
-            </span>,
-          ],
-        },
-      ],
+      objectTexts: [],
     },
     {
       label: 'MYTHS BETWEEN LIFE AND DEATH - II',

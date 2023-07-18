@@ -28,6 +28,11 @@ const article: PostContent = {
       Mexican people generally have a positive attitude toward life, though.
       Despite difficult conditions, people find a way to survive.
     </p>,
+    <p key="4">
+      The Huacal wall is also a place where you can send a greeting to someone
+      you miss who is no longer with us. Write a message on a silk ribbon and
+      attach it to the wall.
+    </p>,
   ],
 };
 
