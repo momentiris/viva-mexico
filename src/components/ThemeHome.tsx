@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 import { Theme, ThemeContent as ThemeContentType } from '../types';
@@ -38,7 +39,7 @@ const ThemeContent = ({ content }: ThemeContentProps) => {
       )}
       <div>
         {content.introduction?.body.map((textElement) => (
-          <div key={textElement.key}>{textElement}</div>
+          <React.Fragment key={textElement.key}>{textElement}</React.Fragment>
         ))}
       </div>
       {content.timeline.length > 0 && (

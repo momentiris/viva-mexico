@@ -170,7 +170,20 @@ export const colonization: Theme = {
         ],
       },
       labels: [],
-      objectTexts: [],
+      objectTexts: [
+        {
+          slug: 'penacho',
+          heading: <span>Penacho</span>,
+          body: [
+            <span key="0">
+              Headdress made in Oaxaca, Mexico, made from up to 4000 colored
+              turkey feathers. The headdress has been used in Danza de la Pluma
+              by the dance company Ballet Folklórico Nueva Antequera in Los
+              Angeles. Collected in 2023.
+            </span>,
+          ],
+        },
+      ],
     },
   ],
 };

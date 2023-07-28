@@ -43,6 +43,7 @@ function deriveBgFromThemeName(themeName: string) {
     'dia-de-muertos': 'bg-grey',
     mictlan: 'bg-green',
     'mictlan-masks': 'bg-green',
+    'voices-languages': 'bg-blue',
   }[themeName];
 }
 

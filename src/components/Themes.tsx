@@ -13,6 +13,7 @@ const {
   mictlanMasks,
   myths,
   origin,
+  voices,
 } = themesMap;
 
 const ThemeCard = ({
@@ -64,6 +65,12 @@ export const Themes = () => {
             label={colonization.label}
             labelTranslation={colonization.labelTranslation}
           />
+          <Link
+            to="/themes/voices-languages"
+            className="text-2xl md:text-3xl text-center bg-blue text-white w-full font-bold py-4 px-4"
+          >
+            {voices.label}
+          </Link>
           <ThemeCard
             name={mictlan.name}
             label={mictlan.label}
@@ -79,6 +86,7 @@ export const Themes = () => {
             label={colonizationTwo.label}
             labelTranslation={colonizationTwo.labelTranslation}
           />
+
           <Link
             to="/huacal-wall"
             className="text-2xl md:text-3xl text-center bg-black text-white w-full font-bold py-4 px-4"

@@ -6,6 +6,7 @@ import { diaDeMuertos } from './diademuertos';
 import { myths } from './myths';
 import { mictlan } from './mictlan';
 import { mictlanMasks } from './mictlan-masks';
+import { voices } from './68voices';
 
 export const themesMap = {
   origin,
@@ -16,6 +17,7 @@ export const themesMap = {
   independence,
   diaDeMuertos,
   mictlanMasks,
+  voices,
 };
 
 export const themes = [
@@ -27,4 +29,5 @@ export const themes = [
   independence,
   diaDeMuertos,
   mictlanMasks,
+  voices,
 ];
