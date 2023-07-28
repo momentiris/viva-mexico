@@ -159,14 +159,13 @@ export const colonization: Theme = {
             of the Americas was a turbulent and violent history, with enormous
             consequences. The country of Mexico emerged from this power
             struggle, resulting in turbulence and tragedy. Societies were
-            shattered and much of the indigenous population was shattered and
-            much of the indigenous population died. People had lived here for
-            thousands of years, in large communities and cultures. Wars and
-            struggles had taken place between them, cultures had influenced each
-            other. The original religions were suppressed by the Spanish, but
-            could not be eradicated. The traditions proved resilient. They
-            continued to change and mix with the Spanish ones. And the change
-            continues.
+            shattered and much of the indigenous population died. People had
+            lived here for thousands of years, in large communities and
+            cultures. Wars and struggles had taken place between them, cultures
+            had influenced each other. The original religions were suppressed by
+            the Spanish, but could not be eradicated. The traditions proved
+            resilient. They continued to change and mix with the Spanish ones.
+            And the change continues.
           </p>,
         ],
       },
