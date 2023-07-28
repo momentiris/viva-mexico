@@ -194,7 +194,7 @@ export const inDepthTexts: InDepthText[] = [
         illegal trade in cultural objects going on around the world.
       </span>,
       <span key="3">
-        n 2022, the National Museums of World Culture returned 24 ceremonial
+        In 2022, the National Museums of World Culture returned 24 ceremonial
         objects to the Yaqui indigenous people of northwestern Mexico. The story
         of the Yaqui case has been told in a film and digital exhibition. If you
         want to know more, follow this link!
