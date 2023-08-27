@@ -8,9 +8,8 @@ const article: PostContent = {
     <p key="0">
       Here we have shared some moments and traditions from Mexico's past, which,
       in different ways, shape and influence the country today. We have seen how
-      death and life are both opposite and interdependent/interconnected.
-      Mexico's history is not one story, but many. And the stories do not end,
-      they continue.
+      death and life are both opposite and related. Mexico's history is not one
+      story, but many. And the stories do not end, they continue.
     </p>,
   ],
 };

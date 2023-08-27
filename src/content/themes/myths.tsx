@@ -25,7 +25,7 @@ const theUnderworld: Post = {
       hairless dog <i>Xoloitzcuintle</i>, called Xolo. During the journey
       through the underworld, the dead were threatened by both monsters and
       difficult terrain. One of the obstacles was a deep river that the dog
-      carried the dead person over. arrived.
+      carried the dead person over.
     </span>,
   ],
   labelTexts: [],

@@ -14,7 +14,7 @@ const traditionsInPaper: Post = {
     <span key="1">
       There is a long tradition of paper-making in Mexico. Paper was originally
       made of bark from fig and other trees. The bark paper is called
-      <i>amate/amatl</i> and was especially used during religious ceremonies.
+      <i> amate/amatl</i> and was especially used during religious ceremonies.
       Often, it was ritual specialists who cut out the images according to how
       the paper would be used. Amate paper was banned by the Spaniards due to
       its religious significance. This was part of the attempt to introduce
@@ -112,7 +112,7 @@ export const diaDeMuertos: Theme = {
             <i>Día de Muertos</i> has become an important part of Mexico’s
             identity, particularly following independence. The tradition
             continues to grow and develop and it has become popular outside
-            Mexico’s borders, such as here at the Museum of World Culture.{' '}
+            Mexico’s borders, such as here at the Ethnographical Museum.{' '}
             <i>Día de Muertos</i> is on the UNESCO List of the Intangible
             Cultural Heritage of Humanity.
           </p>,

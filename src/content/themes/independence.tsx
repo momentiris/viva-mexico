@@ -37,8 +37,8 @@ const tehuanaWomensParadesAndFestivals: Post = {
   heading: <span>Tehuana women’s parades and festivals</span>,
   body: [
     <span key="0">
-      The women from Tehuantepec in Oaxaca are known for their annual{' '}
-      <i>Velas</i>
+      The women from Tehuantepec in Oaxaca are known for their annual
+      <i> Velas </i>
       festivals. The women walk in processions through the streets, dressed in
       traditional costumes and gold jewelry. One of the garments worn is the
       hand-embroidered huipil blouse. The festivals are usually held during the

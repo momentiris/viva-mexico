@@ -84,12 +84,11 @@ const teotihuacan: Post = {
       Spanish conquest. It was founded when the Maya culture was at its peak and
       was later populated by other cultures, such as the Zapotec. In the 6th
       century, it was one of the world’s largest cities, with a population of
-      about 150,000. The city had large pyramids and palaces. Among these is the
-      Pyramid of the Sun, which is the third-largest pyramid in the world. The
-      city was an economic, political and religious center that had great
-      influence throughout Mesoamerica. The population of Teotihuacán dropped
-      drastically during the 8th century and the city was eventually completely
-      dismantled.
+      about 150,000. The city had large pyramids and palaces. It includes the
+      Pyramid of the Sun, the third largest pyramid in the world. The city was
+      an economic, political and religious center that had great influence
+      throughout Mesoamerica. The population of Teotihuacán dropped drastically
+      during the 8th century and the city was eventually completely dismantled.
     </span>,
   ],
   labelTexts: [],
@@ -154,9 +153,9 @@ export const origin: Theme = {
             for the biggest and most important civilizations that existed here
             are the Olmec, Maya, Zapotec, Toltec and Aztec. The cultures had a
             lot in common. Among other things, they had advanced forms of
-            agriculture, irrigation, architecture and calendars. In their world
-            views and religions were similar ideas about gods, myths, and over-
-            and underworlds.
+            agriculture, irrigation, architecture and calendars. Their
+            worldviews and religions had similar ideas about gods, myths and
+            worlds after death.
           </p>,
         ],
       },

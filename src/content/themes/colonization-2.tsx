@@ -148,14 +148,14 @@ export const colonizationTwo: Theme = {
           <p className="paragraph" key="0">
             The image of La Virgen de Guadalupe is for many people a symbol of
             the birth of the country of Mexico with the Spanish colonization.
-            Her image is said to originate from an apparition that a man had in
-            1531 on a hill near Mexico City. The man was Juan Diego
-            Cuauhtlatoatzin, a member of the Chichimeca indigenous culture and a
-            devout Christian. He met a girl, an apparition of the Virgin Mary,
-            who spoke his language, nahuatl. She asked him to build a church in
-            her honor. Images of this dark-skinned virgin have been used to
-            unify Mexico, as she represents both Christianity and origin. She is
-            sometimes called the first Mexican.
+            Her image is said to originate from an apparition a man had. The man
+            was Juan Diego Cuauhtlatoatzin, a member of the Chichimeca
+            indigenous culture and a devout Christian. He met a girl, an
+            apparition of the Virgin Mary, who spoke his language, nahuatl. She
+            asked him to build a church in her honor. Images of this
+            dark-skinned virgin have been used to unify Mexico, as she
+            represents both Christianity and origin. She is sometimes called the
+            first Mexican.
           </p>,
           <p className="paragraph" key="1">
             Every December, thousands of people make a pilgrimage to the Church

@@ -18,8 +18,8 @@ const article: PostContent = {
       <i>Huacal City</i> can be found at the largest market in Mexico City. It
       is a gigantic area with thousands of <i>huacales</i> – wooden fruit boxes.
       Huacales are repaired here so that they can be reused, making it into a
-      sort of recycling center. Many people work here day and night to scrape
-      together a decent wage.
+      sort of recycling center. Many people work here day and night to earn a
+      decent wage.
     </p>,
     <p key="3">
       These two places made scenic designer Diblik Rabia think about the Mexican

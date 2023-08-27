@@ -18,7 +18,7 @@ export const ehecatl = {
     <span key="0">
       In Aztec mythology, Ehecatl is one of the main gods of creation. He often
       takes the form of the feathered serpent Quetzalcoatl, and so takes the
-      name Ehacatl-Quetzalcoatl. Without wind there is no life.
+      name Ehecatl-Quetzalcoatl. Without wind there is no life.
     </span>,
   ],
 };
@@ -29,11 +29,8 @@ export const quetzalcoatl = {
   body: [
     <span key="0">
       Quetzalcoatl links the rainwater of the sky with the waters of the earth's
-      rivers and springs.{' '}
-      <b>
-        He is one of the most important gods in Mesoamerican cultures and his
-        name means 'feathered serpent'.
-      </b>
+      rivers and springs. He is one of the most important gods in Mesoamerican
+      cultures and his name means 'feathered serpent'.
     </span>,
   ],
 };
