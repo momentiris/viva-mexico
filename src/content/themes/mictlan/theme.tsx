@@ -27,12 +27,11 @@ export const mictlan: Theme = {
             especially the unique approach to death. Mictlán is one of the many
             realms of death they tell us about, and where most of the dead go.
             By highlighting the theme, the artists want to preserve and respect
-            their respect their cultural heritage. "We want to tell the story of
-            a more just, global and inclusive world that allows for human
-            diversity. This has been denied all the original peoples of the
-            Americas. We share the struggle for life and liberty. They never
-            conquered us, our traditions live and permeate our way of looking at
-            life and death."
+            their cultural heritage. "We want to tell the story of a more just,
+            global and inclusive world that allows for human diversity. This has
+            been denied all the original peoples of the Americas. We share the
+            struggle for life and liberty. They never conquered us, our
+            traditions live and permeate our way of looking at life and death."
           </p>,
         ],
       },

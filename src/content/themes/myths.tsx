@@ -36,7 +36,7 @@ const rebirthAndSacrifice: Post = {
   heading: <span>Rebirth and sacrifice</span>,
   body: [
     <span key="0">
-      To create new life, something had to be sacrificed. Though gifts, the
+      To create new life, something had to be sacrificed. Through gifts, the
       people paid the gods back for the suffering they went through to create
       the universe. These sacrifices took place in both the temple and in the
       home. Valuable objects, animals, incense, flowers and food were common
