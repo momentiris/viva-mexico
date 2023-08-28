@@ -13,7 +13,7 @@ export const inDepthTexts: InDepthText[] = [
         utgrävningar- Etnografiska museet är ett av de fyra Världskulturmuseerna
         i Sverige. I museernas samlingar finns över en halv miljon föremål. Alla
         bär på berättelser, och att studera och visa dem är en del av vårt
-        uppdrag: att levandegöra kulturer.
+        uppdrag: att levandegöra kulturer i världen.
       </span>,
       <span key="1">
         En del av föremålen kom till Sverige under en då man ansåg att
