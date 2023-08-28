@@ -12,8 +12,8 @@ export const inDepthTexts: InDepthText[] = [
         idag är Mexiko. Många av föremålen kommer från arkeologiska
         utgrävningar- Etnografiska museet är ett av de fyra Världskulturmuseerna
         i Sverige. I museernas samlingar finns över en halv miljon föremål. Alla
-        bär på berättelser, och att studera och visa dem är ett av våra uppdrag:
-        att levandegöra kulturer.
+        bär på berättelser, och att studera och visa dem är en del av vårt
+        uppdrag: att levandegöra kulturer.
       </span>,
       <span key="1">
         En del av föremålen kom till Sverige under en då man ansåg att
